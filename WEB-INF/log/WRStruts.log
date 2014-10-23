@@ -9,3 +9,4 @@
 22 ott 2014 16:18:16,861  WARN [localhost-startStop-2]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
 22 ott 2014 16:40:46,053  WARN [localhost-startStop-2]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
 22 ott 2014 17:11:28,845  WARN [localhost-startStop-2]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+23 ott 2014 08:43:47,365  INFO [http-bio-8080-exec-8]  (com.webratio.struts.actions.AbstractWRAction:53) - [5A580D25DC653095D631E42EA9E550C1][page1]Page action execution [id=page1] done in 70 ms

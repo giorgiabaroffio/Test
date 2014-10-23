@@ -36,4 +36,3 @@
   <Role id="Group2Module" inverseId="Module2Group" source="Group" target="Module" maxCard="many" fieldName="modules" derived="false" direct="true"/>
   <Role id="Module2Group" inverseId="Group2Module" source="Module" target="Group" maxCard="many" fieldName="groups" derived="false" direct="false"/>
 </DataModel>
- 
