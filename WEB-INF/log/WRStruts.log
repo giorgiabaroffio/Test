@@ -1,0 +1,11 @@
+20 ott 2014 15:36:39,019  INFO [http-bio-8080-exec-12]  (com.webratio.struts.actions.AbstractWRAction:53) - [0D5ECD37FDDDCE37AFCA15DC2FB6356F][page1]Page action execution [id=page1] done in 47 ms
+20 ott 2014 15:39:23,437  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+20 ott 2014 15:57:06,704  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+20 ott 2014 15:57:17,830  INFO [http-bio-8080-exec-33]  (com.webratio.struts.actions.AbstractWRAction:53) - [F4CEBA25CEC731F9BD914102EC684B4B][page1]Page action execution [id=page1] done in 81 ms
+20 ott 2014 16:00:17,499  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+22 ott 2014 09:55:13,187  WARN [localhost-startStop-2]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+22 ott 2014 12:07:52,754  WARN [localhost-startStop-2]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+22 ott 2014 15:40:26,881  WARN [localhost-startStop-2]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+22 ott 2014 16:18:16,861  WARN [localhost-startStop-2]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+22 ott 2014 16:40:46,053  WARN [localhost-startStop-2]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+22 ott 2014 17:11:28,845  WARN [localhost-startStop-2]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
