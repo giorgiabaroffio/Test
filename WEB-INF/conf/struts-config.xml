@@ -6,6 +6,61 @@
     <form-bean name="baseFormBean" type="com.webratio.struts.WRPageFormBean">
       <form-property name="lastURL" type="java.lang.String"/>
     </form-bean>
+    <form-bean name="page1FormBean" extends="baseFormBean">
+      <form-property name="fld2" type="java.lang.String"/>
+      <form-property name="fld2_locale" type="java.lang.String"/>
+      <form-property name="fld3" type="java.lang.String"/>
+      <form-property name="fld3_locale" type="java.lang.String"/>
+      <form-property name="sfld2" type="java.lang.String"/>
+      <form-property name="sfld2List" type="java.lang.String[]"/>
+      <form-property name="sfld2LabelList" type="java.lang.String[]"/>
+      <form-property name="sfld2LabelList_locale" type="java.lang.String[]"/>
+      <form-property name="ln2" type="java.lang.String"/>
+      <form-property name="enu1" type="java.lang.String"/>
+      <form-property name="enu1Key" type="java.lang.String"/>
+      <form-property name="sfld1" type="java.lang.String"/>
+      <form-property name="sfld1List" type="java.lang.String[]"/>
+      <form-property name="sfld1LabelList" type="java.lang.String[]"/>
+      <form-property name="ln13" type="java.lang.String"/>
+      <form-property name="enu3" type="java.lang.String"/>
+      <form-property name="enu3Key" type="java.lang.String"/>
+      <form-property name="sfld5" type="java.lang.String"/>
+      <form-property name="sfld5List" type="java.lang.String[]"/>
+      <form-property name="sfld5LabelList" type="java.lang.String[]"/>
+      <form-property name="ln9" type="java.lang.String"/>
+      <form-property name="enu5" type="java.lang.String"/>
+      <form-property name="enu5Key" type="java.lang.String"/>
+    </form-bean>
+    <form-bean name="page2FormBean" extends="baseFormBean">
+      <form-property name="fld1" type="java.lang.String"/>
+      <form-property name="fld4" type="java.lang.String"/>
+      <form-property name="sfld3" type="java.lang.String"/>
+      <form-property name="sfld3List" type="java.lang.String[]"/>
+      <form-property name="sfld3LabelList" type="java.lang.String[]"/>
+      <form-property name="sfld3LabelList_locale" type="java.lang.String[]"/>
+      <form-property name="ln34" type="java.lang.String"/>
+      <form-property name="enu4" type="java.lang.String"/>
+      <form-property name="enu4Key" type="java.lang.String"/>
+    </form-bean>
+    <form-bean name="page3FormBean" extends="baseFormBean">
+      <form-property name="fld18" type="java.lang.String"/>
+      <form-property name="fld19" type="java.lang.String"/>
+      <form-property name="fld20" type="java.lang.String"/>
+      <form-property name="fld21" type="java.lang.String"/>
+      <form-property name="fld22" type="java.lang.String"/>
+      <form-property name="fld23" type="java.lang.String"/>
+      <form-property name="ln22" type="java.lang.String"/>
+      <form-property name="enu7" type="java.lang.String"/>
+      <form-property name="enu7Key" type="java.lang.String"/>
+    </form-bean>
+    <form-bean name="page4FormBean" extends="baseFormBean">
+      <form-property name="sfld7" type="java.lang.String"/>
+      <form-property name="sfld7List" type="java.lang.String[]"/>
+      <form-property name="sfld7LabelList" type="java.lang.String[]"/>
+      <form-property name="ln20" type="java.lang.String"/>
+      <form-property name="enu8" type="java.lang.String"/>
+      <form-property name="enu8Key" type="java.lang.String"/>
+    </form-bean>
   </form-beans>
   <global-exceptions>
     <exception type="com.webratio.rtx.RTXPermissionException" handler="com.webratio.struts.exceptions.RTXPermissionExceptionHandler" key="none" path="/WRGenericError.jsp"/>

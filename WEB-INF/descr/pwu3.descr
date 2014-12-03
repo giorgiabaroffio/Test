@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.units.content.rtx.db.PowerIndexUnitService" name="Users">
+  <Results maxResults="" blockFactor="" blockWindow=""/>
+  <SortHistorySize>1</SortHistorySize>
+  <Checkable>false</Checkable>
+  <Query entity="User">
+    <Output id="userOID" name="oid" index="0"/>
+    <Output id="email" name="email" index="1"/>
+    <Output id="att8" name="longitude" index="2"/>
+    <Output id="att7" name="latitude" index="3"/>
+    <Output id="userName" name="userName" index="4"/>
+    <Output id="att6" name="country" index="5"/>
+    <Output id="att5" name="city" index="6"/>
+    <Output id="att4" name="address" index="7"/>
+    <HQL>select a_user.oid, a_user.email, a_user.longitude, a_user.latitude, a_user.userName, a_user.country, a_user.city, a_user.address from User a_user</HQL>
+  </Query>
+  <SortAttributes></SortAttributes>
+  <wr:Validation xmlns:wr="http://www.webratio.com/2013/WebML/WRValidation">
+    <wr:ValidationLink elementId="pwu3" linkId="ln23" action="validate"/>
+  </wr:Validation>
+</Descriptor>
+ 

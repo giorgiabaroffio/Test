@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.units.store.googlegeocodingunit.GoogleGeocodingUnitService" name="GoogleGeocoding">
+  <GoogleGeocodingUnit xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="310" gr:y="30" id="ggu3" name="GoogleGeocoding" _sel="t">
+    <OKLink id="oln31" name="OKFlow31" to="miu6" _sel="t">
+      <LinkParameter id="par92" name="Latitude_latitude" source="lat" target="miu6.icp4" _sel="t"/>
+      <LinkParameter id="par93" name="Longitude_longitude" source="long" target="miu6.icp16" _sel="t"/>
+    </OKLink>
+  </GoogleGeocodingUnit>
+  <!--Operation Parameter Service-->
+  <WRParameterService service="com.webratio.rtx.core.DefaultOperationParameterService">
+    <ModelName>GoogleGeocoding</ModelName>
+    <ParentContainer>opm6</ParentContainer>
+    <NavigationAncestors/>
+    <Secure>false</Secure>
+    <Localized>false</Localized>
+    <CheckPermission>false</CheckPermission>
+    <StartsTransaction>false</StartsTransaction>
+    <LinkIdRequired>true</LinkIdRequired>
+    <OperationParams>
+      <OperationParam unit="ggu3">ggu3.country</OperationParam>
+      <OperationParam unit="ggu3">ggu3.city</OperationParam>
+      <OperationParam unit="ggu3">ggu3.addr</OperationParam>
+      <Params/>
+    </OperationParams>
+    <OutgoingLinks>
+      <Link resultCode="success">oln31</Link>
+    </OutgoingLinks>
+  </WRParameterService>
+</Descriptor>
+ 

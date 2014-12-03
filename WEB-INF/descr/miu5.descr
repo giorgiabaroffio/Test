@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.units.module.rtx.ModuleInstanceUnitService" name="">
+  <Module operation="true" singleLayout="false">opm7</Module>
+  <InputCollectorId>icu7</InputCollectorId>
+  <InputParameter>icp14</InputParameter>
+  <!--Operation Parameter Service-->
+  <WRParameterService service="com.webratio.rtx.core.DefaultOperationParameterService">
+    <ModelName/>
+    <ParentContainer>sv1</ParentContainer>
+    <NavigationAncestors>sv1</NavigationAncestors>
+    <Secure>false</Secure>
+    <Localized>false</Localized>
+    <CheckPermission>false</CheckPermission>
+    <StartsTransaction>false</StartsTransaction>
+    <LinkIdRequired>true</LinkIdRequired>
+    <OperationParams>
+      <OperationParam unit="miu5">miu5.icp14</OperationParam>
+      <Params>miu10.icp12|miu10.icp11|miu10.icp13|sp|cmplink|link|miu10.icp2|miu10.icp1|smc|miu10.icp10</Params>
+    </OperationParams>
+    <OutgoingLinks>
+      <Link resultCode="success">oln16</Link>
+    </OutgoingLinks>
+  </WRParameterService>
+</Descriptor>
+ 

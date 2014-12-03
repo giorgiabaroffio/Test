@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Descriptor service="com.webratio.rtx.db.AccessService" name="Access Service">
-  <Database/>
+  <Database>db1</Database>
   <AccessQueries>
     <!-- group module query using group2module relationship -->
     <Query>SELECT m.moduleID FROM Module m JOIN m.groups g WHERE g.oid = :groupOid</Query>
@@ -20,3 +20,4 @@
   </GroupQueries>
   <StrictModuleAccess/>
 </Descriptor>
+ 

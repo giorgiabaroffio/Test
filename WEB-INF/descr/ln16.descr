@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.rtx.core.DefaultLinkService">
+  <Target>page2</Target>
+  <Secure>false</Secure>
+  <Source>miu1</Source>
+  <ReachableAlternativePages></ReachableAlternativePages>
+  <StartsTransaction>false</StartsTransaction>
+  <EndsTransaction>false</EndsTransaction>
+  <StartPageIdRequiredByTarget>false</StartPageIdRequiredByTarget>
+  <PreservedContextParams>
+    <Params/>
+  </PreservedContextParams>
+  <ContextPropagations>
+    <ContextPropagation targetParam="gmu1.markerCoords" sourceUnit="miu1" sourceParam="ocp5"/>
+    <ContextPropagation targetParam="gmu1.markerInfo" sourceUnit="miu1" sourceParam="ocp6"/>
+    <ContextPropagation targetParam="gmu1.markerTitle" sourceUnit="miu1" sourceParam="ocp7"/>
+    <ContextPropagation targetParam="gmu1.coords" sourceUnit="miu1" sourceParam="ocp12"/>
+  </ContextPropagations>
+</Descriptor>
+ 

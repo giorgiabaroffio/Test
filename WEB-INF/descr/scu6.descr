@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.units.utility.rtx.ScriptUnitService" name="ChartData">
+  <Script xml:space="preserve">#input text
+#output timestamps, quantities
+
+import groovy.sql.Sql;
+import java.sql.Connection;
+import com.webratio.rtx.db.DBTransaction;
+import com.webratio.rtx.db.HibernateService;
+import com.webratio.rtx.core.BeanHelper;
+
+def nicknames	
+Connection conn = null
+def databaseId = "db1"
+def session = getDBSession(databaseId)
+
+def query = "select c.timestamp,c.quantity from consumption c"
+
+def result=null
+def time=[]
+def quan=[]
+
+def ris=0
+
+result = session.createSQLQuery(query).list()
+for (r in result){
+	time.add(r[0])
+	quan.add(r[1])
+	ris++
+}
+commit(session)
+
+if(ris==0){
+	list.add("HQ.NoResults.HQ")
+}
+
+return ["timestamps" : time, "quantities" : quan, "number_ris":ris]
+
+</Script>
+  <!--Operation Parameter Service-->  <WRParameterService service="com.webratio.rtx.core.DefaultOperationParameterService">    <ModelName>ChartData</ModelName>
+    <ParentContainer>area1</ParentContainer>
+    <NavigationAncestors>sv1|area1</NavigationAncestors>
+    <Secure>false</Secure>
+    <Localized>false</Localized>
+    <CheckPermission>false</CheckPermission>
+    <StartsTransaction>false</StartsTransaction>
+    <LinkIdRequired>true</LinkIdRequired>
+    <OperationParams>
+      <Params>sp|cmplink|link|miu2.icp6|miu3.icp5|miu2.icp8|miu2.icp7|var1|var2|smc</Params>
+    </OperationParams>
+    <OutgoingLinks>
+      <Link resultCode="success">oln18</Link>
+    </OutgoingLinks>
+  </WRParameterService>
+</Descriptor>

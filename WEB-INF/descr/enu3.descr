@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.units.content.rtx.EntryUnitService" name="Filter">
+  <FormFields>
+    <SelectionField id="sfld1" name="" type="string" localized="false" value="" splitOutput="">
+      <Slot id="slot5" label="true" output="true" value="Day|Week|Month"/>
+    </SelectionField>
+  </FormFields>
+  <wr:Validation xmlns:wr="http://www.webratio.com/2013/WebML/WRValidation">
+    <wr:ValidationLink elementId="enu3" linkId="ln13" action="validate"/>
+  </wr:Validation>
+</Descriptor>
+ 

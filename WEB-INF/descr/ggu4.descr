@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.units.store.googlegeocodingunit.GoogleGeocodingUnitService" name="GoogleGeocodingUnit4">
+  <GoogleGeocodingUnit xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="420" gr:y="60" id="ggu4" name="GoogleGeocodingUnit4" _sel="t">
+    <OKLink id="oln17" name="OKFlow17" to="okcu7" _sel="t">
+      <LinkParameter id="par62" name="Map Coordinates_markers" source="coords" target="ocp7" _sel="t"/>
+    </OKLink>
+  </GoogleGeocodingUnit>
+  <!--Operation Parameter Service-->
+  <WRParameterService service="com.webratio.rtx.core.DefaultOperationParameterService">
+    <ModelName>GoogleGeocodingUnit4</ModelName>
+    <ParentContainer>opm3</ParentContainer>
+    <NavigationAncestors/>
+    <Secure>false</Secure>
+    <Localized>false</Localized>
+    <CheckPermission>false</CheckPermission>
+    <StartsTransaction>false</StartsTransaction>
+    <LinkIdRequired>true</LinkIdRequired>
+    <OperationParams>
+      <OperationParam unit="ggu4">ggu4.addr</OperationParam>
+      <OperationParam unit="ggu4">ggu4.country</OperationParam>
+      <OperationParam unit="ggu4">ggu4.city</OperationParam>
+      <Params/>
+    </OperationParams>
+    <OutgoingLinks>
+      <Link resultCode="success">oln17</Link>
+    </OutgoingLinks>
+  </WRParameterService>
+</Descriptor>
+ 

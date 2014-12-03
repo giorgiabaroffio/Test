@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Descriptor service="com.webratio.rtx.core.DefaultPageService" name="Home">
+<Descriptor service="com.webratio.rtx.core.DefaultPageService" name="Manage bills">
   <ParentContainer>area1</ParentContainer>
   <Secure>false</Secure>
   <Localized>false</Localized>
@@ -12,31 +12,83 @@
     <Navigation name="1" nonContextual="true" interPage="always" links="page1.link"/>
     <Navigation name="2" links="page1.auto-link"/>
     <Navigation name="3" links="page1.auto-link" selectiveRefresh="true"/>
+    <Navigation name="4" links="ln2|validation-failed"/>
+    <Navigation name="5" links="ln13|impl" postPropagatedLink="ln13"/>
+    <Navigation name="6" links="ln13|oln19" effects="#pr#"/>
+    <Navigation name="7" links="ln2|impl" postPropagatedLink="ln2"/>
+    <Navigation name="8" links="ln2|oln3" effects="#pr#"/>
+    <Navigation name="9" links="ln3|impl" postPropagatedLink="ln3"/>
+    <Navigation name="10" links="ln3|oln6" effects="#pr#"/>
+    <Navigation name="11" links="ln9|impl" postPropagatedLink="ln9" effects="ctx1.userOID"/>
   </Navigations>
   <ContextInitServices/>
   <ContextInits></ContextInits>
   <UselessPreserves>
-    <UselessPreserve navs="3|2" futile=""/>
+    <UselessPreserve navs="3" futile="var1|var3"/>
+    <UselessPreserve navs="2|10|7|6|5|4|9|8|11" futile=""/>
   </UselessPreserves>
-  <LinkSequence/>
+  <LinkSequence>ln4|ln14</LinkSequence>
   <UnitComputations>
-    <UnitComputation unit="mssu1">
+    <UnitComputation unit="enu1" formBased="true">
+      <NavigationCondition selectiveRefresh="true" effects="#pr#"/>
+      <RefreshFormAll navs="1|10|0|7|6|5|9|8|11"/>
+    </UnitComputation>
+    <UnitComputation unit="pwu1" formBased="true">
+      <NavigationCondition selectiveRefresh="true" effects="#pr#"/>
+      <RefreshFormAll navs="1|10|0|7|6|5|9|8|11"/>
+    </UnitComputation>
+    <UnitComputation unit="pwu2" formBased="true">
+      <NavigationCondition selectiveRefresh="true" effects="#pr#"/>
+      <RefreshFormAll navs="1|10|0|7|6|5|9|8|11"/>
+    </UnitComputation>
+    <UnitComputation unit="enu3" formBased="true">
+      <NavigationCondition selectiveRefresh="true" effects="#pr#"/>
+      <RefreshFormAll navs="1|10|0|7|6|5|9|8|11"/>
+    </UnitComputation>
+    <UnitComputation unit="seu1">
+      <NavigationCondition selectiveRefresh="true" effects="#pr#"/>
+    </UnitComputation>
+    <UnitComputation unit="enu5" formBased="true">
+      <NavigationCondition selectiveRefresh="true" effects="#pr#"/>
+      <RefreshFormAll navs="1|10|0|7|6|5|9|8|11"/>
+    </UnitComputation>
+    <UnitComputation unit="seu2">
       <NavigationCondition selectiveRefresh="true" effects="#pr#"/>
     </UnitComputation>
   </UnitComputations>
-  <ManualLinks></ManualLinks>
-  <Variables></Variables>
+  <ManualLinks>
+    <ManualLink>ln2</ManualLink>
+    <ManualLink>ln3</ManualLink>
+    <ManualLink>ln13</ManualLink>
+    <ManualLink>ln9</ManualLink>
+  </ManualLinks>
+  <Variables>
+    <Variable id="var3" name="json"></Variable>
+    <Variable id="var1" name="average"></Variable>
+  </Variables>
   <Conditions></Conditions>
   <Layouts>
     <Layout id="page1_grid_0">
       <Layout id="page1_cell_0">
-        <Layout id="mssu1_0" unitId="mssu1"></Layout>
+        <Layout id="enu1_0" unitId="enu1"></Layout>
+      </Layout>
+      <Layout id="page1_cell_12">
+        <Layout id="pwu1_0" unitId="pwu1"></Layout>
+      </Layout>
+      <Layout id="page1_cell_24">
+        <Layout id="pwu2_0" unitId="pwu2"></Layout>
+      </Layout>
+      <Layout id="page1_cell_33">
+        <Layout id="enu3_0" unitId="enu3"></Layout>
+      </Layout>
+      <Layout id="page1_cell_36">
+        <Layout id="enu5_0" unitId="enu5"></Layout>
       </Layout>
     </Layout>
   </Layouts>
   <AutoLinkInfo>
     <PreservedContextParams>
-      <Params/>
+      <Params>var1|var3|stu2.ctx1.userOID</Params>
     </PreservedContextParams>
     <PreservedContextParams selectiveRefresh="true">
       <Params/>
@@ -44,10 +96,22 @@
   </AutoLinkInfo>
   <!--Page Parameter Service-->
   <WRParameterService service="com.webratio.rtx.core.DefaultPageParameterService">
-    <ModelName>Home</ModelName>
+    <ModelName>Manage bills</ModelName>
     <NavigationAncestors>sv1|area1</NavigationAncestors>
-    <LinkIdRequired>false</LinkIdRequired>
+    <LinkIdRequired>true</LinkIdRequired>
     <PageParams>
+      <PageParam>stu2.ctx1.userOID</PageParam>
+      <PageParam preservedByForm="true" unit="enu1">sfld2_output</PageParam>
+      <PageParam preservedByForm="true" unit="enu1">sfld2_label</PageParam>
+      <PageParam preservedByForm="true" unit="enu5">sfld5_label</PageParam>
+      <PageParam preservedByForm="true" unit="enu5">sfld5_output</PageParam>
+      <PageParam>var3</PageParam>
+      <PageParam>var1</PageParam>
+      <PageParam>miu2.icp7</PageParam>
+      <PageParam>miu2.icp8</PageParam>
+      <PageParam>miu2.icp6</PageParam>
+      <PageParam>miu3.icp5</PageParam>
+      <PageParam>scu7.period</PageParam>
       <PageParam>link</PageParam>
       <PageParam>nav</PageParam>
       <PageParam>so</PageParam>

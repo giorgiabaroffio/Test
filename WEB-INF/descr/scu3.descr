@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.units.utility.rtx.ScriptUnitService" name="GetNeighborUsers">
+  <Script xml:space="preserve">#input Double latitude, Double longitude, minimum, maximum
+#output nicknames, latitudes, longitudes, number_ris
+
+import groovy.sql.Sql;
+import java.sql.Connection;
+import com.webratio.rtx.db.DBTransaction;
+import com.webratio.rtx.db.HibernateService;
+import com.webratio.rtx.core.BeanHelper;
+
+def nicknames	
+Connection conn = null
+def databaseId = "db1"
+def session = getDBSession(databaseId)
+
+def query = "select u.oid,u.latitude,u.longitude from user u where (acos(sin("+latitude+") * sin(u.latitude) + cos("+latitude+") * cos(u.latitude) * cos(u.longitude - "+longitude+")) * 6371 &lt;= "+maximum+") AND (acos(sin("+latitude+") * sin(u.latitude) + cos("+latitude+") * cos(u.latitude) * cos(u.longitude - "+longitude+")) * 6371)&gt;="+minimum
+
+def result=null
+def list=[]
+def lat=[]
+def lon=[]
+def ris=0
+
+result = session.createSQLQuery(query).list()
+for (r in result){
+	list.add(r[0])
+	lat.add(r[1])
+	lon.add(r[2])
+	ris++
+}
+commit(session)
+
+if(ris==0){
+	list.add("HQ.NoResults.HQ")
+}
+
+return ["nicknames" : list, "latitudes" : lat, "longitudes" : lon,
+		"number_ris":ris]
+
+</Script>
+  <!--Operation Parameter Service-->  <WRParameterService service="com.webratio.rtx.core.DefaultOperationParameterService">    <ModelName>GetNeighborUsers</ModelName>
+    <ParentContainer>opm1</ParentContainer>
+    <NavigationAncestors/>
+    <Secure>false</Secure>
+    <Localized>false</Localized>
+    <CheckPermission>false</CheckPermission>
+    <StartsTransaction>false</StartsTransaction>
+    <LinkIdRequired>true</LinkIdRequired>
+    <OperationParams>
+      <OperationParam unit="scu3">scu3.latitude</OperationParam>
+      <OperationParam unit="scu3">scu3.maximum</OperationParam>
+      <OperationParam unit="scu3">scu3.minimum</OperationParam>
+      <OperationParam unit="scu3">scu3.longitude</OperationParam>
+      <Params/>
+    </OperationParams>
+    <OutgoingLinks>
+      <Link resultCode="success">oln40</Link>
+      <Link resultCode="error">kln9</Link>
+    </OutgoingLinks>
+    <IsLinkHistoryRecorded>true</IsLinkHistoryRecorded>
+  </WRParameterService>
+</Descriptor>

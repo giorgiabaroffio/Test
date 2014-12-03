@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.units.session.rtx.GetUnitService" name="GetUser">
+  <ContextParameters>ctx1.userOID</ContextParameters>
+  <!--Operation Parameter Service-->
+  <WRParameterService service="com.webratio.rtx.core.DefaultOperationParameterService">
+    <ModelName>GetUser</ModelName>
+    <ParentContainer>area3</ParentContainer>
+    <NavigationAncestors>sv1|area3</NavigationAncestors>
+    <Secure>false</Secure>
+    <Localized>false</Localized>
+    <CheckPermission>false</CheckPermission>
+    <StartsTransaction>false</StartsTransaction>
+    <LinkIdRequired>true</LinkIdRequired>
+    <OperationParams>
+      <Params/>
+    </OperationParams>
+    <OutgoingLinks>
+      <Link resultCode="success" transport="true">ln15</Link>
+      <Link resultCode="error" transport="true">ln15</Link>
+    </OutgoingLinks>
+  </WRParameterService>
+</Descriptor>
+ 

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.units.utility.rtx.ScriptUnitService" name="PopulateMarkers">
+  <Script xml:space="preserve">#input latitudes, longitudes, mylat, mylon
+#output markers, titles, infos, myself
+
+def m = []
+def t = []
+def i = []
+
+def mylat_degree = mylat[0]/3.14159265359*180
+def mylon_degree = mylon[0]/3.14159265359*180
+def myself_degree = mylat_degree+","+mylon_degree
+m.add(myself_degree)
+t.add("myself")
+i.add("myself")
+
+for (int k = 0; k &lt; latitudes.size(); k++){
+	//convert from radians to degree
+	def lat_degree = latitudes[k]/3.14159265359*180
+	def lon_degree = longitudes[k]/3.14159265359*180
+	def coord = lat_degree+","+lon_degree
+	m.add(coord)
+	t.add("Test")
+	i.add("Test")
+}
+
+
+return ["markers":m,"titles":t,"infos":i,"myself":myself_degree]
+</Script>
+  <!--Operation Parameter Service-->  <WRParameterService service="com.webratio.rtx.core.DefaultOperationParameterService">    <ModelName>PopulateMarkers</ModelName>
+    <ParentContainer>opm8</ParentContainer>
+    <NavigationAncestors/>
+    <Secure>false</Secure>
+    <Localized>false</Localized>
+    <CheckPermission>false</CheckPermission>
+    <StartsTransaction>false</StartsTransaction>
+    <LinkIdRequired>true</LinkIdRequired>
+    <OperationParams>
+      <OperationParam unit="scu5">scu5.mylon</OperationParam>
+      <OperationParam unit="scu5">scu5.longitudes</OperationParam>
+      <OperationParam unit="scu5">scu5.latitudes</OperationParam>
+      <OperationParam unit="scu5">scu5.mylat</OperationParam>
+      <Params/>
+    </OperationParams>
+    <OutgoingLinks>
+      <Link resultCode="success">oln17</Link>
+      <Link resultCode="error">kln2</Link>
+    </OutgoingLinks>
+    <IsLinkHistoryRecorded>true</IsLinkHistoryRecorded>
+  </WRParameterService>
+</Descriptor>
+ 

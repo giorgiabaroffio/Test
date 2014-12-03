@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.units.module.rtx.CollectorUnitService" name="">
+  <Type>INPUT</Type>
+  <Parameter name="user_name">icp10</Parameter>
+  <Parameter name="user_password">icp11</Parameter>
+  <Parameter name="user_email">icp12</Parameter>
+  <Parameter name="user_address">icp13</Parameter>
+  <Parameter name="user_city">icp1</Parameter>
+  <Parameter name="user_country">icp2</Parameter>
+  <!--Operation Parameter Service-->
+  <WRParameterService service="com.webratio.rtx.core.DefaultOperationParameterService">
+    <ModelName/>
+    <ParentContainer>opm6</ParentContainer>
+    <NavigationAncestors/>
+    <Secure>false</Secure>
+    <Localized>false</Localized>
+    <CheckPermission>false</CheckPermission>
+    <StartsTransaction>false</StartsTransaction>
+    <LinkIdRequired>true</LinkIdRequired>
+    <OperationParams>
+      <OperationParam unit="icu6">icp1</OperationParam>
+      <OperationParam unit="icu6">icp13</OperationParam>
+      <OperationParam unit="icu6">icp2</OperationParam>
+      <OperationParam unit="icu6">icp12</OperationParam>
+      <OperationParam unit="icu6">icp11</OperationParam>
+      <OperationParam unit="icu6">icp10</OperationParam>
+      <Params/>
+    </OperationParams>
+    <OutgoingLinks>
+      <Link resultCode="success">oln5</Link>
+      <Link resultCode="success" transport="true">ln11</Link>
+      <Link resultCode="error" transport="true">ln11</Link>
+    </OutgoingLinks>
+    <IsLinkHistoryRecorded>true</IsLinkHistoryRecorded>
+  </WRParameterService>
+</Descriptor>
+ 

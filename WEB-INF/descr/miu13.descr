@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.units.module.rtx.ModuleInstanceUnitService" name="">
+  <Module operation="true" singleLayout="false">opm1</Module>
+  <InputCollectorId>icu1</InputCollectorId>
+  <InputParameter>icp15</InputParameter>
+  <InputParameter>icp3</InputParameter>
+  <InputParameter>icp9</InputParameter>
+  <!--Operation Parameter Service-->
+  <WRParameterService service="com.webratio.rtx.core.DefaultOperationParameterService">
+    <ModelName/>
+    <ParentContainer>area2</ParentContainer>
+    <NavigationAncestors>sv1|area2</NavigationAncestors>
+    <Secure>false</Secure>
+    <Localized>false</Localized>
+    <CheckPermission>false</CheckPermission>
+    <StartsTransaction>false</StartsTransaction>
+    <LinkIdRequired>true</LinkIdRequired>
+    <OperationParams>
+      <OperationParam unit="miu13">miu13.icp15</OperationParam>
+      <OperationParam unit="miu13">miu13.icp9</OperationParam>
+      <OperationParam unit="miu13">miu13.icp3</OperationParam>
+      <Params>sfld3_presel|sp|link|acond5|miu1.icp20|gmu1.markerTitle|enu4.userOID|miu1.icp17|gmu1.markerCoords|miu1.icp18|gmu1.markerInfo|cmplink|sfld3_output|gmu1.coords|smc|sfld3_label|miu1.icp19</Params>
+    </OperationParams>
+    <OutgoingLinks>
+      <Link resultCode="success">oln15</Link>
+      <Link resultCode="success" transport="true">ln10</Link>
+      <Link resultCode="error" transport="true">ln10</Link>
+    </OutgoingLinks>
+  </WRParameterService>
+</Descriptor>
+ 

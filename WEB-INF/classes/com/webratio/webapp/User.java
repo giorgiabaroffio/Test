@@ -12,9 +12,21 @@ public class User implements java.io.Serializable {
 
     private java.lang.String _email;
 
+    private java.lang.String _address;
+
+    private java.lang.String _city;
+
+    private java.lang.String _country;
+
+    private java.math.BigDecimal _latitude;
+
+    private java.math.BigDecimal _longitude;
+
     private java.util.Set _groups = new java.util.HashSet();
 
     private com.webratio.webapp.Group _defaultGroup;
+
+    private java.util.Set _userToConsumption = new java.util.HashSet();
 
     private float _searchScore;
 
@@ -50,6 +62,46 @@ public class User implements java.io.Serializable {
         this._email = _email;
     }
 
+    public java.lang.String getAddress() {
+        return _address;
+    }
+
+    public void setAddress(java.lang.String _address) {
+        this._address = _address;
+    }
+
+    public java.lang.String getCity() {
+        return _city;
+    }
+
+    public void setCity(java.lang.String _city) {
+        this._city = _city;
+    }
+
+    public java.lang.String getCountry() {
+        return _country;
+    }
+
+    public void setCountry(java.lang.String _country) {
+        this._country = _country;
+    }
+
+    public java.math.BigDecimal getLatitude() {
+        return _latitude;
+    }
+
+    public void setLatitude(java.math.BigDecimal _latitude) {
+        this._latitude = _latitude;
+    }
+
+    public java.math.BigDecimal getLongitude() {
+        return _longitude;
+    }
+
+    public void setLongitude(java.math.BigDecimal _longitude) {
+        this._longitude = _longitude;
+    }
+
     public java.util.Set getGroups() {
         return _groups;
     }
@@ -64,6 +116,14 @@ public class User implements java.io.Serializable {
 
     public void setDefaultGroup(com.webratio.webapp.Group _defaultGroup) {
         this._defaultGroup = _defaultGroup;
+    }
+
+    public java.util.Set getUserToConsumption() {
+        return _userToConsumption;
+    }
+
+    public void setUserToConsumption(java.util.Set _userToConsumption) {
+        this._userToConsumption = _userToConsumption;
     }
 
     public float getSearchScore() {
@@ -91,6 +151,16 @@ public class User implements java.io.Serializable {
             sb.append("password=" + _password + ',');
         if (_email != null)
             sb.append("email=" + _email + ',');
+        if (_address != null)
+            sb.append("address=" + _address + ',');
+        if (_city != null)
+            sb.append("city=" + _city + ',');
+        if (_country != null)
+            sb.append("country=" + _country + ',');
+        if (_latitude != null)
+            sb.append("latitude=" + _latitude + ',');
+        if (_longitude != null)
+            sb.append("longitude=" + _longitude + ',');
         n = sb.length() - 1;
         if (sb.charAt(n) == ',') {
             sb.setCharAt(n, ']');

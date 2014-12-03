@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.rtx.core.DefaultLinkService">
+  <Target>scu3</Target>
+  <Secure>false</Secure>
+  <Source>icu1</Source>
+  <ReachableAlternativePages></ReachableAlternativePages>
+  <StartsTransaction>false</StartsTransaction>
+  <EndsTransaction>false</EndsTransaction>
+  <StartPageIdRequiredByTarget>true</StartPageIdRequiredByTarget>
+  <PreservedContextParams>
+    <Params/>
+  </PreservedContextParams>
+  <ContextPropagations>
+    <ContextPropagation targetParam="scu3.maximum" sourceUnit="icu1" sourceParam="icp9"/>
+    <ContextPropagation targetParam="scu3.minimum" sourceUnit="icu1" sourceParam="icp3"/>
+  </ContextPropagations>
+</Descriptor>

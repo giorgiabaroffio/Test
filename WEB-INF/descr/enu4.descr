@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.units.content.rtx.EntityBasedEntryUnitService" name="SelectUser">
+  <Entity>User</Entity>
+  <Query entity="User">
+    <Input id="p0" param="enu4.userOID" type="integer" implied="false" expandStyle="in"/>
+    <HQL>from User a_user
+      <Where defaultPolicy="" allImplied="false">(({[p0]a_user.oid in(?)}))</Where>
+    </HQL>
+  </Query>
+  <FormFields>
+    <Field id="fld1" name="min" type="string" localized="false"></Field>
+    <Field id="fld4" name="max" type="string" localized="false"></Field>
+    <SelectionField id="sfld3" name="id" type="integer" localized="true" value="" splitOutput="" attributeId="userOID">
+      <Slot id="sfld3_label" label="true" output="false"/>
+      <Slot id="sfld3_output" label="false" output="true"/>
+    </SelectionField>
+  </FormFields>
+  <wr:Validation xmlns:wr="http://www.webratio.com/2013/WebML/WRValidation">
+    <wr:ValidationLink elementId="enu4" linkId="ln34" action="validate"/>
+  </wr:Validation>
+</Descriptor>

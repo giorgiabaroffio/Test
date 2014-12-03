@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.units.utility.rtx.db.SelectorUnitService" name="GetGraphData">
+  <MaxResults/>
+  <Query entity="ent1">
+    <Output id="att1" name="oid" index="0"/>
+    <Output id="att3" name="quantity" index="1"/>
+    <Output id="att2" name="timestamp" index="2"/>
+    <HQL>select a_consumption.oid, a_consumption.quantity, a_consumption.timestamp from Consumption a_consumption</HQL>
+  </Query>
+  <!--Operation Parameter Service-->
+  <WRParameterService service="com.webratio.rtx.core.DefaultOperationParameterService">
+    <ModelName>GetGraphData</ModelName>
+    <ParentContainer>area1</ParentContainer>
+    <NavigationAncestors>sv1|area1</NavigationAncestors>
+    <Secure>false</Secure>
+    <Localized>false</Localized>
+    <CheckPermission>false</CheckPermission>
+    <StartsTransaction>false</StartsTransaction>
+    <LinkIdRequired>true</LinkIdRequired>
+    <OperationParams>
+      <OperationParam unit="seu5">seu5.maxResults</OperationParam>
+      <Params>miu2.icp6|miu3.icp5|miu2.icp8|miu2.icp7|var1|var2</Params>
+    </OperationParams>
+    <OutgoingLinks>
+      <Link resultCode="success">oln1</Link>
+    </OutgoingLinks>
+  </WRParameterService>
+</Descriptor>

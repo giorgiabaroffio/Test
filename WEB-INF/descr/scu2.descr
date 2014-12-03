@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.units.utility.rtx.ScriptUnitService" name="Script2">
+  <Script xml:space="preserve">#input 
+#output text
+
+
+
+def t="ciao"
+
+
+return ["text" : t]</Script>
+</Descriptor>

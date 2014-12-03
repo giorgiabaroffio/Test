@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.units.content.rtx.db.MultiDataUnitService" name="MultipleDetails5">
+  <MaxResults/>
+  <Query entity="ent1">
+    <HQL>from Consumption a_consumption</HQL>
+  </Query>
+</Descriptor>
+ 

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.rtx.core.OperationModuleService">
+  <InputCollectorUnit name="" id="icu1">
+    <InputParameter id="icp15" name="user_id"/>
+    <InputParameter id="icp3" name="min"/>
+    <InputParameter id="icp9" name="max"/>
+  </InputCollectorUnit>
+  <OKCollectorUnits>okcu2</OKCollectorUnits>
+  <KOCollectorUnits>kocu2</KOCollectorUnits>
+  <OperationUnits>icu1|okcu2|kocu2|seu7|inn2|scu3</OperationUnits>
+</Descriptor>

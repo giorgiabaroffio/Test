@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.units.module.rtx.CollectorUnitService" name="OK Port8">
+  <Type>OK</Type>
+  <Parameter name="markers" value="">ocp5</Parameter>
+  <Parameter name="infos" value="">ocp6</Parameter>
+  <Parameter name="titles" value="">ocp7</Parameter>
+  <Parameter name="myself" value="">ocp12</Parameter>
+  <!--Operation Parameter Service-->
+  <WRParameterService service="com.webratio.rtx.core.DefaultOperationParameterService">
+    <ModelName>OK Port8</ModelName>
+    <ParentContainer>opm8</ParentContainer>
+    <NavigationAncestors/>
+    <Secure>false</Secure>
+    <Localized>false</Localized>
+    <CheckPermission>false</CheckPermission>
+    <StartsTransaction>false</StartsTransaction>
+    <LinkIdRequired>true</LinkIdRequired>
+    <OperationParams>
+      <OperationParam unit="okcu8">ocp5</OperationParam>
+      <OperationParam unit="okcu8">ocp7</OperationParam>
+      <OperationParam unit="okcu8">ocp6</OperationParam>
+      <OperationParam unit="okcu8">ocp12</OperationParam>
+      <Params/>
+    </OperationParams>
+    <OutgoingLinks></OutgoingLinks>
+    <IsLinkHistoryRecorded>true</IsLinkHistoryRecorded>
+  </WRParameterService>
+</Descriptor>
+ 

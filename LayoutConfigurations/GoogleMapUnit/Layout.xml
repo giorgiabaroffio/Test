@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Layout> 
+  <Resources> 
+    <Resource name="google-api-sensor-true" type="javascript" url="http://maps.googleapis.com/maps/api/js?sensor=true"/>  
+    <Resource name="google-api-gears-init" type="javascript" url="http://code.google.com/apis/gears/gears_init.js"/>  
+    <Resource name="google-api-sensor-false" type="javascript" url="http://maps.googleapis.com/maps/api/js?sensor=false"/> 
+  </Resources> 
+</Layout>

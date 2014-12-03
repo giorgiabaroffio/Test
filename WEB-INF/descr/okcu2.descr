@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.units.module.rtx.CollectorUnitService" name="OK Port2">
+  <Type>OK</Type>
+  <Parameter name="users" value="">ocp3</Parameter>
+  <Parameter name="latitudes" value="">ocp8</Parameter>
+  <Parameter name="longitudes" value="">ocp9</Parameter>
+  <Parameter name="mylat" value="">ocp10</Parameter>
+  <Parameter name="mylon" value="">ocp11</Parameter>
+  <!--Operation Parameter Service-->
+  <WRParameterService service="com.webratio.rtx.core.DefaultOperationParameterService">
+    <ModelName>OK Port2</ModelName>
+    <ParentContainer>opm1</ParentContainer>
+    <NavigationAncestors/>
+    <Secure>false</Secure>
+    <Localized>false</Localized>
+    <CheckPermission>false</CheckPermission>
+    <StartsTransaction>false</StartsTransaction>
+    <LinkIdRequired>true</LinkIdRequired>
+    <OperationParams>
+      <OperationParam unit="okcu2">ocp9</OperationParam>
+      <OperationParam unit="okcu2">ocp8</OperationParam>
+      <OperationParam unit="okcu2">ocp3</OperationParam>
+      <OperationParam unit="okcu2">ocp11</OperationParam>
+      <OperationParam unit="okcu2">ocp10</OperationParam>
+      <Params/>
+    </OperationParams>
+    <OutgoingLinks></OutgoingLinks>
+    <IsLinkHistoryRecorded>true</IsLinkHistoryRecorded>
+  </WRParameterService>
+</Descriptor>

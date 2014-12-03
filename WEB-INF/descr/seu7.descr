@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.units.utility.rtx.db.SelectorUnitService" name="GetUserGeoCoordinates">
+  <MaxResults/>
+  <Query entity="User">
+    <Input id="p0" param="kcond5.userOID" type="integer" implied="false" expandStyle="in"/>
+    <Output id="userOID" name="oid" index="0"/>
+    <Output id="att8" name="longitude" index="1"/>
+    <Output id="att7" name="latitude" index="2"/>
+    <HQL>select a_user.oid, a_user.longitude, a_user.latitude from User a_user
+      <Where defaultPolicy="fill" allImplied="false">(({[p0]a_user.oid in(?)}))</Where>
+    </HQL>
+  </Query>
+  <!--Operation Parameter Service-->
+  <WRParameterService service="com.webratio.rtx.core.DefaultOperationParameterService">
+    <ModelName>GetUserGeoCoordinates</ModelName>
+    <ParentContainer>opm1</ParentContainer>
+    <NavigationAncestors/>
+    <Secure>false</Secure>
+    <Localized>false</Localized>
+    <CheckPermission>false</CheckPermission>
+    <StartsTransaction>false</StartsTransaction>
+    <LinkIdRequired>true</LinkIdRequired>
+    <OperationParams>
+      <OperationParam unit="seu7">kcond5.userOID</OperationParam>
+      <Params/>
+    </OperationParams>
+    <OutgoingLinks>
+      <Link resultCode="success">oln38</Link>
+      <Link resultCode="success" transport="true">ln17</Link>
+      <Link resultCode="error" transport="true">ln17</Link>
+    </OutgoingLinks>
+  </WRParameterService>
+</Descriptor>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.units.session.rtx.SetUnitService" name="Set2">
+  <ContextParameters>ctx1.userOID</ContextParameters>
+  <!--Operation Parameter Service-->
+  <WRParameterService service="com.webratio.rtx.core.DefaultOperationParameterService">
+    <ModelName>Set2</ModelName>
+    <ParentContainer>area1</ParentContainer>
+    <NavigationAncestors>sv1|area1</NavigationAncestors>
+    <Secure>false</Secure>
+    <Localized>false</Localized>
+    <CheckPermission>false</CheckPermission>
+    <StartsTransaction>false</StartsTransaction>
+    <LinkIdRequired>true</LinkIdRequired>
+    <OperationParams>
+      <Params>sfld5_label|sp|sfld2_output|link|sfld5_output|miu2.icp6|miu3.icp5|miu2.icp8|var3|miu2.icp7|var1|scu7.period|cmplink|sfld2_label|stu2.ctx1.userOID|smc</Params>
+    </OperationParams>
+    <OutgoingLinks></OutgoingLinks>
+    <IsLinkHistoryRecorded>true</IsLinkHistoryRecorded>
+  </WRParameterService>
+</Descriptor>
+ 

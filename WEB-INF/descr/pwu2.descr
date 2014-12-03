@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.units.content.rtx.db.PowerIndexUnitService" name="Consumption Chart">
+  <Results maxResults="" blockFactor="" blockWindow=""/>
+  <SortHistorySize>1</SortHistorySize>
+  <Checkable>false</Checkable>
+  <Query entity="ent1">
+    <Output id="att1" name="oid" index="0"/>
+    <HQL>select a_consumption.oid from Consumption a_consumption</HQL>
+  </Query>
+  <SortAttributes></SortAttributes>
+</Descriptor>
+ 

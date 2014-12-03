@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<StoreMapping>
-  <ResourceBinding path="Styles/BootstrapStyle" store="WebRatio Add-ons" versionId="360" itemId="92"/>
+<StoreMapping> 
+  <ResourceBinding path="Units/CropImageUnit" store="WebRatio Add-ons" versionId="329" itemId="4"/>  
+  <ResourceBinding path="Units/GoogleMapUnit" store="WebRatio Add-ons" versionId="258" itemId="6"/>  
+  <ResourceBinding path="Units/GraphComponent" store="WebRatio Add-ons" versionId="337" itemId="100"/>
 </StoreMapping>

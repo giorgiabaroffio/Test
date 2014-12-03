@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.units.store.googlegeocodingunit.GoogleGeocodingUnitService" name="GoogleGeocodingUnit5">
+  <GoogleGeocodingUnit xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="5" gr:y="95" id="ggu5" name="GoogleGeocodingUnit5" _sel="t">
+    <Link id="ln28" name="Flow28" to="gmu1" type="transport" validate="true" _sel="t">
+      <LinkParameter id="par84" name="Map Coordinates_Marker Coordinates" source="coords" target="gmu1.markerCoords" _sel="t"/>
+      <LinkParameter id="par85" name="test_Marker Info" sourceValue="test" target="gmu1.markerInfo" _sel="t"/>
+      <LinkParameter id="par99" name="test_Marker Title" sourceValue="test" target="gmu1.markerTitle" _sel="t"/>
+    </Link>
+  </GoogleGeocodingUnit>
+</Descriptor>

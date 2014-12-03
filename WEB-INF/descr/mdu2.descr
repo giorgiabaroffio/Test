@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.units.content.rtx.db.MultiDataUnitService" name="Users">
+  <MaxResults/>
+  <Query entity="User">
+    <Input id="p0" param="acond5" type="integer" implied="true" impliedText="1 = 1" expandStyle="in" attribute="userOID"/>
+    <Output id="userOID" name="oid" index="0"/>
+    <Output id="email" name="email" index="1"/>
+    <Output id="userName" name="userName" index="2"/>
+    <HQL>select a_user.oid, a_user.email, a_user.userName from User a_user
+      <Where defaultPolicy="fill" allImplied="true">(({[p0]a_user.oid in(?)}))</Where>
+    </HQL>
+  </Query>
+</Descriptor>
+ 

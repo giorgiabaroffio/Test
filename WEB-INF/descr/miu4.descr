@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.units.module.rtx.ModuleInstanceUnitService" name="">
+  <Module operation="true" singleLayout="false">opm6</Module>
+  <InputCollectorId>icu6</InputCollectorId>
+  <InputParameter>icp10</InputParameter>
+  <InputParameter>icp11</InputParameter>
+  <InputParameter>icp12</InputParameter>
+  <InputParameter>icp13</InputParameter>
+  <InputParameter>icp1</InputParameter>
+  <InputParameter>icp2</InputParameter>
+  <!--Operation Parameter Service-->
+  <WRParameterService service="com.webratio.rtx.core.DefaultOperationParameterService">
+    <ModelName/>
+    <ParentContainer>sv1</ParentContainer>
+    <NavigationAncestors>sv1</NavigationAncestors>
+    <Secure>false</Secure>
+    <Localized>false</Localized>
+    <CheckPermission>false</CheckPermission>
+    <StartsTransaction>false</StartsTransaction>
+    <LinkIdRequired>true</LinkIdRequired>
+    <OperationParams>
+      <OperationParam unit="miu4">miu4.icp11</OperationParam>
+      <OperationParam unit="miu4">miu4.icp10</OperationParam>
+      <OperationParam unit="miu4">miu4.icp13</OperationParam>
+      <OperationParam unit="miu4">miu4.icp1</OperationParam>
+      <OperationParam unit="miu4">miu4.icp12</OperationParam>
+      <OperationParam unit="miu4">miu4.icp2</OperationParam>
+      <Params>kcond4.userOID|miu5.icp14|sp|cmplink|link|smc|acond7</Params>
+    </OperationParams>
+    <OutgoingLinks>
+      <Link resultCode="success">oln1</Link>
+    </OutgoingLinks>
+  </WRParameterService>
+</Descriptor>

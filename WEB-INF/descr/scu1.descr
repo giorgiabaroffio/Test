@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.units.utility.rtx.ScriptUnitService" name="GetConsumptionData">
+  <Script path="WEB-INF/groovy/chartData.groovy"/>
+  <!--Operation Parameter Service-->
+  <WRParameterService service="com.webratio.rtx.core.DefaultOperationParameterService">
+    <ModelName>GetConsumptionData</ModelName>
+    <ParentContainer>area1</ParentContainer>
+    <NavigationAncestors>sv1|area1</NavigationAncestors>
+    <Secure>false</Secure>
+    <Localized>false</Localized>
+    <CheckPermission>false</CheckPermission>
+    <StartsTransaction>false</StartsTransaction>
+    <LinkIdRequired>true</LinkIdRequired>
+    <OperationParams>
+      <OperationParam unit="scu1">scu1.user</OperationParam>
+      <Params>sp|cmplink|link|var5|smc</Params>
+    </OperationParams>
+    <OutgoingLinks>
+      <Link resultCode="success">oln4</Link>
+    </OutgoingLinks>
+  </WRParameterService>
+</Descriptor>

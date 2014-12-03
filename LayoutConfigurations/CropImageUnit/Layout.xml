@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout>
+	<Resources>
+		<Resource name="CropImageUnit-style" path="CSS/CropImageUnit/CropImageUnit.css" type="css"/>
+		<Resource name="jquery-crop" path="Scripts/CropImageUnit/jquery.crop.min.js" type="javascript" requires="jquery"/>
+	</Resources>
+</Layout>

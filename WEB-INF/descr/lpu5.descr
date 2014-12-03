@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.units.controlflow.rtx.LoopUnitService" name="LoopOverMarkers">
+  <IterationSize/>
+  <SecondaryArray id="lsa3"/>
+  <SecondaryArray id="lsa4"/>
+  <!--Operation Parameter Service-->
+  <WRParameterService service="com.webratio.rtx.core.DefaultOperationParameterService">
+    <ModelName>LoopOverMarkers</ModelName>
+    <ParentContainer>area2</ParentContainer>
+    <NavigationAncestors>sv1|area2</NavigationAncestors>
+    <Secure>false</Secure>
+    <Localized>false</Localized>
+    <CheckPermission>false</CheckPermission>
+    <StartsTransaction>false</StartsTransaction>
+    <LinkIdRequired>true</LinkIdRequired>
+    <OperationParams>
+      <OperationParam unit="lpu5">lpu5.array</OperationParam>
+      <Params>sfld3_presel|sp|link|acond5|enu4.userOID|miu13.icp15|cmplink|sfld3_output|miu13.icp9|smc|sfld3_label|mssu1.shownMessages|miu13.icp3</Params>
+    </OperationParams>
+    <OutgoingLinks>
+      <Link resultCode="success">oln28</Link>
+    </OutgoingLinks>
+  </WRParameterService>
+</Descriptor>

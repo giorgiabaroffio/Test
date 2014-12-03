@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.rtx.core.OperationModuleService">
+  <InputCollectorUnit name="" id="icu8">
+    <InputParameter id="icp18" name="latitudes"/>
+    <InputParameter id="icp17" name="longitudes"/>
+    <InputParameter id="icp19" name="mylat"/>
+    <InputParameter id="icp20" name="mylon"/>
+  </InputCollectorUnit>
+  <OKCollectorUnits>okcu8</OKCollectorUnits>
+  <KOCollectorUnits>kocu8</KOCollectorUnits>
+  <OperationUnits>icu8|okcu8|kocu8|scu5</OperationUnits>
+</Descriptor>

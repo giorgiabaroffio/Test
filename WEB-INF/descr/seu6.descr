@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.units.utility.rtx.db.SelectorUnitService" name="GetUserNames">
+  <MaxResults/>
+  <Query entity="User">
+    <Output id="userOID" name="oid" index="0"/>
+    <Output id="userName" name="userName" index="1"/>
+    <HQL>select a_user.oid, a_user.userName from User a_user</HQL>
+  </Query>
+</Descriptor>

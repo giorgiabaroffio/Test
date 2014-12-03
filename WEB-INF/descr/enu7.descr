@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.units.content.rtx.EntityBasedEntryUnitService" name="AddUser">
+  <Entity>User</Entity>
+  <Query entity="User">
+    <Input id="p0" param="enu7.userOID" type="integer" implied="false" expandStyle="in"/>
+    <HQL>from User a_user
+      <Where defaultPolicy="" allImplied="false">(({[p0]a_user.oid in(?)}))</Where>
+    </HQL>
+  </Query>
+  <FormFields>
+    <Field id="fld18" name="username" type="string" localized="false" attributeId="userName"></Field>
+    <Field id="fld19" name="address" type="string" localized="false" attributeId="att4"></Field>
+    <Field id="fld20" name="password" type="password" localized="false" attributeId="password"></Field>
+    <Field id="fld21" name="email" type="string" localized="false" attributeId="email"></Field>
+    <Field id="fld22" name="city" type="string" localized="false" attributeId="att5"></Field>
+    <Field id="fld23" name="country" type="string" localized="false" attributeId="att6"></Field>
+  </FormFields>
+  <wr:Validation xmlns:wr="http://www.webratio.com/2013/WebML/WRValidation">
+    <wr:ValidationLink elementId="enu7" linkId="ln22" action="validate"/>
+  </wr:Validation>
+</Descriptor>
+ 

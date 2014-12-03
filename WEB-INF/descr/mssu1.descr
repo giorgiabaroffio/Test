@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Descriptor service="com.webratio.units.content.rtx.MultiMessageUnitService" name="Hello!">
-  <Message xml:space="preserve">Hello!</Message>
+<Descriptor service="com.webratio.units.content.rtx.MultiMessageUnitService" name="User">
+  <Message xml:space="preserve"/>
 </Descriptor>
+ 

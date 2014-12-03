@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.units.content.rtx.EntryUnitService" name="LoginFake">
+  <FormFields>
+    <SelectionField id="sfld5" name="user" type="string" localized="false" value="" splitOutput="">
+      <Slot id="sfld5_label" label="true" output="false"/>
+      <Slot id="sfld5_output" label="false" output="true"/>
+    </SelectionField>
+  </FormFields>
+  <wr:Validation xmlns:wr="http://www.webratio.com/2013/WebML/WRValidation">
+    <wr:ValidationLink elementId="enu5" linkId="ln9" action="validate"/>
+  </wr:Validation>
+</Descriptor>
+ 

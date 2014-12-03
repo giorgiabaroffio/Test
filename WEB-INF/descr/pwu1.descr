@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.units.content.rtx.db.PowerIndexUnitService" name="Consumption">
+  <Results maxResults="" blockFactor="" blockWindow=""/>
+  <SortHistorySize>1</SortHistorySize>
+  <Checkable>false</Checkable>
+  <Query entity="ent1">
+    <Output id="att1" name="oid" index="0"/>
+    <Output id="att9" name="user" index="1"/>
+    <Output id="att3" name="quantity" index="2"/>
+    <Output id="att2" name="timestamp" index="3"/>
+    <HQL>select a_consumption.oid, a_user_role2.userName, a_consumption.quantity, a_consumption.timestamp from Consumption a_consumption left join a_consumption.consumptionToUser a_user_role2</HQL>
+  </Query>
+  <SortAttributes></SortAttributes>
+  <wr:Validation xmlns:wr="http://www.webratio.com/2013/WebML/WRValidation">
+    <wr:ValidationLink elementId="pwu1" linkId="ln3" action="validate"/>
+  </wr:Validation>
+</Descriptor>
+ 

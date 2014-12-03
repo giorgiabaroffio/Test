@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.units.store.googlegeocodingunit.GoogleGeocodingUnitService" name="GoogleGeocodingUnit6">
+  <GoogleGeocodingUnit xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="475" gr:y="135" id="ggu6" name="GoogleGeocodingUnit6" _sel="t"></GoogleGeocodingUnit>
+  <!--Operation Parameter Service-->
+  <WRParameterService service="com.webratio.rtx.core.DefaultOperationParameterService">
+    <ModelName>GoogleGeocodingUnit6</ModelName>
+    <ParentContainer>opm8</ParentContainer>
+    <NavigationAncestors/>
+    <Secure>false</Secure>
+    <Localized>false</Localized>
+    <CheckPermission>false</CheckPermission>
+    <StartsTransaction>false</StartsTransaction>
+    <LinkIdRequired>true</LinkIdRequired>
+    <OperationParams>
+      <OperationParam unit="ggu6">ggu6.fulladdr</OperationParam>
+      <OperationParam unit="ggu6">ggu6.coords</OperationParam>
+      <OperationParam unit="ggu6">ggu6.country</OperationParam>
+      <OperationParam unit="ggu6">ggu6.addr</OperationParam>
+      <OperationParam unit="ggu6">ggu6.city</OperationParam>
+      <OperationParam unit="ggu6">ggu6.sop</OperationParam>
+      <Params/>
+    </OperationParams>
+    <OutgoingLinks></OutgoingLinks>
+    <IsLinkHistoryRecorded>true</IsLinkHistoryRecorded>
+  </WRParameterService>
+</Descriptor>
+ 

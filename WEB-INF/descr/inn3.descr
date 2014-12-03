@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.units.controlflow.rtx.IsNotNullUnitService" name="Is Not Null3">
+  <Unit emptyStringAsNull="true"/>
+  <!--Operation Parameter Service-->
+  <WRParameterService service="com.webratio.rtx.core.DefaultOperationParameterService">
+    <ModelName>Is Not Null3</ModelName>
+    <ParentContainer>area2</ParentContainer>
+    <NavigationAncestors>sv1|area2</NavigationAncestors>
+    <Secure>false</Secure>
+    <Localized>false</Localized>
+    <CheckPermission>false</CheckPermission>
+    <StartsTransaction>false</StartsTransaction>
+    <LinkIdRequired>true</LinkIdRequired>
+    <OperationParams>
+      <OperationParam unit="inn3">inn3.isnotnull</OperationParam>
+      <Params>scu5.latitude|sp|kcond7.userOID|cmplink|sfld3_output|scu5.longitude|link|sfld3_label|smc|acond7|enu4.userOID</Params>
+    </OperationParams>
+    <OutgoingLinks>
+      <Link resultCode="success">oln44</Link>
+    </OutgoingLinks>
+  </WRParameterService>
+</Descriptor>

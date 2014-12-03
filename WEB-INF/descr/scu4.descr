@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.units.utility.rtx.ScriptUnitService" name="GetChartData">
+  <Script path="WEB-INF/groovy/newChartData.groovy"/>
+  <!--Operation Parameter Service-->
+  <WRParameterService service="com.webratio.rtx.core.DefaultOperationParameterService">
+    <ModelName>GetChartData</ModelName>
+    <ParentContainer>area3</ParentContainer>
+    <NavigationAncestors>sv1|area3</NavigationAncestors>
+    <Secure>false</Secure>
+    <Localized>false</Localized>
+    <CheckPermission>false</CheckPermission>
+    <StartsTransaction>false</StartsTransaction>
+    <LinkIdRequired>true</LinkIdRequired>
+    <OperationParams>
+      <OperationParam unit="scu4">scu4.period</OperationParam>
+      <OperationParam unit="scu4">scu4.user</OperationParam>
+      <Params>sp|cmplink|link|var4|var2|smc</Params>
+    </OperationParams>
+    <SecondaryIncomingLinks>ln21</SecondaryIncomingLinks>
+    <OutgoingLinks>
+      <Link resultCode="success">oln4</Link>
+    </OutgoingLinks>
+  </WRParameterService>
+</Descriptor>

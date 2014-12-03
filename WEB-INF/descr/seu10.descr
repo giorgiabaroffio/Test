@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.units.utility.rtx.db.SelectorUnitService" name="GetUsers">
+  <MaxResults/>
+  <Query entity="User">
+    <Input id="p0" param="acond9" type="integer" implied="false" expandStyle="in" attribute="userOID"/>
+    <Output id="userOID" name="oid" index="0"/>
+    <Output id="att6" name="country" index="1"/>
+    <Output id="att5" name="city" index="2"/>
+    <Output id="att4" name="address" index="3"/>
+    <HQL>select a_user.oid, a_user.country, a_user.city, a_user.address from User a_user
+      <Where defaultPolicy="fill" allImplied="false">(({[p0]a_user.oid in(?)}))</Where>
+    </HQL>
+  </Query>
+</Descriptor>

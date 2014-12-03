@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Descriptor service="com.webratio.rtx.core.ModelService" crc="Q291bnRyeUlTT0N0eFBhcmFtR3JvdXBDdHhQYXJhbUxhbmd1YWdlSVNPQ3R4UGFyYW1Vc2VyQ3R4UGFyYW0=" enterpriseApplication="false">
+<Descriptor service="com.webratio.rtx.core.ModelService" crc="VXNlckNvdW50cnlJU09DdHhQYXJhbUdyb3VwQ3R4UGFyYW1MYW5ndWFnZUlTT0N0eFBhcmFtVXNlckN0eFBhcmFt" enterpriseApplication="false">
   <WebRatioVersion>7.2.6</WebRatioVersion>
   <WebRatioBuildId>201409230114</WebRatioBuildId>
   <WebContainer httpPort="8080" httpsPort="8443" defaultApplicationEncoding="UTF-8" defaultServerEncoding="ISO-8859-1" useDefaultURLEncoding="false" serverName="" useAbsoluteURL="false" httpRequestHelperClass="com.webratio.struts.DefaultHttpRequestHelper" maxUploadFileSize="12M" defaultCookieTimeout="30"/>
   <WebModel defaultLoginPage="BootstrapStyle_Login.login.jsp" defaultExpirePage="WRDefault_Default.expire.jsp" defaultErrorPage="BootstrapStyle_Error.error.jsp">
     <SiteView id="sv1" homePage="page1" name="Admin" home="true" loginPage="BootstrapStyle_Login.login.jsp" expirePage="WRDefault_Default.expire.jsp" errorPage="BootstrapStyle_Error.error.jsp">
-      <Area id="area1" name="Products" topLevel="true" defaultPage="page1"/>
+      <Area id="area1" name="Consumptions" topLevel="true" defaultPage="stu2"/>
+      <Area id="area2" name="Users" topLevel="true" defaultPage="page3">
+        <Page id="page2" name="Find Neighbor Users" loginPage="BootstrapStyle_Login.login.jsp" expirePage="WRDefault_Default.expire.jsp" errorPage="BootstrapStyle_Error.error.jsp"/>
+      </Area>
+      <Area id="area3" name="Consumptions New Chart" topLevel="true" defaultPage="page4"/>
     </SiteView>
+    <ModuleView id="mov1"/>
   </WebModel>
   <SessionParameters>
+    <SessionParameter name="User" entity="User">ctx1.userOID</SessionParameter>
     <SessionParameter name="CountryISOCtxParam" type="string">CountryISOCtxParam</SessionParameter>
     <SessionParameter name="GroupCtxParam" type="string">GroupCtxParam</SessionParameter>
     <SessionParameter name="LanguageISOCtxParam" type="string">LanguageISOCtxParam</SessionParameter>
@@ -23,6 +29,6 @@
     <LinkPreservedParameter>fllbck</LinkPreservedParameter>
   </LinkPreservedParameters>
   <DefaultFileEncoding/>
-  <Statistics pages="1" units="1"/>
+  <Statistics pages="4" units="58"/>
   <AutoLoadServices>_i18n|_job.manager</AutoLoadServices>
 </Descriptor>

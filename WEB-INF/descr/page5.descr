@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.rtx.core.DefaultPageService" name="NewConsumptionChart">
+  <ParentContainer>area1</ParentContainer>
+  <Secure>false</Secure>
+  <Localized>false</Localized>
+  <CheckPermission>false</CheckPermission>
+  <Alternatives/>
+  <ProtectedSubPages/>
+  <Navigations knownEffects="#pr#|ctx1.userOID">
+    <Navigation name="0" nonContextual="true" interPage="always" links="page5"/>
+    <Navigation name="1" nonContextual="true" interPage="always" links="page5.link"/>
+    <Navigation name="2" links="page5.auto-link"/>
+    <Navigation name="3" links="page5.auto-link" selectiveRefresh="true"/>
+    <Navigation name="4" interPage="always" links="scu1.enter|oln4" effects="#pr#"/>
+  </Navigations>
+  <ContextInitServices/>
+  <ContextInits></ContextInits>
+  <UselessPreserves>
+    <UselessPreserve navs="2" futile=""/>
+    <UselessPreserve navs="3" futile="var5"/>
+  </UselessPreserves>
+  <LinkSequence>ln8</LinkSequence>
+  <UnitComputations>
+    <UnitComputation unit="gtu3">
+      <NavigationCondition selectiveRefresh="true" effects="#pr#|ctx1.userOID"/>
+    </UnitComputation>
+    <UnitComputation unit="pwu4" formBased="true">
+      <NavigationCondition selectiveRefresh="true" effects="#pr#"/>
+      <RefreshFormAll navs="1|0|4"/>
+    </UnitComputation>
+  </UnitComputations>
+  <ManualLinks></ManualLinks>
+  <Variables>
+    <Variable id="var5" name="json"></Variable>
+  </Variables>
+  <Conditions></Conditions>
+  <Layouts>
+    <Layout id="page5_grid_0">
+      <Layout id="page5_cell_0">
+        <Layout id="pwu4_0" unitId="pwu4"></Layout>
+      </Layout>
+    </Layout>
+  </Layouts>
+  <AutoLinkInfo>
+    <PreservedContextParams>
+      <Params>var5</Params>
+    </PreservedContextParams>
+    <PreservedContextParams selectiveRefresh="true">
+      <Params/>
+    </PreservedContextParams>
+  </AutoLinkInfo>
+  <!--Page Parameter Service-->
+  <WRParameterService service="com.webratio.rtx.core.DefaultPageParameterService">
+    <ModelName>NewConsumptionChart</ModelName>
+    <NavigationAncestors>sv1|area1</NavigationAncestors>
+    <LinkIdRequired>true</LinkIdRequired>
+    <PageParams>
+      <PageParam>var5</PageParam>
+      <PageParam>link</PageParam>
+      <PageParam>nav</PageParam>
+      <PageParam>so</PageParam>
+      <PageParam>ajax</PageParam>
+      <PageParam>ajaxRefresh</PageParam>
+    </PageParams>
+  </WRParameterService>
+</Descriptor>

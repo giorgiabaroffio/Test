@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.rtx.core.DefaultPageService" name="Household Consumption">
+  <ParentContainer>area3</ParentContainer>
+  <Secure>false</Secure>
+  <Localized>false</Localized>
+  <CheckPermission>false</CheckPermission>
+  <Alternatives/>
+  <ProtectedSubPages/>
+  <Navigations knownEffects="#pr#|ctx1.userOID">
+    <Navigation name="0" nonContextual="true" interPage="always" links="page4"/>
+    <Navigation name="1" nonContextual="true" interPage="always" links="page4.link"/>
+    <Navigation name="2" links="page4.auto-link"/>
+    <Navigation name="3" links="page4.auto-link" selectiveRefresh="true"/>
+    <Navigation name="4" links="ln20|impl" postPropagatedLink="ln20"/>
+    <Navigation name="5" links="ln20|oln4" effects="#pr#"/>
+  </Navigations>
+  <ContextInitServices/>
+  <ContextInits></ContextInits>
+  <UselessPreserves>
+    <UselessPreserve navs="2|5" futile=""/>
+    <UselessPreserve navs="3" futile="var2"/>
+    <UselessPreserve navs="4" futile="var4"/>
+  </UselessPreserves>
+  <LinkSequence>ln21</LinkSequence>
+  <UnitComputations>
+    <UnitComputation unit="gtu3">
+      <NavigationCondition selectiveRefresh="true" effects="#pr#|ctx1.userOID"/>
+    </UnitComputation>
+    <UnitComputation unit="enu8" formBased="true">
+      <NavigationCondition selectiveRefresh="true" effects="#pr#"/>
+      <RefreshFormAll navs="1|0|5|4"/>
+    </UnitComputation>
+    <UnitComputation unit="pwu7" formBased="true">
+      <NavigationCondition selectiveRefresh="true" effects="#pr#"/>
+      <RefreshFormAll navs="1|0|5|4"/>
+    </UnitComputation>
+  </UnitComputations>
+  <ManualLinks>
+    <ManualLink>ln20</ManualLink>
+  </ManualLinks>
+  <Variables>
+    <Variable id="var2" name="json"></Variable>
+  </Variables>
+  <Conditions></Conditions>
+  <Layouts>
+    <Layout id="page4_grid_0">
+      <Layout id="page4_cell_0">
+        <Layout id="pwu7_0" unitId="pwu7"></Layout>
+      </Layout>
+      <Layout id="page4_cell_12">
+        <Layout id="enu8_0" unitId="enu8"></Layout>
+      </Layout>
+    </Layout>
+  </Layouts>
+  <AutoLinkInfo>
+    <PreservedContextParams>
+      <Params>var2</Params>
+    </PreservedContextParams>
+    <PreservedContextParams selectiveRefresh="true">
+      <Params/>
+    </PreservedContextParams>
+  </AutoLinkInfo>
+  <!--Page Parameter Service-->
+  <WRParameterService service="com.webratio.rtx.core.DefaultPageParameterService">
+    <ModelName>Household Consumption</ModelName>
+    <NavigationAncestors>sv1|area3</NavigationAncestors>
+    <LinkIdRequired>true</LinkIdRequired>
+    <PageParams>
+      <PageParam>var2</PageParam>
+      <PageParam>scu4.period</PageParam>
+      <PageParam>scu4.user</PageParam>
+      <PageParam>link</PageParam>
+      <PageParam>nav</PageParam>
+      <PageParam>so</PageParam>
+      <PageParam>ajax</PageParam>
+      <PageParam>ajaxRefresh</PageParam>
+    </PageParams>
+  </WRParameterService>
+</Descriptor>

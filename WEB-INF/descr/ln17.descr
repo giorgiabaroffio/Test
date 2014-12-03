@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.rtx.core.DefaultLinkService">
+  <Target>okcu2</Target>
+  <Secure>false</Secure>
+  <Source>seu7</Source>
+  <ReachableAlternativePages></ReachableAlternativePages>
+  <StartsTransaction>false</StartsTransaction>
+  <EndsTransaction>false</EndsTransaction>
+  <StartPageIdRequiredByTarget>true</StartPageIdRequiredByTarget>
+  <PreservedContextParams>
+    <Params/>
+  </PreservedContextParams>
+  <ContextPropagations>
+    <ContextPropagation targetParam="ocp10" sourceUnit="seu7" sourceParam="att7Array"/>
+    <ContextPropagation targetParam="ocp11" sourceUnit="seu7" sourceParam="att8Array"/>
+  </ContextPropagations>
+</Descriptor>

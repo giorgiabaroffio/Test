@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.rtx.core.DefaultPageService" name="Find Neighbor Users">
+  <ParentContainer>area2</ParentContainer>
+  <Secure>false</Secure>
+  <Localized>false</Localized>
+  <CheckPermission>false</CheckPermission>
+  <Alternatives/>
+  <ProtectedSubPages/>
+  <Navigations knownEffects="#pr#">
+    <Navigation name="0" nonContextual="true" interPage="always" links="page2"/>
+    <Navigation name="1" nonContextual="true" interPage="always" links="page2.link"/>
+    <Navigation name="2" links="page2.auto-link"/>
+    <Navigation name="3" links="page2.auto-link" selectiveRefresh="true"/>
+    <Navigation name="4" links="ln34|*|impl" postPropagatedLink="ln34"/>
+    <Navigation name="5" links="ln34|impl" postPropagatedLink="ln34"/>
+  </Navigations>
+  <ContextInitServices/>
+  <ContextInits></ContextInits>
+  <UselessPreserves>
+    <UselessPreserve navs="2|5" effects="-" futile=""/>
+    <UselessPreserve navs="3|2|5" effects="#pr#" futile=""/>
+    <UselessPreserve navs="4" effects="#pr#" futile="gmu1.markerInfo|gmu1.markerCoords|gmu1.markerTitle|gmu1.coords|acond5"/>
+    <UselessPreserve navs="3|4" effects="-" futile="gmu1.markerInfo|gmu1.markerCoords|gmu1.markerTitle|gmu1.coords|acond5"/>
+  </UselessPreserves>
+  <LinkSequence>ln26</LinkSequence>
+  <UnitComputations>
+    <UnitComputation unit="enu4" formBased="true">
+      <NavigationCondition selectiveRefresh="true" effects="#pr#"/>
+      <RefreshFormAll navs="1|0|5|4"/>
+    </UnitComputation>
+    <UnitComputation unit="seu6">
+      <NavigationCondition selectiveRefresh="true" effects="#pr#"/>
+    </UnitComputation>
+    <UnitComputation unit="mdu2">
+      <NavigationCondition selectiveRefresh="true" effects="#pr#"/>
+    </UnitComputation>
+    <UnitComputation unit="gmu1">
+      <NavigationCondition selectiveRefresh="true" effects="#pr#"/>
+    </UnitComputation>
+  </UnitComputations>
+  <ManualLinks>
+    <ManualLink>ln34</ManualLink>
+  </ManualLinks>
+  <Variables></Variables>
+  <Conditions></Conditions>
+  <Layouts>
+    <Layout id="page2_grid_0">
+      <Layout id="page2_cell_24">
+        <Layout id="enu4_0" unitId="enu4"></Layout>
+      </Layout>
+      <Layout id="page2_cell_36">
+        <Layout id="mdu2_0" unitId="mdu2"></Layout>
+      </Layout>
+      <Layout id="page2_cell_48">
+        <Layout id="gmu1_0" unitId="gmu1"></Layout>
+      </Layout>
+    </Layout>
+  </Layouts>
+  <AutoLinkInfo>
+    <PreservedContextParams>
+      <Params>gmu1.markerInfo|gmu1.markerCoords|gmu1.markerTitle|gmu1.coords|acond5</Params>
+    </PreservedContextParams>
+    <PreservedContextParams selectiveRefresh="true">
+      <Params>gmu1.markerInfo|gmu1.markerCoords|gmu1.markerTitle|gmu1.coords|acond5</Params>
+    </PreservedContextParams>
+  </AutoLinkInfo>
+  <!--Page Parameter Service-->
+  <WRParameterService service="com.webratio.rtx.core.DefaultPageParameterService">
+    <ModelName>Find Neighbor Users</ModelName>
+    <NavigationAncestors>sv1|area2</NavigationAncestors>
+    <LinkIdRequired>true</LinkIdRequired>
+    <PageParams>
+      <PageParam preservedByForm="true" formPreserveGroup="sfld3_presel" unit="enu4">sfld3_presel</PageParam>
+      <PageParam preservedByForm="true" unit="enu4">sfld3_output</PageParam>
+      <PageParam preservedByForm="true" unit="enu4">sfld3_label</PageParam>
+      <PageParam preservedByForm="true" unit="enu4">enu4.userOID</PageParam>
+      <PageParam unit="mdu2">acond5</PageParam>
+      <PageParam unit="gmu1">gmu1.markerInfo</PageParam>
+      <PageParam unit="gmu1">gmu1.markerCoords</PageParam>
+      <PageParam unit="gmu1">gmu1.coords</PageParam>
+      <PageParam unit="gmu1">gmu1.markerTitle</PageParam>
+      <PageParam>miu13.icp15</PageParam>
+      <PageParam>miu13.icp3</PageParam>
+      <PageParam>miu13.icp9</PageParam>
+      <PageParam>link</PageParam>
+      <PageParam>nav</PageParam>
+      <PageParam>so</PageParam>
+      <PageParam>ajax</PageParam>
+      <PageParam>ajaxRefresh</PageParam>
+    </PageParams>
+  </WRParameterService>
+</Descriptor>
+ 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.rtx.core.DefaultLinkService">
+  <Target>scu5</Target>
+  <Secure>false</Secure>
+  <Source>icu8</Source>
+  <ReachableAlternativePages></ReachableAlternativePages>
+  <Navigates>true</Navigates>
+  <StartsTransaction>false</StartsTransaction>
+  <EndsTransaction>false</EndsTransaction>
+  <StartPageIdRequiredByTarget>true</StartPageIdRequiredByTarget>
+  <PreservedContextParams>
+    <Params/>
+  </PreservedContextParams>
+  <ContextPropagations>
+    <ContextPropagation targetParam="scu5.latitudes" sourceUnit="icu8" sourceParam="icp18"/>
+    <ContextPropagation targetParam="scu5.longitudes" sourceUnit="icu8" sourceParam="icp17"/>
+    <ContextPropagation targetParam="scu5.mylat" sourceUnit="icu8" sourceParam="icp19"/>
+    <ContextPropagation targetParam="scu5.mylon" sourceUnit="icu8" sourceParam="icp20"/>
+  </ContextPropagations>
+</Descriptor>

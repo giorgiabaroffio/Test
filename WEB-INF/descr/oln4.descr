@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.rtx.core.DefaultLinkService">
+  <Target>page4</Target>
+  <Secure>false</Secure>
+  <Source>scu4</Source>
+  <ReachableAlternativePages></ReachableAlternativePages>
+  <Navigates>true</Navigates>
+  <StartsTransaction>false</StartsTransaction>
+  <EndsTransaction>false</EndsTransaction>
+  <StartPageIdRequiredByTarget>false</StartPageIdRequiredByTarget>
+  <PreservedContextParams>
+    <Params/>
+  </PreservedContextParams>
+  <ContextPropagations>
+    <ContextPropagation targetParam="var4" sourceUnit="scu4" sourceParam="result(average)"/>
+    <ContextPropagation targetParam="var2" sourceUnit="scu4" sourceParam="result(json)"/>
+  </ContextPropagations>
+</Descriptor>

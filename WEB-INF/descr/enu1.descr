@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.units.content.rtx.EntityBasedEntryUnitService" name="AddConsumption">
+  <Entity>ent1</Entity>
+  <Query entity="ent1">
+    <Input id="p0" param="enu1.att1" type="integer" implied="false" expandStyle="in"/>
+    <HQL>from Consumption a_consumption
+      <Where defaultPolicy="" allImplied="false">(({[p0]a_consumption.oid in(?)}))</Where>
+    </HQL>
+  </Query>
+  <FormFields>
+    <Field id="fld2" name="quantity" type="decimal" localized="true" attributeId="att3"></Field>
+    <Field id="fld3" name="timestamp" type="timestamp" localized="true" attributeId="att2"></Field>
+    <SelectionField id="sfld2" name="user" type="integer" localized="true" value="" splitOutput="" attributeId="att1" roleId="role2">
+      <Slot id="sfld2_label" label="true" output="false"/>
+      <Slot id="sfld2_output" label="false" output="true"/>
+    </SelectionField>
+  </FormFields>
+  <wr:Validation xmlns:wr="http://www.webratio.com/2013/WebML/WRValidation">
+    <wr:ValidationLink elementId="enu1" linkId="ln2" action="validate"/>
+  </wr:Validation>
+</Descriptor>

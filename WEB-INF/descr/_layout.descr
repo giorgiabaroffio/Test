@@ -20,7 +20,7 @@ else
 	theme = "/" + theme
 
 return content + theme + "/bootstrap.min.css"
-</ContentScript>  </Resource>  <Resource name="BootstrapStyle/bs-filestyle-js"/>  <Resource name="WRDefault/humblesoftware-flotr2"/>  <Resource name="BUILTIN/wr-utils-supportscripts"/>  <Resource name="BUILTIN/jquery-ui-style"/>  <Resource name="WRDefault/wrdefault-bpm-style"/>  <Resource name="BUILTIN/wr-runtime">    <ContentScript xml:space="preserve">def wrAjaxDebugLevel = pageContext.getAttribute("wrAjaxDebugLevel")
+</ContentScript>  </Resource>  <Resource name="BootstrapStyle/bs-filestyle-js"/>  <Resource name="ChartStyle/ChartStyle-components-style"/>  <Resource name="WRDefault/humblesoftware-flotr2"/>  <Resource name="BUILTIN/wr-utils-supportscripts"/>  <Resource name="BUILTIN/jquery-ui-style"/>  <Resource name="WRDefault/wrdefault-bpm-style"/>  <Resource name="BUILTIN/wr-runtime">    <ContentScript xml:space="preserve">def wrAjaxDebugLevel = pageContext.getAttribute("wrAjaxDebugLevel")
 def url = content + ("full".equals(wrAjaxDebugLevel) ? "wr.debug.js" : "wr.js")
 if (!wrBoxed) {
     url += "?createDocumentApp=true"
@@ -38,17 +38,22 @@ return content + "jquery.ui.datepicker-${language}.js"</ContentScript>
   <Resource name="BUILTIN/wr-960gs-16"/>
   <Resource name="BUILTIN/jsp-jstl-format"/>
   <Resource name="BUILTIN/wr-taglib-xls"/>
+  <Resource name="StoreTemplates/google-api-gears-init"/>
   <Resource name="BUILTIN/richardson-timepicker-style"/>
   <Resource name="BUILTIN/wr-browsercontrol-style"/>
+  <Resource name="StoreTemplates/google-api-sensor-false"/>
+  <Resource name="StoreTemplates/google-api-sensor-true"/>
   <Resource name="WRDefault/wrdefault-style"/>
   <Resource name="BUILTIN/cksource-ckeditor">
     <ContentScript xml:space="preserve">return wrBaseURI + content</ContentScript>
   </Resource>
   <Resource name="WRDefault/google-excanvas"/>
   <Resource name="BUILTIN/wr-ui-gridsystem"/>
+  <Resource name="StoreTemplates/jquery-crop"/>
   <Resource name="BUILTIN/struts-tags-html"/>
   <Resource name="BUILTIN/wr-960gs-24"/>
   <Resource name="BUILTIN/wr-ui-widgets"/>
+  <Resource name="StoreTemplates/vivagraph-js"/>
   <Resource name="BUILTIN/struts-tags-bean"/>
   <Resource name="BUILTIN/richardson-timepicker"/>
   <Resource name="BUILTIN/wr-taglib"/>
@@ -57,6 +62,8 @@ return content + "jquery.ui.datepicker-${language}.js"</ContentScript>
     <ContentScript xml:space="preserve">def language = locale?.language ?: "en"
 return content + "jquery-ui-timepicker-${language}.js"</ContentScript>
   </Resource>
+  <Resource name="StoreTemplates/graph-js"/>
+  <Resource name="StoreTemplates/CropImageUnit-style"/>
   <Resource name="BUILTIN/wr-taglib-report"/>
   <Resource name="BUILTIN/jquery-ui"/>
   <Resource name="BUILTIN/jsp-jstl-functions"/>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.units.store.googlemapunit.GoogleMapUnitService" name="Map">
+  <MapType>ROADMAP</MapType>
+  <MapZoomLevel>8</MapZoomLevel>
+  <MapWidth>640</MapWidth>
+  <MapHeight>480</MapHeight>
+  <MapCoordinates>42,12</MapCoordinates>
+  <UseSensor/>
+  <IsAdjustable>false</IsAdjustable>
+  <Markers></Markers>
+</Descriptor>

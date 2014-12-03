@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.units.utility.rtx.MathUnitService" name="ConvertToRadians">
+  <MathUnit xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="295" gr:y="60" id="mathu3" name="ConvertToRadians" resultType="float" defaultExpression="degrees * pi / 180" _sel="t">
+    <MathVariable id="mathv1" name="degrees" _sel="t"/>
+    <MathVariable id="mathv2" name="pi" _sel="t"/>
+    <MathVariable id="mathv3" name="180" _sel="t"/>
+    <OKLink id="oln29" name="OKFlow29" to="mathu8" _sel="t">
+      <LinkParameter id="par89" name="Result_PASSING" source="result" passing="true" _sel="t"/>
+    </OKLink>
+  </MathUnit>
+  <!--Operation Parameter Service-->
+  <WRParameterService service="com.webratio.rtx.core.DefaultOperationParameterService">
+    <ModelName>ConvertToRadians</ModelName>
+    <ParentContainer>opm2</ParentContainer>
+    <NavigationAncestors/>
+    <Secure>false</Secure>
+    <Localized>false</Localized>
+    <CheckPermission>false</CheckPermission>
+    <StartsTransaction>false</StartsTransaction>
+    <LinkIdRequired>true</LinkIdRequired>
+    <OperationParams>
+      <OperationParam unit="mathu3">mathv2</OperationParam>
+      <OperationParam unit="mathu3">mathv3</OperationParam>
+      <OperationParam unit="mathu3">mathv1</OperationParam>
+      <Params/>
+    </OperationParams>
+    <OutgoingLinks>
+      <Link resultCode="success">oln29</Link>
+    </OutgoingLinks>
+  </WRParameterService>
+</Descriptor>
+ 

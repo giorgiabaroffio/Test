@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.units.module.rtx.ModuleInstanceUnitService" name="">
+  <Module operation="true" singleLayout="false">opm8</Module>
+  <InputCollectorId>icu8</InputCollectorId>
+  <InputParameter>icp18</InputParameter>
+  <InputParameter>icp17</InputParameter>
+  <InputParameter>icp19</InputParameter>
+  <InputParameter>icp20</InputParameter>
+  <!--Operation Parameter Service-->
+  <WRParameterService service="com.webratio.rtx.core.DefaultOperationParameterService">
+    <ModelName/>
+    <ParentContainer>area2</ParentContainer>
+    <NavigationAncestors>sv1|area2</NavigationAncestors>
+    <Secure>false</Secure>
+    <Localized>false</Localized>
+    <CheckPermission>false</CheckPermission>
+    <StartsTransaction>false</StartsTransaction>
+    <LinkIdRequired>true</LinkIdRequired>
+    <OperationParams>
+      <OperationParam unit="miu1">miu1.icp17</OperationParam>
+      <OperationParam unit="miu1">miu1.icp18</OperationParam>
+      <OperationParam unit="miu1">miu1.icp20</OperationParam>
+      <OperationParam unit="miu1">miu1.icp19</OperationParam>
+      <Params>sfld3_presel|sp|link|acond5|gmu1.markerTitle|enu4.userOID|gmu1.markerCoords|miu13.icp15|gmu1.markerInfo|cmplink|sfld3_output|miu13.icp9|gmu1.coords|smc|sfld3_label|miu13.icp3</Params>
+    </OperationParams>
+    <OutgoingLinks>
+      <Link resultCode="success" transport="true">ln16</Link>
+      <Link resultCode="error" transport="true">ln16</Link>
+    </OutgoingLinks>
+    <IsLinkHistoryRecorded>true</IsLinkHistoryRecorded>
+  </WRParameterService>
+</Descriptor>
+ 
