@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Descriptor service="com.webratio.units.content.rtx.MultiMessageUnitService" name="Goal">
+  <Message xml:space="preserve">Available credits: 450
+Needed credits: 1000</Message>
+</Descriptor>
+ 

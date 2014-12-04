@@ -16,4 +16,3 @@
     <ContextPropagation targetParam="kcond3.userOID" sourceUnit="icu7" sourceParam="icp14"/>
   </ContextPropagations>
 </Descriptor>
- 

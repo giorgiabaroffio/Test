@@ -17,4 +17,3 @@
     <ContextPropagation targetParam="stu2.ctx1.userOID" targetSessionParam="ctx1.userOID" sourceUnit="enu5" sourceParam="sfld5"/>
   </ContextPropagations>
 </Descriptor>
- 

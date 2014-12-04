@@ -54,9 +54,6 @@
       <form-property name="enu7Key" type="java.lang.String"/>
     </form-bean>
     <form-bean name="page4FormBean" extends="baseFormBean">
-      <form-property name="sfld7" type="java.lang.String"/>
-      <form-property name="sfld7List" type="java.lang.String[]"/>
-      <form-property name="sfld7LabelList" type="java.lang.String[]"/>
       <form-property name="ln20" type="java.lang.String"/>
       <form-property name="enu8" type="java.lang.String"/>
       <form-property name="enu8Key" type="java.lang.String"/>

@@ -17,4 +17,3 @@
     <ContextPropagation targetParam="var3" sourceUnit="scu7" sourceParam="result(json)"/>
   </ContextPropagations>
 </Descriptor>
- 

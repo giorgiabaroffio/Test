@@ -60,14 +60,14 @@
 			<ControlData control="pwu7_0" type="text/html">
 				<![CDATA[<webratio:CollectScripts var="inlineScripts" enabled="${wrBoxed}" eventHandlerWrapper="wr.keepScoped">
 <div class="grid_12 alpha omega agrd_24">
-	<div class="panel panel-default ">
-		<div class="panel-heading"><h2 class="panel-title">Household Consumption</h2></div>
-		<div class="panel-body">
+	<div class="panel panel-default " style="width: 100%;>
+		<div class="panel-heading" style="width: 100%;><h2 class="panel-title">Household Consumption</h2></div>
+		<div class="panel-body" style="width: 100%;>
 			<div style="width: 100%; height: 100%;">
 				<div id="rangeSelector">
-					<button id="day" onclick="dayRange()">Day</button>
-					<button id="week" onclick="weekRange()">Week</button>
-					<button id="month" onclick="monthRange()">Month</button>
+					<button class="btn btn-default" id="day" type="button" onclick="dayRange()">Day</button>
+					<button class="btn btn-default" id="week" type="button" onclick="weekRange()">Week</button>
+					<button class="btn btn-default" id="month" type="button" onclick="monthRange()">Month</button>
 				</div>
 				<div id="container" style="height: 600px;"></div>
 			</div>

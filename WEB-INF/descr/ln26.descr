@@ -19,4 +19,3 @@
     <ContextPropagation targetParam="sfld3_presel" value="$$NULL$$"/>
   </ContextPropagations>
 </Descriptor>
- 

@@ -13,8 +13,8 @@
     <StartsTransaction>false</StartsTransaction>
     <LinkIdRequired>true</LinkIdRequired>
     <OperationParams>
-      <OperationParam unit="scu4">scu4.period</OperationParam>
       <OperationParam unit="scu4">scu4.user</OperationParam>
+      <OperationParam unit="scu4">scu4.period</OperationParam>
       <Params>sp|cmplink|link|var4|var2|smc</Params>
     </OperationParams>
     <SecondaryIncomingLinks>ln21</SecondaryIncomingLinks>
@@ -23,3 +23,4 @@
     </OutgoingLinks>
   </WRParameterService>
 </Descriptor>
+ 

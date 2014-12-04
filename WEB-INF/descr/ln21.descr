@@ -16,3 +16,4 @@
     <ContextPropagation targetParam="scu4.user" sourceUnit="gtu3" sourceSessionParam="ctx1.userOID"/>
   </ContextPropagations>
 </Descriptor>
+ 

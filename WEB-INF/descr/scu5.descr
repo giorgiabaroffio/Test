@@ -50,4 +50,3 @@ return ["markers":m,"titles":t,"infos":i,"myself":myself_degree]
     <IsLinkHistoryRecorded>true</IsLinkHistoryRecorded>
   </WRParameterService>
 </Descriptor>
- 

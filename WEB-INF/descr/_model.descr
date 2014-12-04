@@ -29,6 +29,7 @@
     <LinkPreservedParameter>fllbck</LinkPreservedParameter>
   </LinkPreservedParameters>
   <DefaultFileEncoding/>
-  <Statistics pages="4" units="58"/>
+  <Statistics pages="4" units="60"/>
   <AutoLoadServices>_i18n|_job.manager</AutoLoadServices>
 </Descriptor>
+ 

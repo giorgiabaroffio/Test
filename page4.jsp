@@ -210,66 +210,69 @@
  </li>
 		<li class="active">Household Consumption</li>
 	</ol>
-	<div class="page-header clearfix">
-			<h1>Household Consumption</h1>
-	</div>
 	<div class="row">
 		<div class="col-md-12">
 			<div id="main-content" role="main">
 <div class="container_12">
-			<div class="grid_12 alpha omega agrd_24">
+			<div class="grid_10 alpha agrd_20">
 <div class="grid_12 alpha omega agrd_24">
 	<div class="panel panel-default ">
 		<div class="panel-heading"><h2 class="panel-title">Household Consumption</h2></div>
 		<div class="panel-body">
 			<div style="width: 100%; height: 100%;">
 				<div id="rangeSelector">
-					<button id="day" type="button" onclick="dayRange()">Day</button>
-					<button id="week" type="button" onclick="weekRange()">Week</button>
-					<button id="month" type="button" onclick="monthRange()">Month</button>
+					<button class="btn btn-default" id="day" type="button" onclick="dayRange()">Day</button>
+					<button class="btn btn-default" id="week" type="button" onclick="weekRange()">Week</button>
+					<button class="btn btn-default" id="month" type="button" onclick="monthRange()">Month</button>
 				</div>
-				<div id="container" style="height: 600px;"></div>
+				<div id="container" style="height: 400px;"></div>
 			</div>
 		</div>
 	</div>
 </div>
 			</div>
+			<div class="grid_2 omega agrd_4">
+<div class="container_12">
+			<div class="grid_12 alpha omega agrd_4">
+<div class="grid_12 alpha omega agrd_24">
+	<div class="panel panel-default ">
+		<div class="panel-heading"><h2 class="panel-title">Your Goals</h2></div>
+		<div class="panel-body">
+				<div id="goalChartContainer" style="height: 300px;"></div>
+		</div>
+	</div>
+</div>
+			</div>
 				<div class="clear"></div>
-			<div class="grid_12 alpha omega agrd_24">
+			<div class="grid_12 alpha omega agrd_4">
+<c:if test="${not(empty mssu3) and (mssu3.dataSize gt 0)}">
+	<div class="alert alert-info ">
+		<c:forEach var="current" varStatus="status" items="${mssu3.data}">
+			<c:set var="index" value="${status.index}"/>
+			<p>
+					<c:out value="${current}"/>
+				</p>
+		</c:forEach>
+	</div>
+</c:if>
+			</div>
+				<div class="clear"></div>
+</div>
+			</div>
+				<div class="clear"></div>
+			<div class="grid_2 suffix_10 alpha omega agrd_4">
 <div class="panel panel-default ">
 	<div class="panel-heading">
 		<h2 class="panel-title">
-			Period
+			SimulateGet
 		</h2>
 	</div>
 	<div class="panel-body">
 <div class="EntryUnit ">
-	<div class="form-horizontal ">
-	    <c:set var="btFieldError"><html:errors property="enu8"/></c:set>
-		<c:if test="${not (empty btFieldError)}">
-			<div class="alert alert-danger alert-dismissable">
-				<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-				<html:errors property="enu8"/>
-			</div>
-		</c:if>
-				<c:set var="btFieldError"><html:errors property="sfld7"/></c:set>
-				<div class="form-group<c:if test="${not (empty btFieldError)}"> has-error</c:if> ">
-					  <label for="sfld7" class="control-label col-md-2">period</label>
-					<div class="controls col-md-10">
-					<html:select styleId="sfld7" styleClass="wr-submitButtons:ln20 form-control " property="sfld7" disabled="false">
-				  		<html:option value=""><bean:message key="selectionfield.noselection"/></html:option>
-				    <html:options property="sfld7List" labelProperty="sfld7LabelList"/>
-				</html:select>
-					<c:set var="btFieldError"><html:errors property="sfld7"/></c:set><c:if test="${not(empty(btFieldError))}"><span class="field-error help-block ">${btFieldError}</span></c:if>
-					</div>
-				</div>
-	</div>
-	<div class="row"><div class="col-md-offset-2 col-md-10">
 		<div class="form-group form-btn">
-					 <button title="Flow20" onclick="$('#page4FormBean')[0].target='_self'" class="btn  btn-default " id="button:ln20" name="button:ln20" type="submit" value="Flow20">
-			Flow20</button>
+					 <button title="GetData" onclick="$('#page4FormBean')[0].target='_self'" class="btn  btn-default " id="button:ln20" name="button:ln20" type="submit" value="GetData">
+			GetData</button>
 		</div>
-	</div></div>
 </div>	
 	</div>
 </div>
@@ -316,6 +319,7 @@
 	<script src="http://code.jquery.com/jquery-1.9.1.js" type="text/javascript"></script>
 	<script src="http://code.highcharts.com/stock/highstock.js"></script>
     <script src="http://code.highcharts.com/modules/exporting.js" type="text/javascript"></script>
-	<script type="text/javascript" src="ChartStyle/javascript/plotChart.js"></script>
+	<script type="text/javascript" src="ChartStyle/javascript/plotChart.js?nocache=@(new Date().getTime())"></script>
+	<script type="text/javascript" src="ChartStyle/javascript/plotGoalChart.js"></script>
 </body>
 </html>

@@ -17,4 +17,3 @@
     <ContextPropagation targetParam="scu3.longitude" sourceUnit="seu7" sourceParam="att8Array"/>
   </ContextPropagations>
 </Descriptor>
- 

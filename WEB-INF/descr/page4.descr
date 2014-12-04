@@ -7,7 +7,7 @@
   <CheckPermission>false</CheckPermission>
   <Alternatives/>
   <ProtectedSubPages/>
-  <Navigations knownEffects="#pr#|ctx1.userOID">
+  <Navigations knownEffects="ctx1.userOID|#pr#">
     <Navigation name="0" nonContextual="true" interPage="always" links="page4"/>
     <Navigation name="1" nonContextual="true" interPage="always" links="page4.link"/>
     <Navigation name="2" links="page4.auto-link"/>
@@ -25,7 +25,7 @@
   <LinkSequence>ln21</LinkSequence>
   <UnitComputations>
     <UnitComputation unit="gtu3">
-      <NavigationCondition selectiveRefresh="true" effects="#pr#|ctx1.userOID"/>
+      <NavigationCondition selectiveRefresh="true" effects="ctx1.userOID|#pr#"/>
     </UnitComputation>
     <UnitComputation unit="enu8" formBased="true">
       <NavigationCondition selectiveRefresh="true" effects="#pr#"/>
@@ -34,6 +34,12 @@
     <UnitComputation unit="pwu7" formBased="true">
       <NavigationCondition selectiveRefresh="true" effects="#pr#"/>
       <RefreshFormAll navs="1|0|5|4"/>
+    </UnitComputation>
+    <UnitComputation unit="mssu2">
+      <NavigationCondition selectiveRefresh="true" effects="#pr#"/>
+    </UnitComputation>
+    <UnitComputation unit="mssu3">
+      <NavigationCondition selectiveRefresh="true" effects="#pr#"/>
     </UnitComputation>
   </UnitComputations>
   <ManualLinks>
@@ -48,7 +54,17 @@
       <Layout id="page4_cell_0">
         <Layout id="pwu7_0" unitId="pwu7"></Layout>
       </Layout>
-      <Layout id="page4_cell_12">
+      <Layout id="page4_cell_10">
+        <Layout id="page4_grid_1">
+          <Layout id="page4_cell_11">
+            <Layout id="mssu2_0" unitId="mssu2"></Layout>
+          </Layout>
+          <Layout id="page4_cell_23">
+            <Layout id="mssu3_0" unitId="mssu3"></Layout>
+          </Layout>
+        </Layout>
+      </Layout>
+      <Layout id="page4_cell_48">
         <Layout id="enu8_0" unitId="enu8"></Layout>
       </Layout>
     </Layout>
@@ -78,3 +94,4 @@
     </PageParams>
   </WRParameterService>
 </Descriptor>
+ 

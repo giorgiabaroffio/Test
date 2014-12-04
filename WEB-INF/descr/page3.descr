@@ -63,12 +63,12 @@
     <NavigationAncestors>sv1|area2</NavigationAncestors>
     <LinkIdRequired>true</LinkIdRequired>
     <PageParams>
-      <PageParam>miu10.icp13</PageParam>
-      <PageParam>miu10.icp11</PageParam>
-      <PageParam>miu10.icp12</PageParam>
       <PageParam>miu10.icp10</PageParam>
       <PageParam>miu10.icp1</PageParam>
       <PageParam>miu10.icp2</PageParam>
+      <PageParam>miu10.icp13</PageParam>
+      <PageParam>miu10.icp12</PageParam>
+      <PageParam>miu10.icp11</PageParam>
       <PageParam>miu5.icp14</PageParam>
       <PageParam>link</PageParam>
       <PageParam>nav</PageParam>
@@ -78,4 +78,3 @@
     </PageParams>
   </WRParameterService>
 </Descriptor>
- 

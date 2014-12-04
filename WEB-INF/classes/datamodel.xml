@@ -52,3 +52,4 @@
   <Role id="role1" inverseId="role2" source="User" target="ent1" maxCard="many" fieldName="userToConsumption" derived="false" database="db1" direct="false"/>
   <Role id="role2" inverseId="role1" source="ent1" target="User" maxCard="1" fieldName="consumptionToUser" derived="false" database="db1" direct="true"/>
 </DataModel>
+ 

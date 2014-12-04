@@ -1,26 +1,38 @@
 
-	  function getURLParameter(name) {
-    	  return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;
-	  }
-
-	  var neigh_average = 140;	  
-	  var json = JSON.parse(getURLParameter('var2'));
-		/*
-	  function drawChart() {
-	  		
-		  for(var i=0;i<json.length;i++){
-		        var obj = json[i];
-		        for(var key in obj){
-				  	if(key=='timestamp'){
-				       t = obj[key];
-				    }
-				    else{
-				       q = obj[key];
-				    }
-			  	}
-		  }
+	function getURLParameter(name) {
+    	return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;
 	}
-	*/
+
+	var neigh_average = 140;	  
+	var json = JSON.parse(getURLParameter('var2'));
+	
+	var dataSerie0 = [];
+	var dataSerie1 = [];
+	var dataSerie2 = [];
+	var dataSerie3 = [];
+	var init_sum = 0;
+	var init_count = 0;
+	
+	
+	for(var i=0;i<json.length;i++){
+		var obj = json[i];
+		for(var key in obj){
+			if(key=='timestamp'){
+			   t = obj[key];
+			}
+			else{
+			   q = obj[key];
+			   init_sum = init_sum + q;
+			   init_count = init_count + 1;
+			}
+		}
+		dataSerie0.push([Date.parse(t),q]);
+		dataSerie1.push([Date.parse(t),1]);
+		dataSerie2.push([Date.parse(t),2]);
+		dataSerie3.push([Date.parse(t),3]);
+	}
+
+	var init_avg = Math.floor(init_sum/init_count);
 
 	var categoryImgs = ["ChartStyle/images/clock.png","ChartStyle/images/man.png","ChartStyle/images/woman.png","ChartStyle/images/son.png"];
 		var charts;
@@ -57,7 +69,7 @@
 					yAxis: [
 					{
 						min: 0,
-						height: 200,
+						height: 150,
 						title: {
 							text: 'Water Consumption'
 						},
@@ -67,25 +79,27 @@
 								value : 4,
 								color : 'green',
 								dashStyle : 'shortdash',
-								width : 2,
+								width : 4,
 								label : {
 									text : 'Neighborhood average',
 									style: {
 										color: 'green',
+										fontWeight: 'bold'
 									}
 								},
 								zIndex: 2
 							}, 
 							{
 								id: 'Average',
-								value : avg,
+								value : init_avg,
 								color : 'red',
 								dashStyle : 'shortdash',
-								width : 2,
+								width : 4,
 								label : {
 									text : 'Your average',
 									style: {
 										color: 'red',
+										fontWeight: 'bold'
 									}
 								},
 								zIndex: 3
@@ -117,9 +131,9 @@
 						},
 						min : 0.5,
 						max : 3.5,
-						top: 260,
-						bottom: 300,
-						height: 230,
+						top: 150,
+						bottom: 200,
+						height: 150,
 						offset: 0,
 						plotBands: [{
 							/*
@@ -170,20 +184,7 @@
 					}],
 					navigator: {
 						series: {
-							data: [
-							[Date.UTC(2011,3,25),49.9],
-							[Date.UTC(2011,3,26),71.5],
-							[Date.UTC(2011,3,27),106.4],
-							[Date.UTC(2011,3,28),129.2],
-							[Date.UTC(2011,3,29),144.0],
-							[Date.UTC(2011,4,2),176.0],
-							[Date.UTC(2011,4,3),135.6],
-							[Date.UTC(2011,4,4),148.5],
-							[Date.UTC(2011,4,5),216.4],
-							[Date.UTC(2011,4,6),194.1],
-							[Date.UTC(2011,4,8),95.6],
-							[Date.UTC(2011,4,10),54.4]
-						]
+							data: dataSerie0
 						},
 						adaptToUpdatedData: false,
 					},
@@ -193,21 +194,8 @@
 						type: 'column',
 						//data: [['1147651200000',49.9], ['1149120000000', 71.5], ['1151884800000', 106.4], ['1154390400000',129.2], ['1157068800000', 144.0], ['1159747200000', 176.0], ['1162339200000', 135.6], ['1164931200000', 148.5], ['1167782400000', 216.4], ['1170288000000',194.1], ['1172707200000',95.6], ['1175472000000',54.4]],
 						//data: [49.9,71.5,106.4,129.2,144.0,176.0,135.6,148.5,216.4,194.1,95.6,54.4],
-						data: [
-							[Date.UTC(2011,3,25),49.9],
-							[Date.UTC(2011,3,26),71.5],
-							[Date.UTC(2011,3,27),106.4],
-							[Date.UTC(2011,3,28),129.2],
-							[Date.UTC(2011,3,29),144.0],
-							[Date.UTC(2011,4,2),176.0],
-							[Date.UTC(2011,4,3),135.6],
-							[Date.UTC(2011,4,4),148.5],
-							[Date.UTC(2011,4,5),216.4],
-							[Date.UTC(2011,4,6),194.1],
-							[Date.UTC(2011,4,8),95.6],
-							[Date.UTC(2011,4,10),54.4]
-						],
-
+						data: dataSerie0,
+						//dataGrouping: { approximation: "sum",	enabled: true, forced: true, units: [['day',[1]]]},
 						showInLegend: false,
 						color: '#7CB5EC',
 						zIndex: 4
@@ -217,20 +205,8 @@
 						yAxis: 1,
 						//data: [	0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 0.0],
 						//data: [	null, 1.0, null, null, null, null, 1.0, 1.0, null, null, 1.0, null],
-						data: [
-							[Date.UTC(2011,3,25),null],
-							[Date.UTC(2011,3,26),1.0],
-							[Date.UTC(2011,3,27),null],
-							[Date.UTC(2011,3,28),null],
-							[Date.UTC(2011,3,29),null],
-							[Date.UTC(2011,4,2),null],
-							[Date.UTC(2011,4,3),null],
-							[Date.UTC(2011,4,4),1.0],
-							[Date.UTC(2011,4,5),1.0],
-							[Date.UTC(2011,4,6),null],
-							[Date.UTC(2011,4,8),null],
-							[Date.UTC(2011,4,10),1.0]
-						],
+						data: dataSerie1,
+						//dataGrouping: { approximation: "average",	enabled: true, forced: true, units: [['day',[1]]]},
 						showInLegend: false,
 						marker : {
 							enabled : true,
@@ -243,20 +219,8 @@
 						yAxis: 1,
 						//data: [0.0, 2.0, 2.0, 0.0, 0.0, 2.0, 0.0, 2.0, 0.0, 0.0, 0.0, 2.0],
 						//data: [null, 2.0, 2.0, null, null, 2.0, null, 2.0, null, null, null, 2.0],
-						data: [
-							[Date.UTC(2011,3,25),2.0],
-							[Date.UTC(2011,3,26),null],
-							[Date.UTC(2011,3,27),null],
-							[Date.UTC(2011,3,28),2.0],
-							[Date.UTC(2011,3,29),2.0],
-							[Date.UTC(2011,4,2),null],
-							[Date.UTC(2011,4,3),null],
-							[Date.UTC(2011,4,4),null],
-							[Date.UTC(2011,4,5),2.0],
-							[Date.UTC(2011,4,6),null],
-							[Date.UTC(2011,4,8),null],
-							[Date.UTC(2011,4,10),2.0]
-						],
+						data: dataSerie2,
+						//dataGrouping: { approximation: "average",	enabled: true, forced: true, units: [['day',[1]]]},
 						showInLegend: false,
 						marker : {
 							enabled : true,
@@ -269,20 +233,8 @@
 						yAxis: 1,
 						//data: [3.0, 0.0, 0.0, 3.0, 3.0, 3.0, 0.0, 0.0, 3.0, 0.0, 0.0, 3.0],
 						//data: [3.0, null, null, 3.0, 3.0, 3.0, null, null, 3.0, null, null, 3.0],
-						data: [
-							[Date.UTC(2011,3,25),null],
-							[Date.UTC(2011,3,26),3.0],
-							[Date.UTC(2011,3,27),3.0],
-							[Date.UTC(2011,3,28),null],
-							[Date.UTC(2011,3,29),null],
-							[Date.UTC(2011,4,2),3.0],
-							[Date.UTC(2011,4,3),null],
-							[Date.UTC(2011,4,4),3.0],
-							[Date.UTC(2011,4,5),null],
-							[Date.UTC(2011,4,6),null],
-							[Date.UTC(2011,4,8),3.0],
-							[Date.UTC(2011,4,10),3.0]
-						],
+						data: dataSerie3,
+						//dataGrouping: { approximation: "average",	enabled: true, forced: true, units: [['day',[1]]]},
 						showInLegend: false,
 						marker : {
 							enabled : true,
@@ -328,11 +280,12 @@
 				value : avg,
 				color : 'red',
 				dashStyle : 'shortdash',
-				width : 2,
+				width : 4,
 				label : {
 					text : 'Your average',
 					style: {
 						color: 'red',
+						fontWeight: 'bold'
 					}
 				},
 				zIndex: 3

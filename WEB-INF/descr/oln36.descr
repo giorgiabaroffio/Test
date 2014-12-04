@@ -16,4 +16,3 @@
     <ContextPropagation targetParam="inn2.isnotnull" sourceUnit="icu1" sourceParam="icp15"/>
   </ContextPropagations>
 </Descriptor>
- 

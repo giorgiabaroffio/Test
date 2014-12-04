@@ -18,4 +18,3 @@
     <ContextPropagation targetParam="ggu3.country" sourceUnit="icu6" sourceParam="icp2"/>
   </ContextPropagations>
 </Descriptor>
- 

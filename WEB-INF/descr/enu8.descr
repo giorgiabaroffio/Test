@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Descriptor service="com.webratio.units.content.rtx.EntryUnitService" name="Period">
-  <FormFields>
-    <SelectionField id="sfld7" name="period" type="string" localized="false" value="" splitOutput="">
-      <Slot id="slot3" label="true" output="true" value="Day|Week|Month"/>
-    </SelectionField>
-  </FormFields>
+<Descriptor service="com.webratio.units.content.rtx.EntryUnitService" name="SimulateGet">
+  <FormFields></FormFields>
   <wr:Validation xmlns:wr="http://www.webratio.com/2013/WebML/WRValidation">
     <wr:ValidationLink elementId="enu8" linkId="ln20" action="validate"/>
   </wr:Validation>
 </Descriptor>
- 

@@ -1021,3 +1021,815 @@ Caused by: org.hibernate.HibernateException: Unable to obtain Hibernate dialect 
 03 dic 2014 14:27:39,045  INFO [http-bio-8080-exec-9]  (com.webratio.struts.actions.AbstractWRAction:53) - [8D7EB7F902904A5C1D322D2783092437][page4]Page action execution [id=page4] done in 69 ms
 03 dic 2014 14:34:04,793  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
 03 dic 2014 14:34:10,365  INFO [http-bio-8080-exec-1]  (com.webratio.struts.actions.AbstractWRAction:53) - [9B68E931365BBB992D3CAE44F16FB246][page4]Page action execution [id=page4] done in 680 ms
+03 dic 2014 16:23:57,850  INFO [http-bio-8080-exec-12]  (com.webratio.struts.actions.AbstractWRAction:53) - [C88B2C990C345D0C4CA967986E818207][page4]Page action execution [id=page4] done in 214 ms
+03 dic 2014 16:29:59,672  INFO [http-bio-8080-exec-20]  (com.webratio.struts.actions.AbstractWRAction:53) - [C88B2C990C345D0C4CA967986E818207][page4]Page action execution [id=page4] done in 27 ms
+03 dic 2014 16:30:04,349  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+03 dic 2014 16:30:20,345  INFO [http-bio-8080-exec-20]  (com.webratio.struts.actions.AbstractWRAction:53) - [C74DDADED58823FACC4420DEE22426B0][page4]Page action execution [id=page4] done in 873 ms
+03 dic 2014 16:30:31,186  INFO [http-bio-8080-exec-14]  (com.webratio.struts.actions.AbstractWRAction:53) - [C74DDADED58823FACC4420DEE22426B0][page4]Page action execution [id=page4] done in 4 ms
+03 dic 2014 16:31:13,836  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+03 dic 2014 16:31:19,127  INFO [http-bio-8080-exec-21]  (com.webratio.struts.actions.AbstractWRAction:53) - [D9A574670CF73E1F40AACD92A1262A7A][page4]Page action execution [id=page4] done in 720 ms
+03 dic 2014 16:31:21,180  INFO [http-bio-8080-exec-18]  (com.webratio.struts.actions.AbstractWRAction:53) - [D9A574670CF73E1F40AACD92A1262A7A][page4]Page action execution [id=page4] done in 4 ms
+03 dic 2014 16:31:33,001  INFO [http-bio-8080-exec-23]  (com.webratio.struts.actions.AbstractWRAction:53) - [D9A574670CF73E1F40AACD92A1262A7A][page4]Page action execution [id=page4] done in 5 ms
+03 dic 2014 16:31:34,121  INFO [http-bio-8080-exec-17]  (com.webratio.struts.actions.AbstractWRAction:53) - [D9A574670CF73E1F40AACD92A1262A7A][page4]Page action execution [id=page4] done in 3 ms
+03 dic 2014 16:31:36,201  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+03 dic 2014 16:32:02,235  INFO [http-bio-8080-exec-27]  (com.webratio.struts.actions.AbstractWRAction:53) - [61BB929DC76598F34E24E873E5E150ED][page4]Page action execution [id=page4] done in 797 ms
+03 dic 2014 16:32:03,531  INFO [http-bio-8080-exec-12]  (com.webratio.struts.actions.AbstractWRAction:53) - [61BB929DC76598F34E24E873E5E150ED][page4]Page action execution [id=page4] done in 4 ms
+03 dic 2014 16:34:08,701  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+03 dic 2014 16:34:18,061  INFO [http-bio-8080-exec-36]  (com.webratio.struts.actions.AbstractWRAction:53) - [EECCFB3464FF9C891506469754A501FE][page4]Page action execution [id=page4] done in 822 ms
+03 dic 2014 16:35:31,055  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+03 dic 2014 16:35:39,081  INFO [http-bio-8080-exec-38]  (com.webratio.struts.actions.AbstractWRAction:53) - [F521CB4A8F2DA21DBD5670D6877AC8FB][page4]Page action execution [id=page4] done in 742 ms
+03 dic 2014 16:37:43,459  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+03 dic 2014 16:37:48,431  INFO [http-bio-8080-exec-51]  (com.webratio.struts.actions.AbstractWRAction:53) - [01F1F0B3DB4C689641519B48258DC693][page4]Page action execution [id=page4] done in 695 ms
+03 dic 2014 16:40:48,933  INFO [http-bio-8080-exec-1]  (com.webratio.struts.actions.AbstractWRAction:53) - [CE52ABAD001AC2CB0C2EBDE32676BA5A][page4]Page action execution [id=page4] done in 898 ms
+03 dic 2014 16:41:22,596  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+03 dic 2014 16:41:29,461  INFO [http-bio-8080-exec-5]  (com.webratio.struts.actions.AbstractWRAction:53) - [ACBD83FC19B8492062E704DE88D6E945][page4]Page action execution [id=page4] done in 747 ms
+03 dic 2014 16:42:23,883  INFO [http-bio-8080-exec-5]  (com.webratio.struts.actions.AbstractWRAction:53) - [ACBD83FC19B8492062E704DE88D6E945][page4]Page action execution [id=page4] done in 5 ms
+03 dic 2014 16:42:25,023  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+03 dic 2014 16:42:30,614  INFO [http-bio-8080-exec-5]  (com.webratio.struts.actions.AbstractWRAction:53) - [9EDE30D74AA328320D2D3209F48CE2AD][page4]Page action execution [id=page4] done in 691 ms
+03 dic 2014 16:48:47,876  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+03 dic 2014 16:48:59,079  INFO [http-bio-8080-exec-15]  (com.webratio.struts.actions.AbstractWRAction:53) - [B5B3E92C0F305FFD88163BC6AE8412C1][page4]Page action execution [id=page4] done in 892 ms
+03 dic 2014 16:49:05,990  INFO [http-bio-8080-exec-21]  (com.webratio.struts.actions.AbstractWRAction:53) - [B5B3E92C0F305FFD88163BC6AE8412C1][page4]Form page action execution [id=page4] done in 3 ms
+03 dic 2014 16:49:06,491  INFO [http-bio-8080-exec-21]  (com.webratio.struts.actions.AbstractWRAction:53) - [B5B3E92C0F305FFD88163BC6AE8412C1][/operation_scu4]Operation action execution [first operation id=scu4] done in 490 ms
+03 dic 2014 16:49:06,494  INFO [http-bio-8080-exec-21]  (com.webratio.struts.actions.AbstractWRAction:53) - [B5B3E92C0F305FFD88163BC6AE8412C1][page4]Page action pre-redirect execution [id=page4] done in 2 ms
+03 dic 2014 16:49:06,512  INFO [http-bio-8080-exec-12]  (com.webratio.struts.actions.AbstractWRAction:53) - [B5B3E92C0F305FFD88163BC6AE8412C1][page4]Page action execution [id=page4] done in 6 ms
+03 dic 2014 16:49:44,127  INFO [http-bio-8080-exec-22]  (com.webratio.struts.actions.AbstractWRAction:53) - [B5B3E92C0F305FFD88163BC6AE8412C1][page4]Page action execution [id=page4] done in 7 ms
+03 dic 2014 16:50:30,246  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+03 dic 2014 16:50:35,232  INFO [http-bio-8080-exec-27]  (com.webratio.struts.actions.AbstractWRAction:53) - [1CF8B1988C492B64AD0BA104F2353F85][page4]Page action execution [id=page4] done in 693 ms
+03 dic 2014 16:50:41,892  INFO [http-bio-8080-exec-23]  (com.webratio.struts.actions.AbstractWRAction:53) - [1CF8B1988C492B64AD0BA104F2353F85][page4]Form page action execution [id=page4] done in 1 ms
+03 dic 2014 16:50:42,104  INFO [http-bio-8080-exec-23]  (com.webratio.struts.actions.AbstractWRAction:53) - [1CF8B1988C492B64AD0BA104F2353F85][/operation_scu4]Operation action execution [first operation id=scu4] done in 207 ms
+03 dic 2014 16:50:42,107  INFO [http-bio-8080-exec-23]  (com.webratio.struts.actions.AbstractWRAction:53) - [1CF8B1988C492B64AD0BA104F2353F85][page4]Page action pre-redirect execution [id=page4] done in 2 ms
+03 dic 2014 16:50:42,121  INFO [http-bio-8080-exec-17]  (com.webratio.struts.actions.AbstractWRAction:53) - [1CF8B1988C492B64AD0BA104F2353F85][page4]Page action execution [id=page4] done in 7 ms
+03 dic 2014 16:51:52,703  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+03 dic 2014 16:51:57,955  INFO [http-bio-8080-exec-29]  (com.webratio.struts.actions.AbstractWRAction:53) - [3918716A1941C8B2F52F3F43D40B1A43][page4]Page action execution [id=page4] done in 1109 ms
+03 dic 2014 16:52:01,353  INFO [http-bio-8080-exec-19]  (com.webratio.struts.actions.AbstractWRAction:53) - [3918716A1941C8B2F52F3F43D40B1A43][page4]Form page action execution [id=page4] done in 2 ms
+03 dic 2014 16:52:01,575  INFO [http-bio-8080-exec-19]  (com.webratio.struts.actions.AbstractWRAction:53) - [3918716A1941C8B2F52F3F43D40B1A43][/operation_scu4]Operation action execution [first operation id=scu4] done in 216 ms
+03 dic 2014 16:52:01,578  INFO [http-bio-8080-exec-19]  (com.webratio.struts.actions.AbstractWRAction:53) - [3918716A1941C8B2F52F3F43D40B1A43][page4]Page action pre-redirect execution [id=page4] done in 2 ms
+03 dic 2014 16:52:01,947  INFO [http-bio-8080-exec-30]  (com.webratio.struts.actions.AbstractWRAction:53) - [3918716A1941C8B2F52F3F43D40B1A43][page4]Page action execution [id=page4] done in 362 ms
+03 dic 2014 16:52:22,559  INFO [http-bio-8080-exec-28]  (com.webratio.struts.actions.AbstractWRAction:53) - [3918716A1941C8B2F52F3F43D40B1A43][page4]Page action execution [id=page4] done in 4 ms
+03 dic 2014 16:52:25,019  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+03 dic 2014 16:52:30,213  INFO [http-bio-8080-exec-28]  (com.webratio.struts.actions.AbstractWRAction:53) - [5512D09512B9F79F506B88153E80FCC3][page4]Form page action execution [id=page4] done in 438 ms
+03 dic 2014 16:52:30,567  INFO [http-bio-8080-exec-28]  (com.webratio.struts.actions.AbstractWRAction:53) - [5512D09512B9F79F506B88153E80FCC3][/operation_scu4]Operation action execution [first operation id=scu4] done in 348 ms
+03 dic 2014 16:52:30,579  INFO [http-bio-8080-exec-28]  (com.webratio.struts.actions.AbstractWRAction:53) - [5512D09512B9F79F506B88153E80FCC3][page4]Page action pre-redirect execution [id=page4] done in 7 ms
+03 dic 2014 16:52:30,985  INFO [http-bio-8080-exec-18]  (com.webratio.struts.actions.AbstractWRAction:53) - [5512D09512B9F79F506B88153E80FCC3][page4]Page action execution [id=page4] done in 400 ms
+03 dic 2014 16:53:27,424  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+03 dic 2014 16:53:32,610  INFO [http-bio-8080-exec-33]  (com.webratio.struts.actions.AbstractWRAction:53) - [0A505F9A1F8A7B30659CDB27FE91B46B][page4]Page action execution [id=page4] done in 681 ms
+03 dic 2014 16:53:38,925  INFO [http-bio-8080-exec-26]  (com.webratio.struts.actions.AbstractWRAction:53) - [0A505F9A1F8A7B30659CDB27FE91B46B][page4]Form page action execution [id=page4] done in 2 ms
+03 dic 2014 16:53:39,075  INFO [http-bio-8080-exec-26]  (com.webratio.struts.actions.AbstractWRAction:53) - [0A505F9A1F8A7B30659CDB27FE91B46B][/operation_scu4]Operation action execution [first operation id=scu4] done in 146 ms
+03 dic 2014 16:53:39,078  INFO [http-bio-8080-exec-26]  (com.webratio.struts.actions.AbstractWRAction:53) - [0A505F9A1F8A7B30659CDB27FE91B46B][page4]Page action pre-redirect execution [id=page4] done in 2 ms
+03 dic 2014 16:53:39,090  INFO [http-bio-8080-exec-24]  (com.webratio.struts.actions.AbstractWRAction:53) - [0A505F9A1F8A7B30659CDB27FE91B46B][page4]Page action execution [id=page4] done in 5 ms
+03 dic 2014 16:56:37,363  INFO [http-bio-8080-exec-39]  (com.webratio.struts.actions.AbstractWRAction:53) - [0A505F9A1F8A7B30659CDB27FE91B46B][page4]Page action execution [id=page4] done in 4 ms
+03 dic 2014 16:56:40,002  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+03 dic 2014 16:56:44,719  INFO [http-bio-8080-exec-39]  (com.webratio.struts.actions.AbstractWRAction:53) - [3DD83A3B675A1577184D3B27D5530394][page4]Form page action execution [id=page4] done in 443 ms
+03 dic 2014 16:56:45,052  INFO [http-bio-8080-exec-39]  (com.webratio.struts.actions.AbstractWRAction:53) - [3DD83A3B675A1577184D3B27D5530394][/operation_scu4]Operation action execution [first operation id=scu4] done in 326 ms
+03 dic 2014 16:56:45,064  INFO [http-bio-8080-exec-39]  (com.webratio.struts.actions.AbstractWRAction:53) - [3DD83A3B675A1577184D3B27D5530394][page4]Page action pre-redirect execution [id=page4] done in 7 ms
+03 dic 2014 16:56:45,519  INFO [http-bio-8080-exec-41]  (com.webratio.struts.actions.AbstractWRAction:53) - [3DD83A3B675A1577184D3B27D5530394][page4]Page action execution [id=page4] done in 448 ms
+03 dic 2014 16:56:49,795  INFO [http-bio-8080-exec-41]  (com.webratio.struts.actions.AbstractWRAction:53) - [3DD83A3B675A1577184D3B27D5530394][page4]Page action execution [id=page4] done in 4 ms
+03 dic 2014 17:10:01,566  INFO [http-bio-8080-exec-48]  (com.webratio.struts.actions.AbstractWRAction:53) - [3DD83A3B675A1577184D3B27D5530394][page4]Page action execution [id=page4] done in 6 ms
+03 dic 2014 17:10:03,464  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+03 dic 2014 17:10:09,357  INFO [http-bio-8080-exec-48]  (com.webratio.struts.actions.AbstractWRAction:53) - [9EF428190960CC19E85CC9C0A161BB55][page4]Form page action execution [id=page4] done in 433 ms
+03 dic 2014 17:10:09,681  INFO [http-bio-8080-exec-48]  (com.webratio.struts.actions.AbstractWRAction:53) - [9EF428190960CC19E85CC9C0A161BB55][/operation_scu4]Operation action execution [first operation id=scu4] done in 317 ms
+03 dic 2014 17:10:09,695  INFO [http-bio-8080-exec-48]  (com.webratio.struts.actions.AbstractWRAction:53) - [9EF428190960CC19E85CC9C0A161BB55][page4]Page action pre-redirect execution [id=page4] done in 9 ms
+03 dic 2014 17:10:10,165  INFO [http-bio-8080-exec-52]  (com.webratio.struts.actions.AbstractWRAction:53) - [9EF428190960CC19E85CC9C0A161BB55][page4]Page action execution [id=page4] done in 464 ms
+03 dic 2014 17:11:22,622  INFO [http-bio-8080-exec-59]  (com.webratio.struts.actions.AbstractWRAction:53) - [9EF428190960CC19E85CC9C0A161BB55][page4]Page action execution [id=page4] done in 5 ms
+03 dic 2014 17:11:26,076  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+03 dic 2014 17:11:32,020  INFO [http-bio-8080-exec-59]  (com.webratio.struts.actions.AbstractWRAction:53) - [D60F5A6CB97C9B48464B838398AC2572][page4]Form page action execution [id=page4] done in 429 ms
+03 dic 2014 17:11:32,346  INFO [http-bio-8080-exec-59]  (com.webratio.struts.actions.AbstractWRAction:53) - [D60F5A6CB97C9B48464B838398AC2572][/operation_scu4]Operation action execution [first operation id=scu4] done in 319 ms
+03 dic 2014 17:11:32,358  INFO [http-bio-8080-exec-59]  (com.webratio.struts.actions.AbstractWRAction:53) - [D60F5A6CB97C9B48464B838398AC2572][page4]Page action pre-redirect execution [id=page4] done in 7 ms
+03 dic 2014 17:11:32,859  INFO [http-bio-8080-exec-57]  (com.webratio.struts.actions.AbstractWRAction:53) - [D60F5A6CB97C9B48464B838398AC2572][page4]Page action execution [id=page4] done in 494 ms
+03 dic 2014 17:12:18,590  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+03 dic 2014 17:12:24,150  ERROR [http-bio-8080-exec-65]  (com.webratio.struts.exceptions.GenericExceptionHandler:73) - An error occurred executing action for 'null'
+com.webratio.rtx.RTXException: Could not create service 'page4' from class: class com.webratio.rtx.core.DefaultPageService
+	at com.webratio.rtx.core.ServiceProvider.createServiceFromDescr(ServiceProvider.java:132)
+	at com.webratio.rtx.core.ServiceRegistry.getService(ServiceRegistry.java:64)
+	at com.webratio.rtx.core.DefaultRTXManager.getService(DefaultRTXManager.java:305)
+	at com.webratio.struts.chain.commands.WRSelectAction.processRequest(WRSelectAction.java:96)
+	at com.webratio.struts.chain.commands.WRSelectAction.execute(WRSelectAction.java:43)
+	at org.apache.struts.chain.commands.ActionCommandBase.execute(ActionCommandBase.java:51)
+	at org.apache.commons.chain.impl.ChainBase.execute(ChainBase.java:190)
+	at org.apache.commons.chain.generic.LookupCommand.execute(LookupCommand.java:304)
+	at org.apache.commons.chain.impl.ChainBase.execute(ChainBase.java:190)
+	at org.apache.struts.chain.ComposableRequestProcessor.process(ComposableRequestProcessor.java:283)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1913)
+	at com.webratio.struts.servlets.WRActionServlet.process(WRActionServlet.java:155)
+	at com.webratio.struts.servlets.WRActionServlet.doGet(WRActionServlet.java:109)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at com.webratio.struts.filters.StaticResourceFilter.doFilter(StaticResourceFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:313)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.webratio.rtx.RTXException: Error creating service: page4 - WEB-INF/descr/page4.descr
+	at com.webratio.rtx.core.ServiceProvider.createServiceFromClass(ServiceProvider.java:202)
+	at com.webratio.rtx.core.ServiceProvider.createServiceFromDescr(ServiceProvider.java:129)
+	... 36 more
+Caused by: com.webratio.rtx.RTXException: Could not create service '_access' from class: class com.webratio.rtx.db.AccessService
+	at com.webratio.rtx.core.ServiceProvider.createServiceFromDescr(ServiceProvider.java:132)
+	at com.webratio.rtx.core.ServiceRegistry.getService(ServiceRegistry.java:64)
+	at com.webratio.rtx.core.DefaultRTXManager.getService(DefaultRTXManager.java:305)
+	at com.webratio.rtx.core.DefaultRTXManager.getAccessService(DefaultRTXManager.java:373)
+	at com.webratio.rtx.core.DefaultPageService.<init>(DefaultPageService.java:110)
+	at com.webratio.rtx.core.DefaultPageService_$$_javassist_0.<init>(DefaultPageService_$$_javassist_0.java)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.webratio.rtx.core.ServiceProvider.createServiceFromClass(ServiceProvider.java:186)
+	... 37 more
+Caused by: com.webratio.rtx.RTXException: Error creating service: _access - WEB-INF/descr/_access.descr
+	at com.webratio.rtx.core.ServiceProvider.createServiceFromClass(ServiceProvider.java:202)
+	at com.webratio.rtx.core.ServiceProvider.createServiceFromDescr(ServiceProvider.java:129)
+	... 47 more
+Caused by: com.webratio.rtx.RTXException: Error creating service: db1.hibernate - db1.hibernate
+	at com.webratio.rtx.core.ServiceProvider.createServiceFromClass(ServiceProvider.java:202)
+	at com.webratio.rtx.core.ServiceRegistry.getService(ServiceRegistry.java:86)
+	at com.webratio.rtx.core.DefaultRTXManager.getService(DefaultRTXManager.java:314)
+	at com.webratio.rtx.db.HibernateService.get(HibernateService.java:439)
+	at com.webratio.rtx.db.AbstractDBService.getHibernateService(AbstractDBService.java:44)
+	at com.webratio.rtx.db.AccessService.<init>(AccessService.java:66)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.webratio.rtx.core.ServiceProvider.createServiceFromClass(ServiceProvider.java:186)
+	... 48 more
+Caused by: java.lang.OutOfMemoryError: PermGen space
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at java.security.SecureClassLoader.defineClass(Unknown Source)
+	at org.apache.catalina.loader.WebappClassLoader.findClassInternal(WebappClassLoader.java:2957)
+	at org.apache.catalina.loader.WebappClassLoader.findClass(WebappClassLoader.java:1210)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1690)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1571)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1385)
+	at com.webratio.rtx.db.HibernateService.<init>(HibernateService.java:151)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.webratio.rtx.core.ServiceProvider.createServiceFromClass(ServiceProvider.java:186)
+	at com.webratio.rtx.core.ServiceRegistry.getService(ServiceRegistry.java:86)
+	at com.webratio.rtx.core.DefaultRTXManager.getService(DefaultRTXManager.java:314)
+	at com.webratio.rtx.db.HibernateService.get(HibernateService.java:439)
+	at com.webratio.rtx.db.AbstractDBService.getHibernateService(AbstractDBService.java:44)
+	at com.webratio.rtx.db.AccessService.<init>(AccessService.java:66)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.webratio.rtx.core.ServiceProvider.createServiceFromClass(ServiceProvider.java:186)
+	at com.webratio.rtx.core.ServiceProvider.createServiceFromDescr(ServiceProvider.java:129)
+	at com.webratio.rtx.core.ServiceRegistry.getService(ServiceRegistry.java:64)
+	at com.webratio.rtx.core.DefaultRTXManager.getService(DefaultRTXManager.java:305)
+	at com.webratio.rtx.core.DefaultRTXManager.getAccessService(DefaultRTXManager.java:373)
+	at com.webratio.rtx.core.DefaultPageService.<init>(DefaultPageService.java:110)
+	at com.webratio.rtx.core.DefaultPageService_$$_javassist_0.<init>(DefaultPageService_$$_javassist_0.java)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+03 dic 2014 17:12:46,633  INFO [http-bio-8080-exec-1]  (com.webratio.struts.actions.AbstractWRAction:53) - [BC1F78DB10C0747443C738D380B5E90A][page4]Page action execution [id=page4] done in 868 ms
+03 dic 2014 17:13:01,246  INFO [http-bio-8080-exec-7]  (com.webratio.struts.actions.AbstractWRAction:53) - [BC1F78DB10C0747443C738D380B5E90A][page4]Form page action execution [id=page4] done in 1 ms
+03 dic 2014 17:13:01,563  INFO [http-bio-8080-exec-7]  (com.webratio.struts.actions.AbstractWRAction:53) - [BC1F78DB10C0747443C738D380B5E90A][/operation_scu4]Operation action execution [first operation id=scu4] done in 311 ms
+03 dic 2014 17:13:01,566  INFO [http-bio-8080-exec-7]  (com.webratio.struts.actions.AbstractWRAction:53) - [BC1F78DB10C0747443C738D380B5E90A][page4]Page action pre-redirect execution [id=page4] done in 2 ms
+03 dic 2014 17:13:01,576  INFO [http-bio-8080-exec-7]  (com.webratio.struts.actions.AbstractWRAction:53) - [BC1F78DB10C0747443C738D380B5E90A][page4]Page action execution [id=page4] done in 5 ms
+03 dic 2014 17:13:40,979  INFO [http-bio-8080-exec-1]  (com.webratio.struts.actions.AbstractWRAction:53) - [BC1F78DB10C0747443C738D380B5E90A][page4]Page action execution [id=page4] done in 6 ms
+03 dic 2014 17:13:43,449  INFO [http-bio-8080-exec-1]  (com.webratio.struts.actions.AbstractWRAction:53) - [BC1F78DB10C0747443C738D380B5E90A][page4]Page action execution [id=page4] done in 5 ms
+03 dic 2014 17:13:44,734  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+03 dic 2014 17:14:17,454  INFO [http-bio-8080-exec-4]  (com.webratio.struts.actions.AbstractWRAction:53) - [190BAAA499C621662A634E2283D9DC2F][page4]Page action execution [id=page4] done in 715 ms
+03 dic 2014 17:14:17,475  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+03 dic 2014 17:14:25,087  INFO [http-bio-8080-exec-7]  (com.webratio.struts.actions.AbstractWRAction:53) - [A82208CDEFF0668B8F2A3863A6A0997A][page4]Page action execution [id=page4] done in 693 ms
+03 dic 2014 17:15:09,509  INFO [http-bio-8080-exec-6]  (com.webratio.struts.actions.AbstractWRAction:53) - [A82208CDEFF0668B8F2A3863A6A0997A][page4]Page action execution [id=page4] done in 6 ms
+03 dic 2014 17:15:09,915  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+03 dic 2014 17:15:14,827  INFO [http-bio-8080-exec-3]  (com.webratio.struts.actions.AbstractWRAction:53) - [10F931FAF7E6FC9F4236DA91EBA4A777][page4]Form page action execution [id=page4] done in 427 ms
+03 dic 2014 17:15:15,127  INFO [http-bio-8080-exec-3]  (com.webratio.struts.actions.AbstractWRAction:53) - [10F931FAF7E6FC9F4236DA91EBA4A777][/operation_scu4]Operation action execution [first operation id=scu4] done in 293 ms
+03 dic 2014 17:15:15,139  INFO [http-bio-8080-exec-3]  (com.webratio.struts.actions.AbstractWRAction:53) - [10F931FAF7E6FC9F4236DA91EBA4A777][page4]Page action pre-redirect execution [id=page4] done in 8 ms
+03 dic 2014 17:15:15,492  INFO [http-bio-8080-exec-5]  (com.webratio.struts.actions.AbstractWRAction:53) - [10F931FAF7E6FC9F4236DA91EBA4A777][page4]Page action execution [id=page4] done in 347 ms
+03 dic 2014 17:18:59,472  INFO [http-bio-8080-exec-19]  (com.webratio.struts.actions.AbstractWRAction:53) - [10F931FAF7E6FC9F4236DA91EBA4A777][page4]Page action execution [id=page4] done in 6 ms
+03 dic 2014 17:19:02,315  INFO [http-bio-8080-exec-18]  (com.webratio.struts.actions.AbstractWRAction:53) - [10F931FAF7E6FC9F4236DA91EBA4A777][page4]Form page action execution [id=page4] done in 0 ms
+03 dic 2014 17:19:02,323  INFO [http-bio-8080-exec-18]  (com.webratio.struts.actions.AbstractWRAction:53) - [10F931FAF7E6FC9F4236DA91EBA4A777][/operation_scu4]Operation action execution [first operation id=scu4] done in 6 ms
+03 dic 2014 17:19:02,325  INFO [http-bio-8080-exec-18]  (com.webratio.struts.actions.AbstractWRAction:53) - [10F931FAF7E6FC9F4236DA91EBA4A777][page4]Page action pre-redirect execution [id=page4] done in 1 ms
+03 dic 2014 17:19:02,334  INFO [http-bio-8080-exec-18]  (com.webratio.struts.actions.AbstractWRAction:53) - [10F931FAF7E6FC9F4236DA91EBA4A777][page4]Page action execution [id=page4] done in 4 ms
+03 dic 2014 17:19:02,478  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+03 dic 2014 17:23:02,849  INFO [http-bio-8080-exec-29]  (com.webratio.struts.actions.AbstractWRAction:53) - [9D2B6BCAA08AFD92AB5388C0600F0B37][page4]Page action execution [id=page4] done in 713 ms
+03 dic 2014 17:23:05,146  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+03 dic 2014 17:23:19,303  INFO [http-bio-8080-exec-29]  (com.webratio.struts.actions.AbstractWRAction:53) - [7A94F35BA8EFC423AD62B66A94986433][page4]Page action execution [id=page4] done in 711 ms
+03 dic 2014 17:23:24,514  INFO [http-bio-8080-exec-30]  (com.webratio.struts.actions.AbstractWRAction:53) - [7A94F35BA8EFC423AD62B66A94986433][page4]Form page action execution [id=page4] done in 1 ms
+03 dic 2014 17:23:24,663  INFO [http-bio-8080-exec-30]  (com.webratio.struts.actions.AbstractWRAction:53) - [7A94F35BA8EFC423AD62B66A94986433][/operation_scu4]Operation action execution [first operation id=scu4] done in 145 ms
+03 dic 2014 17:23:24,666  INFO [http-bio-8080-exec-30]  (com.webratio.struts.actions.AbstractWRAction:53) - [7A94F35BA8EFC423AD62B66A94986433][page4]Page action pre-redirect execution [id=page4] done in 2 ms
+03 dic 2014 17:23:24,677  INFO [http-bio-8080-exec-25]  (com.webratio.struts.actions.AbstractWRAction:53) - [7A94F35BA8EFC423AD62B66A94986433][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 08:44:36,268  INFO [http-bio-8080-exec-8]  (com.webratio.struts.actions.AbstractWRAction:53) - [869FADEC5A2E4ADF61457CA760518C5C][page1]Page action execution [id=page1] done in 4822 ms
+04 dic 2014 08:44:36,360  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 08:44:41,630  INFO [http-bio-8080-exec-9]  (com.webratio.struts.actions.AbstractWRAction:53) - [DB7FD38230B4E74C8DD4BF74E490D2A2][page1]Page action execution [id=page1] done in 1148 ms
+04 dic 2014 08:44:52,554  INFO [http-bio-8080-exec-9]  (com.webratio.struts.actions.AbstractWRAction:53) - [DB7FD38230B4E74C8DD4BF74E490D2A2][page4]Page action execution [id=page4] done in 70 ms
+04 dic 2014 08:45:09,967  INFO [http-bio-8080-exec-9]  (com.webratio.struts.actions.AbstractWRAction:53) - [DB7FD38230B4E74C8DD4BF74E490D2A2][page4]Form page action execution [id=page4] done in 34 ms
+04 dic 2014 08:45:10,296  INFO [http-bio-8080-exec-9]  (com.webratio.struts.actions.AbstractWRAction:53) - [DB7FD38230B4E74C8DD4BF74E490D2A2][/operation_scu4]Operation action execution [first operation id=scu4] done in 319 ms
+04 dic 2014 08:45:10,298  INFO [http-bio-8080-exec-9]  (com.webratio.struts.actions.AbstractWRAction:53) - [DB7FD38230B4E74C8DD4BF74E490D2A2][page4]Page action pre-redirect execution [id=page4] done in 2 ms
+04 dic 2014 08:45:10,345  INFO [http-bio-8080-exec-8]  (com.webratio.struts.actions.AbstractWRAction:53) - [DB7FD38230B4E74C8DD4BF74E490D2A2][page4]Page action execution [id=page4] done in 4 ms
+04 dic 2014 08:46:39,717  INFO [http-bio-8080-exec-9]  (com.webratio.struts.actions.AbstractWRAction:53) - [DB7FD38230B4E74C8DD4BF74E490D2A2][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 08:46:49,234  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 08:46:54,040  INFO [http-bio-8080-exec-9]  (com.webratio.struts.actions.AbstractWRAction:53) - [D0D79AED6E8BE644EB589DCEAA464FA9][page4]Page action execution [id=page4] done in 892 ms
+04 dic 2014 08:46:56,844  INFO [http-bio-8080-exec-18]  (com.webratio.struts.actions.AbstractWRAction:53) - [D0D79AED6E8BE644EB589DCEAA464FA9][page4]Form page action execution [id=page4] done in 6 ms
+04 dic 2014 08:46:57,020  INFO [http-bio-8080-exec-18]  (com.webratio.struts.actions.AbstractWRAction:53) - [D0D79AED6E8BE644EB589DCEAA464FA9][/operation_scu4]Operation action execution [first operation id=scu4] done in 171 ms
+04 dic 2014 08:46:57,023  INFO [http-bio-8080-exec-18]  (com.webratio.struts.actions.AbstractWRAction:53) - [D0D79AED6E8BE644EB589DCEAA464FA9][page4]Page action pre-redirect execution [id=page4] done in 2 ms
+04 dic 2014 08:46:57,035  INFO [http-bio-8080-exec-10]  (com.webratio.struts.actions.AbstractWRAction:53) - [D0D79AED6E8BE644EB589DCEAA464FA9][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 08:56:32,343  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 08:58:02,627  INFO [http-bio-8080-exec-24]  (com.webratio.struts.actions.AbstractWRAction:53) - [C5D078BDED915F526FBFA48C0F0C3B1D][page4]Page action execution [id=page4] done in 918 ms
+04 dic 2014 08:58:04,727  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 08:58:09,648  INFO [http-bio-8080-exec-19]  (com.webratio.struts.actions.AbstractWRAction:53) - [92DEBBAAC963DFCA95DB79AFE2124F4E][page4]Form page action execution [id=page4] done in 454 ms
+04 dic 2014 08:58:09,988  INFO [http-bio-8080-exec-19]  (com.webratio.struts.actions.AbstractWRAction:53) - [92DEBBAAC963DFCA95DB79AFE2124F4E][/operation_scu4]Operation action execution [first operation id=scu4] done in 336 ms
+04 dic 2014 08:58:10,000  INFO [http-bio-8080-exec-19]  (com.webratio.struts.actions.AbstractWRAction:53) - [92DEBBAAC963DFCA95DB79AFE2124F4E][page4]Page action pre-redirect execution [id=page4] done in 7 ms
+04 dic 2014 08:58:10,393  INFO [http-bio-8080-exec-28]  (com.webratio.struts.actions.AbstractWRAction:53) - [92DEBBAAC963DFCA95DB79AFE2124F4E][page4]Page action execution [id=page4] done in 375 ms
+04 dic 2014 08:59:07,158  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 09:00:09,235  INFO [http-bio-8080-exec-32]  (com.webratio.struts.actions.AbstractWRAction:53) - [1D7A421372AC2140E7488352EFB9820B][page4]Page action execution [id=page4] done in 713 ms
+04 dic 2014 09:00:10,106  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 09:00:14,660  INFO [http-bio-8080-exec-31]  (com.webratio.struts.actions.AbstractWRAction:53) - [4FCA5462088F41D57AD5D4FD1BCA6E97][page4]Form page action execution [id=page4] done in 438 ms
+04 dic 2014 09:00:14,971  INFO [http-bio-8080-exec-31]  (com.webratio.struts.actions.AbstractWRAction:53) - [4FCA5462088F41D57AD5D4FD1BCA6E97][/operation_scu4]Operation action execution [first operation id=scu4] done in 307 ms
+04 dic 2014 09:00:14,982  INFO [http-bio-8080-exec-31]  (com.webratio.struts.actions.AbstractWRAction:53) - [4FCA5462088F41D57AD5D4FD1BCA6E97][page4]Page action pre-redirect execution [id=page4] done in 7 ms
+04 dic 2014 09:00:15,389  INFO [http-bio-8080-exec-34]  (com.webratio.struts.actions.AbstractWRAction:53) - [4FCA5462088F41D57AD5D4FD1BCA6E97][page4]Page action execution [id=page4] done in 402 ms
+04 dic 2014 09:17:12,377  INFO [http-bio-8080-exec-40]  (com.webratio.struts.actions.AbstractWRAction:53) - [4FCA5462088F41D57AD5D4FD1BCA6E97][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 09:17:14,969  INFO [http-bio-8080-exec-40]  (com.webratio.struts.actions.AbstractWRAction:53) - [4FCA5462088F41D57AD5D4FD1BCA6E97][page4]Form page action execution [id=page4] done in 1 ms
+04 dic 2014 09:17:15,009  INFO [http-bio-8080-exec-40]  (com.webratio.struts.actions.AbstractWRAction:53) - [4FCA5462088F41D57AD5D4FD1BCA6E97][/operation_scu4]Operation action execution [first operation id=scu4] done in 39 ms
+04 dic 2014 09:17:15,011  INFO [http-bio-8080-exec-40]  (com.webratio.struts.actions.AbstractWRAction:53) - [4FCA5462088F41D57AD5D4FD1BCA6E97][page4]Page action pre-redirect execution [id=page4] done in 1 ms
+04 dic 2014 09:17:15,021  INFO [http-bio-8080-exec-40]  (com.webratio.struts.actions.AbstractWRAction:53) - [4FCA5462088F41D57AD5D4FD1BCA6E97][page4]Page action execution [id=page4] done in 4 ms
+04 dic 2014 09:29:05,525  INFO [http-bio-8080-exec-49]  (com.webratio.struts.actions.AbstractWRAction:53) - [4FCA5462088F41D57AD5D4FD1BCA6E97][page4]Page action execution [id=page4] done in 4 ms
+04 dic 2014 09:29:06,297  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 09:29:13,871  INFO [http-bio-8080-exec-41]  (com.webratio.struts.actions.AbstractWRAction:53) - [08DD9A98C230D18E944284F85A802540][page4]Form page action execution [id=page4] done in 686 ms
+04 dic 2014 09:29:14,787  INFO [http-bio-8080-exec-41]  (com.webratio.struts.actions.AbstractWRAction:53) - [08DD9A98C230D18E944284F85A802540][/operation_scu4]Operation action execution [first operation id=scu4] done in 901 ms
+04 dic 2014 09:29:14,799  INFO [http-bio-8080-exec-41]  (com.webratio.struts.actions.AbstractWRAction:53) - [08DD9A98C230D18E944284F85A802540][page4]Page action pre-redirect execution [id=page4] done in 7 ms
+04 dic 2014 09:29:15,403  INFO [http-bio-8080-exec-47]  (com.webratio.struts.actions.AbstractWRAction:53) - [08DD9A98C230D18E944284F85A802540][page4]Page action execution [id=page4] done in 597 ms
+04 dic 2014 09:29:27,006  INFO [http-bio-8080-exec-40]  (com.webratio.struts.actions.AbstractWRAction:53) - [08DD9A98C230D18E944284F85A802540][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 09:29:28,701  INFO [http-bio-8080-exec-44]  (com.webratio.struts.actions.AbstractWRAction:53) - [08DD9A98C230D18E944284F85A802540][page4]Form page action execution [id=page4] done in 1 ms
+04 dic 2014 09:29:28,708  INFO [http-bio-8080-exec-44]  (com.webratio.struts.actions.AbstractWRAction:53) - [08DD9A98C230D18E944284F85A802540][/operation_scu4]Operation action execution [first operation id=scu4] done in 6 ms
+04 dic 2014 09:29:28,710  INFO [http-bio-8080-exec-44]  (com.webratio.struts.actions.AbstractWRAction:53) - [08DD9A98C230D18E944284F85A802540][page4]Page action pre-redirect execution [id=page4] done in 1 ms
+04 dic 2014 09:29:28,720  INFO [http-bio-8080-exec-46]  (com.webratio.struts.actions.AbstractWRAction:53) - [08DD9A98C230D18E944284F85A802540][page4]Page action execution [id=page4] done in 4 ms
+04 dic 2014 09:29:35,305  INFO [http-bio-8080-exec-46]  (com.webratio.struts.actions.AbstractWRAction:53) - [08DD9A98C230D18E944284F85A802540][page4]Page action execution [id=page4] done in 3 ms
+04 dic 2014 09:30:19,675  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 09:30:28,287  INFO [http-bio-8080-exec-56]  (com.webratio.struts.actions.AbstractWRAction:53) - [03600E7A1676B69B88AEDF76602751EB][page4]Page action execution [id=page4] done in 736 ms
+04 dic 2014 09:30:31,090  INFO [http-bio-8080-exec-55]  (com.webratio.struts.actions.AbstractWRAction:53) - [03600E7A1676B69B88AEDF76602751EB][page4]Form page action execution [id=page4] done in 6 ms
+04 dic 2014 09:30:31,249  INFO [http-bio-8080-exec-55]  (com.webratio.struts.actions.AbstractWRAction:53) - [03600E7A1676B69B88AEDF76602751EB][/operation_scu4]Operation action execution [first operation id=scu4] done in 155 ms
+04 dic 2014 09:30:31,253  INFO [http-bio-8080-exec-55]  (com.webratio.struts.actions.AbstractWRAction:53) - [03600E7A1676B69B88AEDF76602751EB][page4]Page action pre-redirect execution [id=page4] done in 3 ms
+04 dic 2014 09:30:31,263  INFO [http-bio-8080-exec-52]  (com.webratio.struts.actions.AbstractWRAction:53) - [03600E7A1676B69B88AEDF76602751EB][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 09:30:32,903  INFO [http-bio-8080-exec-51]  (com.webratio.struts.actions.AbstractWRAction:53) - [03600E7A1676B69B88AEDF76602751EB][page4]Form page action execution [id=page4] done in 4 ms
+04 dic 2014 09:30:32,909  INFO [http-bio-8080-exec-51]  (com.webratio.struts.actions.AbstractWRAction:53) - [03600E7A1676B69B88AEDF76602751EB][/operation_scu4]Operation action execution [first operation id=scu4] done in 5 ms
+04 dic 2014 09:30:32,911  INFO [http-bio-8080-exec-51]  (com.webratio.struts.actions.AbstractWRAction:53) - [03600E7A1676B69B88AEDF76602751EB][page4]Page action pre-redirect execution [id=page4] done in 1 ms
+04 dic 2014 09:30:32,921  INFO [http-bio-8080-exec-54]  (com.webratio.struts.actions.AbstractWRAction:53) - [03600E7A1676B69B88AEDF76602751EB][page4]Page action execution [id=page4] done in 4 ms
+04 dic 2014 09:30:41,704  INFO [http-bio-8080-exec-54]  (com.webratio.struts.actions.AbstractWRAction:53) - [03600E7A1676B69B88AEDF76602751EB][page4]Page action execution [id=page4] done in 3 ms
+04 dic 2014 09:30:43,009  INFO [http-bio-8080-exec-50]  (com.webratio.struts.actions.AbstractWRAction:53) - [03600E7A1676B69B88AEDF76602751EB][page4]Page action execution [id=page4] done in 6 ms
+04 dic 2014 09:30:43,629  INFO [http-bio-8080-exec-45]  (com.webratio.struts.actions.AbstractWRAction:53) - [03600E7A1676B69B88AEDF76602751EB][page4]Page action execution [id=page4] done in 3 ms
+04 dic 2014 09:30:45,599  INFO [http-bio-8080-exec-45]  (com.webratio.struts.actions.AbstractWRAction:53) - [03600E7A1676B69B88AEDF76602751EB][page4]Form page action execution [id=page4] done in 16 ms
+04 dic 2014 09:30:45,606  INFO [http-bio-8080-exec-45]  (com.webratio.struts.actions.AbstractWRAction:53) - [03600E7A1676B69B88AEDF76602751EB][/operation_scu4]Operation action execution [first operation id=scu4] done in 5 ms
+04 dic 2014 09:30:45,607  INFO [http-bio-8080-exec-45]  (com.webratio.struts.actions.AbstractWRAction:53) - [03600E7A1676B69B88AEDF76602751EB][page4]Page action pre-redirect execution [id=page4] done in 0 ms
+04 dic 2014 09:30:45,618  INFO [http-bio-8080-exec-53]  (com.webratio.struts.actions.AbstractWRAction:53) - [03600E7A1676B69B88AEDF76602751EB][page4]Page action execution [id=page4] done in 4 ms
+04 dic 2014 09:30:46,226  INFO [http-bio-8080-exec-53]  (com.webratio.struts.actions.AbstractWRAction:53) - [03600E7A1676B69B88AEDF76602751EB][page4]Page action execution [id=page4] done in 3 ms
+04 dic 2014 09:31:39,796  INFO [http-bio-8080-exec-60]  (com.webratio.struts.actions.AbstractWRAction:53) - [03600E7A1676B69B88AEDF76602751EB][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 09:31:40,696  INFO [http-bio-8080-exec-61]  (com.webratio.struts.actions.AbstractWRAction:53) - [03600E7A1676B69B88AEDF76602751EB][page4]Page action execution [id=page4] done in 3 ms
+04 dic 2014 09:31:42,321  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 09:31:47,435  INFO [http-bio-8080-exec-61]  (com.webratio.struts.actions.AbstractWRAction:53) - [18F1E8BCCFD4A623785916727E777DFB][page4]Form page action execution [id=page4] done in 457 ms
+04 dic 2014 09:31:47,777  INFO [http-bio-8080-exec-61]  (com.webratio.struts.actions.AbstractWRAction:53) - [18F1E8BCCFD4A623785916727E777DFB][/operation_scu4]Operation action execution [first operation id=scu4] done in 337 ms
+04 dic 2014 09:31:47,789  INFO [http-bio-8080-exec-61]  (com.webratio.struts.actions.AbstractWRAction:53) - [18F1E8BCCFD4A623785916727E777DFB][page4]Page action pre-redirect execution [id=page4] done in 7 ms
+04 dic 2014 09:31:48,309  INFO [http-bio-8080-exec-59]  (com.webratio.struts.actions.AbstractWRAction:53) - [18F1E8BCCFD4A623785916727E777DFB][page4]Page action execution [id=page4] done in 513 ms
+04 dic 2014 09:33:25,061  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 09:33:32,448  INFO [http-bio-8080-exec-68]  (com.webratio.struts.actions.AbstractWRAction:53) - [077F2073F7B43F15F0E5AB1DA51D055A][page4]Page action execution [id=page4] done in 1639 ms
+04 dic 2014 09:33:32,451  ERROR [http-bio-8080-exec-68]  (com.webratio.struts.exceptions.GenericExceptionHandler:73) - An error occurred executing action for 'page4'
+com.webratio.rtx.RTXException: Could not create service 'scu4' from class: class com.webratio.units.utility.rtx.ScriptUnitService
+	at com.webratio.rtx.core.ServiceProvider.createServiceFromDescr(ServiceProvider.java:132)
+	at com.webratio.rtx.core.ServiceRegistry.getService(ServiceRegistry.java:64)
+	at com.webratio.rtx.core.DefaultRTXManager.getService(DefaultRTXManager.java:305)
+	at com.webratio.rtx.core.DefaultPageService.computeLinkInfo(DefaultPageService.java:1419)
+	at com.webratio.rtx.core.DefaultPageService.computeLinkInfos(DefaultPageService.java:1384)
+	at com.webratio.rtx.core.DefaultPageService.computePage(DefaultPageService.java:409)
+	at com.webratio.rtx.core.DefaultPageService_$$_javassist_0._d0computePage(DefaultPageService_$$_javassist_0.java)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.webratio.rtx.debug.WebDebugAdapter$DebugMethodHandler.doInvoke(WebDebugAdapter.java:447)
+	at com.webratio.rtx.debug.WebDebugAdapter$ServiceHandler.doInvoke(WebDebugAdapter.java:531)
+	at com.webratio.rtx.debug.WebDebugAdapter$PageHandler.doInvoke(WebDebugAdapter.java:589)
+	at com.webratio.rtx.debug.WebDebugAdapter$DebugMethodHandler.invoke(WebDebugAdapter.java:440)
+	at com.webratio.rtx.core.DefaultPageService_$$_javassist_0.computePage(DefaultPageService_$$_javassist_0.java)
+	at com.webratio.struts.actions.PageAction.doExecute(PageAction.java:463)
+	at com.webratio.struts.actions.PageAction.execute(PageAction.java:76)
+	at org.apache.struts.chain.commands.servlet.ExecuteAction.execute(ExecuteAction.java:58)
+	at org.apache.struts.chain.commands.AbstractExecuteAction.execute(AbstractExecuteAction.java:67)
+	at org.apache.struts.chain.commands.ActionCommandBase.execute(ActionCommandBase.java:51)
+	at org.apache.commons.chain.impl.ChainBase.execute(ChainBase.java:190)
+	at org.apache.commons.chain.generic.LookupCommand.execute(LookupCommand.java:304)
+	at org.apache.commons.chain.impl.ChainBase.execute(ChainBase.java:190)
+	at org.apache.struts.chain.ComposableRequestProcessor.process(ComposableRequestProcessor.java:283)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1913)
+	at com.webratio.struts.servlets.WRActionServlet.process(WRActionServlet.java:155)
+	at com.webratio.struts.servlets.WRActionServlet.doGet(WRActionServlet.java:109)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at com.webratio.struts.filters.StaticResourceFilter.doFilter(StaticResourceFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:313)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.webratio.rtx.RTXException: Error creating service: scu4 - WEB-INF/descr/scu4.descr
+	at com.webratio.rtx.core.ServiceProvider.createServiceFromClass(ServiceProvider.java:202)
+	at com.webratio.rtx.core.ServiceProvider.createServiceFromDescr(ServiceProvider.java:129)
+	... 51 more
+Caused by: java.lang.OutOfMemoryError: PermGen space
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at java.security.SecureClassLoader.defineClass(Unknown Source)
+	at org.apache.catalina.loader.WebappClassLoader.findClassInternal(WebappClassLoader.java:2957)
+	at org.apache.catalina.loader.WebappClassLoader.findClass(WebappClassLoader.java:1210)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1690)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1571)
+	at org.codehaus.groovy.antlr.AntlrParserPluginFactory.createParserPlugin(AntlrParserPluginFactory.java:27)
+	at org.codehaus.groovy.control.SourceUnit.parse(SourceUnit.java:246)
+	at org.codehaus.groovy.control.CompilationUnit$1.call(CompilationUnit.java:143)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:772)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:438)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:277)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:248)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:243)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:205)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:215)
+	at com.webratio.commons.transform.groovy.GroovyScriptParser.parse(GroovyScriptParser.java:87)
+	at com.webratio.commons.transform.groovy.GroovyRegistry.getGroovyScript(GroovyRegistry.java:257)
+	at com.webratio.units.utility.rtx.ScriptUnitService.<init>(ScriptUnitService.java:99)
+	at com.webratio.units.utility.rtx.ScriptUnitService_$$_javassist_8.<init>(ScriptUnitService_$$_javassist_8.java)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.webratio.rtx.core.ServiceProvider.createServiceFromClass(ServiceProvider.java:186)
+	at com.webratio.rtx.core.ServiceProvider.createServiceFromDescr(ServiceProvider.java:129)
+	at com.webratio.rtx.core.ServiceRegistry.getService(ServiceRegistry.java:64)
+	at com.webratio.rtx.core.DefaultRTXManager.getService(DefaultRTXManager.java:305)
+	at com.webratio.rtx.core.DefaultPageService.computeLinkInfo(DefaultPageService.java:1419)
+	at com.webratio.rtx.core.DefaultPageService.computeLinkInfos(DefaultPageService.java:1384)
+	at com.webratio.rtx.core.DefaultPageService.computePage(DefaultPageService.java:409)
+04 dic 2014 09:34:18,632  INFO [http-bio-8080-exec-1]  (com.webratio.struts.actions.AbstractWRAction:53) - [E40268299969A3BD7F3081B7E19D0DD8][page4]Page action execution [id=page4] done in 871 ms
+04 dic 2014 09:34:23,189  INFO [http-bio-8080-exec-8]  (com.webratio.struts.actions.AbstractWRAction:53) - [E40268299969A3BD7F3081B7E19D0DD8][page4]Page action execution [id=page4] done in 4 ms
+04 dic 2014 09:34:28,722  INFO [http-bio-8080-exec-9]  (com.webratio.struts.actions.AbstractWRAction:53) - [E40268299969A3BD7F3081B7E19D0DD8][page4]Page action execution [id=page4] done in 6 ms
+04 dic 2014 09:34:29,251  INFO [http-bio-8080-exec-10]  (com.webratio.struts.actions.AbstractWRAction:53) - [E40268299969A3BD7F3081B7E19D0DD8][page4]Page action execution [id=page4] done in 3 ms
+04 dic 2014 09:34:30,118  INFO [http-bio-8080-exec-10]  (com.webratio.struts.actions.AbstractWRAction:53) - [E40268299969A3BD7F3081B7E19D0DD8][page4]Form page action execution [id=page4] done in 8 ms
+04 dic 2014 09:34:30,321  INFO [http-bio-8080-exec-10]  (com.webratio.struts.actions.AbstractWRAction:53) - [E40268299969A3BD7F3081B7E19D0DD8][/operation_scu4]Operation action execution [first operation id=scu4] done in 199 ms
+04 dic 2014 09:34:30,324  INFO [http-bio-8080-exec-10]  (com.webratio.struts.actions.AbstractWRAction:53) - [E40268299969A3BD7F3081B7E19D0DD8][page4]Page action pre-redirect execution [id=page4] done in 2 ms
+04 dic 2014 09:34:30,334  INFO [http-bio-8080-exec-10]  (com.webratio.struts.actions.AbstractWRAction:53) - [E40268299969A3BD7F3081B7E19D0DD8][page4]Page action execution [id=page4] done in 4 ms
+04 dic 2014 09:34:30,942  INFO [http-bio-8080-exec-10]  (com.webratio.struts.actions.AbstractWRAction:53) - [E40268299969A3BD7F3081B7E19D0DD8][page4]Page action execution [id=page4] done in 4 ms
+04 dic 2014 09:36:01,261  INFO [http-bio-8080-exec-6]  (com.webratio.struts.actions.AbstractWRAction:53) - [E40268299969A3BD7F3081B7E19D0DD8][page4]Page action execution [id=page4] done in 4 ms
+04 dic 2014 09:36:02,284  INFO [http-bio-8080-exec-6]  (com.webratio.struts.actions.AbstractWRAction:53) - [E40268299969A3BD7F3081B7E19D0DD8][page4]Page action execution [id=page4] done in 4 ms
+04 dic 2014 09:36:04,226  INFO [http-bio-8080-exec-6]  (com.webratio.struts.actions.AbstractWRAction:53) - [E40268299969A3BD7F3081B7E19D0DD8][page4]Form page action execution [id=page4] done in 3 ms
+04 dic 2014 09:36:04,234  INFO [http-bio-8080-exec-6]  (com.webratio.struts.actions.AbstractWRAction:53) - [E40268299969A3BD7F3081B7E19D0DD8][/operation_scu4]Operation action execution [first operation id=scu4] done in 7 ms
+04 dic 2014 09:36:04,236  INFO [http-bio-8080-exec-6]  (com.webratio.struts.actions.AbstractWRAction:53) - [E40268299969A3BD7F3081B7E19D0DD8][page4]Page action pre-redirect execution [id=page4] done in 1 ms
+04 dic 2014 09:36:04,246  INFO [http-bio-8080-exec-6]  (com.webratio.struts.actions.AbstractWRAction:53) - [E40268299969A3BD7F3081B7E19D0DD8][page4]Page action execution [id=page4] done in 4 ms
+04 dic 2014 09:36:04,291  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 09:36:08,694  INFO [http-bio-8080-exec-8]  (com.webratio.struts.actions.AbstractWRAction:53) - [437E6BC586793F887DAF38F6D3B0AA98][page4]Page action execution [id=page4] done in 725 ms
+04 dic 2014 09:36:31,995  INFO [http-bio-8080-exec-10]  (com.webratio.struts.actions.AbstractWRAction:53) - [437E6BC586793F887DAF38F6D3B0AA98][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 09:36:33,029  INFO [http-bio-8080-exec-3]  (com.webratio.struts.actions.AbstractWRAction:53) - [437E6BC586793F887DAF38F6D3B0AA98][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 09:36:34,349  INFO [http-bio-8080-exec-3]  (com.webratio.struts.actions.AbstractWRAction:53) - [437E6BC586793F887DAF38F6D3B0AA98][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 09:36:34,843  INFO [http-bio-8080-exec-1]  (com.webratio.struts.actions.AbstractWRAction:53) - [437E6BC586793F887DAF38F6D3B0AA98][page4]Page action execution [id=page4] done in 4 ms
+04 dic 2014 09:36:36,798  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 09:36:41,944  INFO [http-bio-8080-exec-1]  (com.webratio.struts.actions.AbstractWRAction:53) - [40B5D9BDDA1367A33AAC4F0F91C10C67][page4]Page action execution [id=page4] done in 795 ms
+04 dic 2014 09:36:42,872  INFO [http-bio-8080-exec-13]  (com.webratio.struts.actions.AbstractWRAction:53) - [40B5D9BDDA1367A33AAC4F0F91C10C67][page4]Page action execution [id=page4] done in 4 ms
+04 dic 2014 09:36:44,694  INFO [http-bio-8080-exec-13]  (com.webratio.struts.actions.AbstractWRAction:53) - [40B5D9BDDA1367A33AAC4F0F91C10C67][page4]Form page action execution [id=page4] done in 6 ms
+04 dic 2014 09:36:44,839  INFO [http-bio-8080-exec-13]  (com.webratio.struts.actions.AbstractWRAction:53) - [40B5D9BDDA1367A33AAC4F0F91C10C67][/operation_scu4]Operation action execution [first operation id=scu4] done in 140 ms
+04 dic 2014 09:36:44,842  INFO [http-bio-8080-exec-13]  (com.webratio.struts.actions.AbstractWRAction:53) - [40B5D9BDDA1367A33AAC4F0F91C10C67][page4]Page action pre-redirect execution [id=page4] done in 2 ms
+04 dic 2014 09:36:44,853  INFO [http-bio-8080-exec-4]  (com.webratio.struts.actions.AbstractWRAction:53) - [40B5D9BDDA1367A33AAC4F0F91C10C67][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 09:36:45,364  INFO [http-bio-8080-exec-4]  (com.webratio.struts.actions.AbstractWRAction:53) - [40B5D9BDDA1367A33AAC4F0F91C10C67][page4]Page action execution [id=page4] done in 3 ms
+04 dic 2014 09:37:29,164  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 09:37:33,708  INFO [http-bio-8080-exec-15]  (com.webratio.struts.actions.AbstractWRAction:53) - [1A336898E30BFAB5155325C92F6FC2DA][page4]Page action execution [id=page4] done in 770 ms
+04 dic 2014 09:37:35,082  INFO [http-bio-8080-exec-17]  (com.webratio.struts.actions.AbstractWRAction:53) - [1A336898E30BFAB5155325C92F6FC2DA][page4]Page action execution [id=page4] done in 3 ms
+04 dic 2014 09:40:08,655  INFO [http-bio-8080-exec-21]  (com.webratio.struts.actions.AbstractWRAction:53) - [1A336898E30BFAB5155325C92F6FC2DA][page4]Page action execution [id=page4] done in 7 ms
+04 dic 2014 09:40:10,592  INFO [http-bio-8080-exec-21]  (com.webratio.struts.actions.AbstractWRAction:53) - [1A336898E30BFAB5155325C92F6FC2DA][page4]Form page action execution [id=page4] done in 7 ms
+04 dic 2014 09:40:10,738  INFO [http-bio-8080-exec-21]  (com.webratio.struts.actions.AbstractWRAction:53) - [1A336898E30BFAB5155325C92F6FC2DA][/operation_scu4]Operation action execution [first operation id=scu4] done in 142 ms
+04 dic 2014 09:40:10,741  INFO [http-bio-8080-exec-21]  (com.webratio.struts.actions.AbstractWRAction:53) - [1A336898E30BFAB5155325C92F6FC2DA][page4]Page action pre-redirect execution [id=page4] done in 2 ms
+04 dic 2014 09:40:10,749  INFO [http-bio-8080-exec-21]  (com.webratio.struts.actions.AbstractWRAction:53) - [1A336898E30BFAB5155325C92F6FC2DA][page4]Page action execution [id=page4] done in 3 ms
+04 dic 2014 09:43:05,292  INFO [http-bio-8080-exec-24]  (com.webratio.struts.actions.AbstractWRAction:53) - [1A336898E30BFAB5155325C92F6FC2DA][page4]Page action execution [id=page4] done in 4 ms
+04 dic 2014 09:43:07,503  INFO [http-bio-8080-exec-24]  (com.webratio.struts.actions.AbstractWRAction:53) - [1A336898E30BFAB5155325C92F6FC2DA][page4]Form page action execution [id=page4] done in 3 ms
+04 dic 2014 09:43:07,510  INFO [http-bio-8080-exec-24]  (com.webratio.struts.actions.AbstractWRAction:53) - [1A336898E30BFAB5155325C92F6FC2DA][/operation_scu4]Operation action execution [first operation id=scu4] done in 6 ms
+04 dic 2014 09:43:07,519  INFO [http-bio-8080-exec-24]  (com.webratio.struts.actions.AbstractWRAction:53) - [1A336898E30BFAB5155325C92F6FC2DA][page4]Page action pre-redirect execution [id=page4] done in 1 ms
+04 dic 2014 09:43:07,533  INFO [http-bio-8080-exec-24]  (com.webratio.struts.actions.AbstractWRAction:53) - [1A336898E30BFAB5155325C92F6FC2DA][page4]Page action execution [id=page4] done in 8 ms
+04 dic 2014 09:43:11,914  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 09:43:35,972  INFO [http-bio-8080-exec-22]  (com.webratio.struts.actions.AbstractWRAction:53) - [922ED37CBF9A79AAF1BC03B0956D4CB0][page4]Page action execution [id=page4] done in 780 ms
+04 dic 2014 09:43:36,028  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 09:43:42,101  INFO [http-bio-8080-exec-29]  (com.webratio.struts.actions.AbstractWRAction:53) - [A81801F523F92C05C95C2EFE14BAD58D][page4]Page action execution [id=page4] done in 894 ms
+04 dic 2014 09:43:45,617  INFO [http-bio-8080-exec-23]  (com.webratio.struts.actions.AbstractWRAction:53) - [A81801F523F92C05C95C2EFE14BAD58D][page4]Page action execution [id=page4] done in 6 ms
+04 dic 2014 09:43:47,133  INFO [http-bio-8080-exec-19]  (com.webratio.struts.actions.AbstractWRAction:53) - [A81801F523F92C05C95C2EFE14BAD58D][page4]Form page action execution [id=page4] done in 8 ms
+04 dic 2014 09:43:47,291  INFO [http-bio-8080-exec-19]  (com.webratio.struts.actions.AbstractWRAction:53) - [A81801F523F92C05C95C2EFE14BAD58D][/operation_scu4]Operation action execution [first operation id=scu4] done in 153 ms
+04 dic 2014 09:43:47,293  INFO [http-bio-8080-exec-19]  (com.webratio.struts.actions.AbstractWRAction:53) - [A81801F523F92C05C95C2EFE14BAD58D][page4]Page action pre-redirect execution [id=page4] done in 2 ms
+04 dic 2014 09:43:47,304  INFO [http-bio-8080-exec-28]  (com.webratio.struts.actions.AbstractWRAction:53) - [A81801F523F92C05C95C2EFE14BAD58D][page4]Page action execution [id=page4] done in 4 ms
+04 dic 2014 09:44:36,412  INFO [http-bio-8080-exec-32]  (com.webratio.struts.actions.AbstractWRAction:53) - [A81801F523F92C05C95C2EFE14BAD58D][page4]Page action execution [id=page4] done in 6 ms
+04 dic 2014 09:44:38,599  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 09:44:44,065  INFO [http-bio-8080-exec-32]  (com.webratio.struts.actions.AbstractWRAction:53) - [8F1D0BD03AF4CC63A70BDB5593A305B2][page4]Page action execution [id=page4] done in 789 ms
+04 dic 2014 09:44:46,015  INFO [http-bio-8080-exec-11]  (com.webratio.struts.actions.AbstractWRAction:53) - [8F1D0BD03AF4CC63A70BDB5593A305B2][page4]Form page action execution [id=page4] done in 7 ms
+04 dic 2014 09:44:46,188  INFO [http-bio-8080-exec-11]  (com.webratio.struts.actions.AbstractWRAction:53) - [8F1D0BD03AF4CC63A70BDB5593A305B2][/operation_scu4]Operation action execution [first operation id=scu4] done in 168 ms
+04 dic 2014 09:44:46,191  INFO [http-bio-8080-exec-11]  (com.webratio.struts.actions.AbstractWRAction:53) - [8F1D0BD03AF4CC63A70BDB5593A305B2][page4]Page action pre-redirect execution [id=page4] done in 2 ms
+04 dic 2014 09:44:46,202  INFO [http-bio-8080-exec-26]  (com.webratio.struts.actions.AbstractWRAction:53) - [8F1D0BD03AF4CC63A70BDB5593A305B2][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 09:45:31,051  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 09:45:36,746  INFO [http-bio-8080-exec-34]  (com.webratio.struts.actions.AbstractWRAction:53) - [3FB47A1C7E6F3C6BD6AD7EB7F02E0C33][page4]Page action execution [id=page4] done in 811 ms
+04 dic 2014 09:45:40,315  INFO [http-bio-8080-exec-36]  (com.webratio.struts.actions.AbstractWRAction:53) - [3FB47A1C7E6F3C6BD6AD7EB7F02E0C33][page4]Form page action execution [id=page4] done in 5 ms
+04 dic 2014 09:45:40,478  INFO [http-bio-8080-exec-36]  (com.webratio.struts.actions.AbstractWRAction:53) - [3FB47A1C7E6F3C6BD6AD7EB7F02E0C33][/operation_scu4]Operation action execution [first operation id=scu4] done in 159 ms
+04 dic 2014 09:45:40,481  INFO [http-bio-8080-exec-36]  (com.webratio.struts.actions.AbstractWRAction:53) - [3FB47A1C7E6F3C6BD6AD7EB7F02E0C33][page4]Page action pre-redirect execution [id=page4] done in 2 ms
+04 dic 2014 09:45:40,490  INFO [http-bio-8080-exec-37]  (com.webratio.struts.actions.AbstractWRAction:53) - [3FB47A1C7E6F3C6BD6AD7EB7F02E0C33][page4]Page action execution [id=page4] done in 4 ms
+04 dic 2014 13:29:43,957  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 13:29:57,258  INFO [http-bio-8080-exec-38]  (com.webratio.struts.actions.AbstractWRAction:53) - [160B4F7B4B92484103E2F077641DE1B2][page1]Page action execution [id=page1] done in 24790 ms
+04 dic 2014 13:30:11,071  INFO [http-bio-8080-exec-41]  (com.webratio.struts.actions.AbstractWRAction:53) - [19B70F7CEF3CD690E9FBE0C684D2983C][page1]Page action execution [id=page1] done in 4316 ms
+04 dic 2014 13:30:11,072  INFO [http-bio-8080-exec-44]  (com.webratio.struts.actions.AbstractWRAction:53) - [331F97DFC068393CC652A6E66680E855][page1]Page action execution [id=page1] done in 4317 ms
+04 dic 2014 13:30:17,907  INFO [http-bio-8080-exec-45]  (com.webratio.struts.actions.AbstractWRAction:53) - [331F97DFC068393CC652A6E66680E855][page4]Page action execution [id=page4] done in 81 ms
+04 dic 2014 13:31:06,928  INFO [http-bio-8080-exec-41]  (com.webratio.struts.actions.AbstractWRAction:53) - [331F97DFC068393CC652A6E66680E855][page4]Page action execution [id=page4] done in 6 ms
+04 dic 2014 13:31:11,626  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 13:31:36,526  INFO [http-bio-8080-exec-49]  (com.webratio.struts.actions.AbstractWRAction:53) - [3F8E1344D33E1E6C0741BB5ED8FBC4C3][page4]Page action execution [id=page4] done in 772 ms
+04 dic 2014 13:31:36,621  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 13:31:43,038  INFO [http-bio-8080-exec-42]  (com.webratio.struts.actions.AbstractWRAction:53) - [761079D98C84FA2ECE218F8A4B3D3CCF][page4]Page action execution [id=page4] done in 708 ms
+04 dic 2014 13:32:29,067  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 13:32:35,808  INFO [http-bio-8080-exec-57]  (com.webratio.struts.actions.AbstractWRAction:53) - [3D7638A6BFA43CEEE8A21CCE223C096E][page4]Page action execution [id=page4] done in 2201 ms
+04 dic 2014 13:32:35,810  ERROR [http-bio-8080-exec-57]  (com.webratio.struts.exceptions.GenericExceptionHandler:73) - An error occurred executing action for 'page4'
+com.webratio.rtx.RTXException: Could not create service 'scu4' from class: class com.webratio.units.utility.rtx.ScriptUnitService
+	at com.webratio.rtx.core.ServiceProvider.createServiceFromDescr(ServiceProvider.java:132)
+	at com.webratio.rtx.core.ServiceRegistry.getService(ServiceRegistry.java:64)
+	at com.webratio.rtx.core.DefaultRTXManager.getService(DefaultRTXManager.java:305)
+	at com.webratio.rtx.core.DefaultPageService.computeLinkInfo(DefaultPageService.java:1419)
+	at com.webratio.rtx.core.DefaultPageService.computeLinkInfos(DefaultPageService.java:1384)
+	at com.webratio.rtx.core.DefaultPageService.computePage(DefaultPageService.java:409)
+	at com.webratio.rtx.core.DefaultPageService_$$_javassist_0._d0computePage(DefaultPageService_$$_javassist_0.java)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.webratio.rtx.debug.WebDebugAdapter$DebugMethodHandler.doInvoke(WebDebugAdapter.java:447)
+	at com.webratio.rtx.debug.WebDebugAdapter$ServiceHandler.doInvoke(WebDebugAdapter.java:531)
+	at com.webratio.rtx.debug.WebDebugAdapter$PageHandler.doInvoke(WebDebugAdapter.java:589)
+	at com.webratio.rtx.debug.WebDebugAdapter$DebugMethodHandler.invoke(WebDebugAdapter.java:440)
+	at com.webratio.rtx.core.DefaultPageService_$$_javassist_0.computePage(DefaultPageService_$$_javassist_0.java)
+	at com.webratio.struts.actions.PageAction.doExecute(PageAction.java:463)
+	at com.webratio.struts.actions.PageAction.execute(PageAction.java:76)
+	at org.apache.struts.chain.commands.servlet.ExecuteAction.execute(ExecuteAction.java:58)
+	at org.apache.struts.chain.commands.AbstractExecuteAction.execute(AbstractExecuteAction.java:67)
+	at org.apache.struts.chain.commands.ActionCommandBase.execute(ActionCommandBase.java:51)
+	at org.apache.commons.chain.impl.ChainBase.execute(ChainBase.java:190)
+	at org.apache.commons.chain.generic.LookupCommand.execute(LookupCommand.java:304)
+	at org.apache.commons.chain.impl.ChainBase.execute(ChainBase.java:190)
+	at org.apache.struts.chain.ComposableRequestProcessor.process(ComposableRequestProcessor.java:283)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1913)
+	at com.webratio.struts.servlets.WRActionServlet.process(WRActionServlet.java:155)
+	at com.webratio.struts.servlets.WRActionServlet.doGet(WRActionServlet.java:109)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:620)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at com.webratio.struts.filters.StaticResourceFilter.doFilter(StaticResourceFilter.java:78)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:313)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.webratio.rtx.RTXException: Error creating service: scu4 - WEB-INF/descr/scu4.descr
+	at com.webratio.rtx.core.ServiceProvider.createServiceFromClass(ServiceProvider.java:202)
+	at com.webratio.rtx.core.ServiceProvider.createServiceFromDescr(ServiceProvider.java:129)
+	... 51 more
+Caused by: java.lang.OutOfMemoryError: PermGen space
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at java.security.SecureClassLoader.defineClass(Unknown Source)
+	at org.apache.catalina.loader.WebappClassLoader.findClassInternal(WebappClassLoader.java:2957)
+	at org.apache.catalina.loader.WebappClassLoader.findClass(WebappClassLoader.java:1210)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1690)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1571)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at java.security.SecureClassLoader.defineClass(Unknown Source)
+	at org.apache.catalina.loader.WebappClassLoader.findClassInternal(WebappClassLoader.java:2957)
+	at org.apache.catalina.loader.WebappClassLoader.findClass(WebappClassLoader.java:1210)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1690)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1571)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.class$(MetaClassRegistryImpl.java:167)
+	at org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.<init>(MetaClassRegistryImpl.java:184)
+	at org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.<init>(MetaClassRegistryImpl.java:145)
+	at groovy.lang.GroovySystem.<clinit>(GroovySystem.java:27)
+	at org.codehaus.groovy.runtime.InvokerHelper.<clinit>(InvokerHelper.java:47)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.codehaus.groovy.ast.ModuleNode.class$(ModuleNode.java:218)
+	at org.codehaus.groovy.ast.ModuleNode.createStatementsClass(ModuleNode.java:209)
+	at org.codehaus.groovy.ast.ModuleNode.getClasses(ModuleNode.java:80)
+	at org.codehaus.groovy.ast.CompileUnit.addModule(CompileUnit.java:69)
+	at org.codehaus.groovy.control.CompilationUnit$7.call(CompilationUnit.java:548)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:772)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:438)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:277)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:248)
+04 dic 2014 13:32:41,341  INFO [http-bio-8080-exec-60]  (com.webratio.struts.actions.AbstractWRAction:53) - [3D7638A6BFA43CEEE8A21CCE223C096E][page4]Page action execution [id=page4] done in 735 ms
+04 dic 2014 13:33:20,759  INFO [http-bio-8080-exec-1]  (com.webratio.struts.actions.AbstractWRAction:53) - [4696ECC6F75313CF2ACD58526A9E3AAB][page4]Page action execution [id=page4] done in 828 ms
+04 dic 2014 13:33:27,532  INFO [http-bio-8080-exec-7]  (com.webratio.struts.actions.AbstractWRAction:53) - [4696ECC6F75313CF2ACD58526A9E3AAB][page4]Form page action execution [id=page4] done in 5 ms
+04 dic 2014 13:33:27,746  INFO [http-bio-8080-exec-7]  (com.webratio.struts.actions.AbstractWRAction:53) - [4696ECC6F75313CF2ACD58526A9E3AAB][/operation_scu4]Operation action execution [first operation id=scu4] done in 210 ms
+04 dic 2014 13:33:27,749  INFO [http-bio-8080-exec-7]  (com.webratio.struts.actions.AbstractWRAction:53) - [4696ECC6F75313CF2ACD58526A9E3AAB][page4]Page action pre-redirect execution [id=page4] done in 2 ms
+04 dic 2014 13:33:27,794  INFO [http-bio-8080-exec-8]  (com.webratio.struts.actions.AbstractWRAction:53) - [4696ECC6F75313CF2ACD58526A9E3AAB][page4]Page action execution [id=page4] done in 6 ms
+04 dic 2014 13:37:18,803  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 13:37:23,235  INFO [http-bio-8080-exec-1]  (com.webratio.struts.actions.AbstractWRAction:53) - [7816F52CBF32208052E986A34A46B679][page4]Page action execution [id=page4] done in 709 ms
+04 dic 2014 13:42:41,575  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 13:42:45,898  INFO [http-bio-8080-exec-11]  (com.webratio.struts.actions.AbstractWRAction:53) - [44919CFD84BD2F32606E145459CB3EDE][page4]Page action execution [id=page4] done in 721 ms
+04 dic 2014 13:47:04,244  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 13:47:10,048  INFO [http-bio-8080-exec-16]  (com.webratio.struts.actions.AbstractWRAction:53) - [08B93FD9F1657C4427A804E8E61931EA][page4]Page action execution [id=page4] done in 718 ms
+04 dic 2014 13:51:16,823  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 13:51:21,659  INFO [http-bio-8080-exec-30]  (com.webratio.struts.actions.AbstractWRAction:53) - [3444A1CF02F39FFE22B6D933FAC2B8D1][page4]Page action execution [id=page4] done in 920 ms
+04 dic 2014 14:05:30,176  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 14:05:39,820  INFO [http-bio-8080-exec-32]  (com.webratio.struts.actions.AbstractWRAction:53) - [F3056F7FA5C765265223B908D2C69442][page4]Page action execution [id=page4] done in 714 ms
+04 dic 2014 14:06:06,628  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 14:06:11,237  INFO [http-bio-8080-exec-39]  (com.webratio.struts.actions.AbstractWRAction:53) - [02537EC406A6D30688AAE4AC26DBC0F3][page4]Page action execution [id=page4] done in 704 ms
+04 dic 2014 14:06:51,530  INFO [http-bio-8080-exec-34]  (com.webratio.struts.actions.AbstractWRAction:53) - [02537EC406A6D30688AAE4AC26DBC0F3][page4]Form page action execution [id=page4] done in 39 ms
+04 dic 2014 14:06:51,835  INFO [http-bio-8080-exec-34]  (com.webratio.struts.actions.AbstractWRAction:53) - [02537EC406A6D30688AAE4AC26DBC0F3][/operation_scu4]Operation action execution [first operation id=scu4] done in 301 ms
+04 dic 2014 14:06:51,838  INFO [http-bio-8080-exec-34]  (com.webratio.struts.actions.AbstractWRAction:53) - [02537EC406A6D30688AAE4AC26DBC0F3][page4]Page action pre-redirect execution [id=page4] done in 2 ms
+04 dic 2014 14:06:51,878  INFO [http-bio-8080-exec-42]  (com.webratio.struts.actions.AbstractWRAction:53) - [02537EC406A6D30688AAE4AC26DBC0F3][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 14:08:05,533  INFO [http-bio-8080-exec-44]  (com.webratio.struts.actions.AbstractWRAction:53) - [02537EC406A6D30688AAE4AC26DBC0F3][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 14:08:09,204  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 14:09:08,216  INFO [http-bio-8080-exec-49]  (com.webratio.struts.actions.AbstractWRAction:53) - [2E53DD158F0F095825D32299B2E27EF4][page4]Form page action execution [id=page4] done in 426 ms
+04 dic 2014 14:09:08,585  INFO [http-bio-8080-exec-49]  (com.webratio.struts.actions.AbstractWRAction:53) - [2E53DD158F0F095825D32299B2E27EF4][/operation_scu4]Operation action execution [first operation id=scu4] done in 365 ms
+04 dic 2014 14:09:08,597  INFO [http-bio-8080-exec-49]  (com.webratio.struts.actions.AbstractWRAction:53) - [2E53DD158F0F095825D32299B2E27EF4][page4]Page action pre-redirect execution [id=page4] done in 7 ms
+04 dic 2014 14:09:09,026  INFO [http-bio-8080-exec-45]  (com.webratio.struts.actions.AbstractWRAction:53) - [2E53DD158F0F095825D32299B2E27EF4][page4]Page action execution [id=page4] done in 422 ms
+04 dic 2014 14:10:00,471  INFO [http-bio-8080-exec-50]  (com.webratio.struts.actions.AbstractWRAction:53) - [2E53DD158F0F095825D32299B2E27EF4][page4]Page action execution [id=page4] done in 7 ms
+04 dic 2014 14:10:01,648  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 14:10:06,508  INFO [http-bio-8080-exec-50]  (com.webratio.struts.actions.AbstractWRAction:53) - [6E8150BAB0494D46758DA4CDB8FAA8FB][page4]Page action execution [id=page4] done in 706 ms
+04 dic 2014 14:10:09,562  INFO [http-bio-8080-exec-52]  (com.webratio.struts.actions.AbstractWRAction:53) - [6E8150BAB0494D46758DA4CDB8FAA8FB][page4]Form page action execution [id=page4] done in 6 ms
+04 dic 2014 14:10:09,736  INFO [http-bio-8080-exec-52]  (com.webratio.struts.actions.AbstractWRAction:53) - [6E8150BAB0494D46758DA4CDB8FAA8FB][/operation_scu4]Operation action execution [first operation id=scu4] done in 170 ms
+04 dic 2014 14:10:09,739  INFO [http-bio-8080-exec-52]  (com.webratio.struts.actions.AbstractWRAction:53) - [6E8150BAB0494D46758DA4CDB8FAA8FB][page4]Page action pre-redirect execution [id=page4] done in 2 ms
+04 dic 2014 14:10:09,766  INFO [http-bio-8080-exec-47]  (com.webratio.struts.actions.AbstractWRAction:53) - [6E8150BAB0494D46758DA4CDB8FAA8FB][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 14:10:44,184  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 14:10:52,117  INFO [http-bio-8080-exec-56]  (com.webratio.struts.actions.AbstractWRAction:53) - [A0C1B23DABFEB0CC0FEAC247E26E9786][page4]Page action execution [id=page4] done in 714 ms
+04 dic 2014 14:10:55,574  INFO [http-bio-8080-exec-55]  (com.webratio.struts.actions.AbstractWRAction:53) - [A0C1B23DABFEB0CC0FEAC247E26E9786][page4]Form page action execution [id=page4] done in 6 ms
+04 dic 2014 14:10:55,764  INFO [http-bio-8080-exec-55]  (com.webratio.struts.actions.AbstractWRAction:53) - [A0C1B23DABFEB0CC0FEAC247E26E9786][/operation_scu4]Operation action execution [first operation id=scu4] done in 186 ms
+04 dic 2014 14:10:55,768  INFO [http-bio-8080-exec-55]  (com.webratio.struts.actions.AbstractWRAction:53) - [A0C1B23DABFEB0CC0FEAC247E26E9786][page4]Page action pre-redirect execution [id=page4] done in 3 ms
+04 dic 2014 14:10:55,779  INFO [http-bio-8080-exec-53]  (com.webratio.struts.actions.AbstractWRAction:53) - [A0C1B23DABFEB0CC0FEAC247E26E9786][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 14:11:26,748  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 14:11:36,895  INFO [http-bio-8080-exec-41]  (com.webratio.struts.actions.AbstractWRAction:53) - [20DF7E483E34C7993F0E5911D45E0D0C][page4]Page action execution [id=page4] done in 701 ms
+04 dic 2014 14:11:39,870  INFO [http-bio-8080-exec-54]  (com.webratio.struts.actions.AbstractWRAction:53) - [20DF7E483E34C7993F0E5911D45E0D0C][page4]Form page action execution [id=page4] done in 5 ms
+04 dic 2014 14:11:40,028  INFO [http-bio-8080-exec-54]  (com.webratio.struts.actions.AbstractWRAction:53) - [20DF7E483E34C7993F0E5911D45E0D0C][/operation_scu4]Operation action execution [first operation id=scu4] done in 154 ms
+04 dic 2014 14:11:40,031  INFO [http-bio-8080-exec-54]  (com.webratio.struts.actions.AbstractWRAction:53) - [20DF7E483E34C7993F0E5911D45E0D0C][page4]Page action pre-redirect execution [id=page4] done in 2 ms
+04 dic 2014 14:11:40,041  INFO [http-bio-8080-exec-51]  (com.webratio.struts.actions.AbstractWRAction:53) - [20DF7E483E34C7993F0E5911D45E0D0C][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 14:13:16,611  INFO [http-bio-8080-exec-60]  (com.webratio.struts.actions.AbstractWRAction:53) - [20DF7E483E34C7993F0E5911D45E0D0C][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 14:13:19,355  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 14:13:25,512  INFO [http-bio-8080-exec-60]  (com.webratio.struts.actions.AbstractWRAction:53) - [9D407A88A619C6E9D0B7D8CDEE92C676][page4]Page action execution [id=page4] done in 1067 ms
+04 dic 2014 14:13:30,768  INFO [http-bio-8080-exec-37]  (com.webratio.struts.actions.AbstractWRAction:53) - [9D407A88A619C6E9D0B7D8CDEE92C676][page4]Page action execution [id=page4] done in 3 ms
+04 dic 2014 14:16:12,040  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 14:18:05,828  INFO [http-bio-8080-exec-1]  (com.webratio.struts.actions.AbstractWRAction:53) - [202C3AA7766887F4C07085EFA3B8F5A3][page4]Page action execution [id=page4] done in 2867 ms
+04 dic 2014 14:18:11,430  INFO [http-bio-8080-exec-8]  (com.webratio.struts.actions.AbstractWRAction:53) - [202C3AA7766887F4C07085EFA3B8F5A3][page4]Page action execution [id=page4] done in 4 ms
+04 dic 2014 14:18:24,172  INFO [http-bio-8080-exec-9]  (com.webratio.struts.actions.AbstractWRAction:53) - [202C3AA7766887F4C07085EFA3B8F5A3][page4]Form page action execution [id=page4] done in 55 ms
+04 dic 2014 14:18:24,753  INFO [http-bio-8080-exec-9]  (com.webratio.struts.actions.AbstractWRAction:53) - [202C3AA7766887F4C07085EFA3B8F5A3][/operation_scu4]Operation action execution [first operation id=scu4] done in 552 ms
+04 dic 2014 14:18:24,758  INFO [http-bio-8080-exec-9]  (com.webratio.struts.actions.AbstractWRAction:53) - [202C3AA7766887F4C07085EFA3B8F5A3][page4]Page action pre-redirect execution [id=page4] done in 4 ms
+04 dic 2014 14:18:24,872  INFO [http-bio-8080-exec-10]  (com.webratio.struts.actions.AbstractWRAction:53) - [202C3AA7766887F4C07085EFA3B8F5A3][page4]Page action execution [id=page4] done in 46 ms
+04 dic 2014 14:18:26,943  INFO [http-bio-8080-exec-10]  (com.webratio.struts.actions.AbstractWRAction:53) - [202C3AA7766887F4C07085EFA3B8F5A3][page4]Page action execution [id=page4] done in 4 ms
+04 dic 2014 14:19:40,386  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 14:19:44,738  INFO [http-bio-8080-exec-5]  (com.webratio.struts.actions.AbstractWRAction:53) - [3E7D5B0D56DE9A8116916B51F3EAC4AF][page4]Page action execution [id=page4] done in 689 ms
+04 dic 2014 14:19:49,714  INFO [http-bio-8080-exec-6]  (com.webratio.struts.actions.AbstractWRAction:53) - [3E7D5B0D56DE9A8116916B51F3EAC4AF][page4]Page action execution [id=page4] done in 3 ms
+04 dic 2014 14:19:53,683  INFO [http-bio-8080-exec-1]  (com.webratio.struts.actions.AbstractWRAction:53) - [3E7D5B0D56DE9A8116916B51F3EAC4AF][page4]Form page action execution [id=page4] done in 6 ms
+04 dic 2014 14:19:53,842  INFO [http-bio-8080-exec-1]  (com.webratio.struts.actions.AbstractWRAction:53) - [3E7D5B0D56DE9A8116916B51F3EAC4AF][/operation_scu4]Operation action execution [first operation id=scu4] done in 155 ms
+04 dic 2014 14:19:53,845  INFO [http-bio-8080-exec-1]  (com.webratio.struts.actions.AbstractWRAction:53) - [3E7D5B0D56DE9A8116916B51F3EAC4AF][page4]Page action pre-redirect execution [id=page4] done in 2 ms
+04 dic 2014 14:19:53,854  INFO [http-bio-8080-exec-9]  (com.webratio.struts.actions.AbstractWRAction:53) - [3E7D5B0D56DE9A8116916B51F3EAC4AF][page4]Page action execution [id=page4] done in 4 ms
+04 dic 2014 14:21:41,511  INFO [http-bio-8080-exec-11]  (com.webratio.struts.actions.AbstractWRAction:53) - [3E7D5B0D56DE9A8116916B51F3EAC4AF][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 14:21:42,927  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 14:21:47,900  INFO [http-bio-8080-exec-11]  (com.webratio.struts.actions.AbstractWRAction:53) - [34479F8CB2083BD725A8F0D7726C612E][page4]Page action execution [id=page4] done in 684 ms
+04 dic 2014 14:21:53,687  INFO [http-bio-8080-exec-14]  (com.webratio.struts.actions.AbstractWRAction:53) - [34479F8CB2083BD725A8F0D7726C612E][page4]Form page action execution [id=page4] done in 5 ms
+04 dic 2014 14:21:53,908  INFO [http-bio-8080-exec-14]  (com.webratio.struts.actions.AbstractWRAction:53) - [34479F8CB2083BD725A8F0D7726C612E][/operation_scu4]Operation action execution [first operation id=scu4] done in 217 ms
+04 dic 2014 14:21:53,911  INFO [http-bio-8080-exec-14]  (com.webratio.struts.actions.AbstractWRAction:53) - [34479F8CB2083BD725A8F0D7726C612E][page4]Page action pre-redirect execution [id=page4] done in 2 ms
+04 dic 2014 14:21:53,934  INFO [http-bio-8080-exec-15]  (com.webratio.struts.actions.AbstractWRAction:53) - [34479F8CB2083BD725A8F0D7726C612E][page4]Page action execution [id=page4] done in 4 ms
+04 dic 2014 14:25:02,787  INFO [http-bio-8080-exec-20]  (com.webratio.struts.actions.AbstractWRAction:53) - [34479F8CB2083BD725A8F0D7726C612E][page4]Page action execution [id=page4] done in 6 ms
+04 dic 2014 14:25:05,404  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 14:25:10,754  INFO [http-bio-8080-exec-20]  (com.webratio.struts.actions.AbstractWRAction:53) - [D836BCC1CF35F537198F1220D25456BE][page4]Page action execution [id=page4] done in 679 ms
+04 dic 2014 14:25:13,462  INFO [http-bio-8080-exec-23]  (com.webratio.struts.actions.AbstractWRAction:53) - [D836BCC1CF35F537198F1220D25456BE][page4]Form page action execution [id=page4] done in 4 ms
+04 dic 2014 14:25:13,602  INFO [http-bio-8080-exec-23]  (com.webratio.struts.actions.AbstractWRAction:53) - [D836BCC1CF35F537198F1220D25456BE][/operation_scu4]Operation action execution [first operation id=scu4] done in 136 ms
+04 dic 2014 14:25:13,605  INFO [http-bio-8080-exec-23]  (com.webratio.struts.actions.AbstractWRAction:53) - [D836BCC1CF35F537198F1220D25456BE][page4]Page action pre-redirect execution [id=page4] done in 2 ms
+04 dic 2014 14:25:13,614  INFO [http-bio-8080-exec-17]  (com.webratio.struts.actions.AbstractWRAction:53) - [D836BCC1CF35F537198F1220D25456BE][page4]Page action execution [id=page4] done in 4 ms
+04 dic 2014 14:27:17,964  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 14:27:22,891  INFO [http-bio-8080-exec-31]  (com.webratio.struts.actions.AbstractWRAction:53) - [F94CD7600C8657694C49E9CEBACB37E6][page4]Page action execution [id=page4] done in 680 ms
+04 dic 2014 14:27:27,999  INFO [http-bio-8080-exec-28]  (com.webratio.struts.actions.AbstractWRAction:53) - [F94CD7600C8657694C49E9CEBACB37E6][page4]Form page action execution [id=page4] done in 6 ms
+04 dic 2014 14:27:28,146  INFO [http-bio-8080-exec-28]  (com.webratio.struts.actions.AbstractWRAction:53) - [F94CD7600C8657694C49E9CEBACB37E6][/operation_scu4]Operation action execution [first operation id=scu4] done in 143 ms
+04 dic 2014 14:27:28,149  INFO [http-bio-8080-exec-28]  (com.webratio.struts.actions.AbstractWRAction:53) - [F94CD7600C8657694C49E9CEBACB37E6][page4]Page action pre-redirect execution [id=page4] done in 2 ms
+04 dic 2014 14:27:28,159  INFO [http-bio-8080-exec-29]  (com.webratio.struts.actions.AbstractWRAction:53) - [F94CD7600C8657694C49E9CEBACB37E6][page4]Page action execution [id=page4] done in 4 ms
+04 dic 2014 16:24:18,360  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 16:24:32,046  INFO [http-bio-8080-exec-33]  (com.webratio.struts.actions.AbstractWRAction:53) - [27B1E9350E43DCE1D9F244BB5C435956][page1]Page action execution [id=page1] done in 1967 ms
+04 dic 2014 16:24:41,100  INFO [http-bio-8080-exec-33]  (com.webratio.struts.actions.AbstractWRAction:53) - [27B1E9350E43DCE1D9F244BB5C435956][page4]Page action execution [id=page4] done in 69 ms
+04 dic 2014 16:25:58,119  INFO [http-bio-8080-exec-43]  (com.webratio.struts.actions.AbstractWRAction:53) - [27B1E9350E43DCE1D9F244BB5C435956][page4]Page action execution [id=page4] done in 6 ms
+04 dic 2014 16:26:01,169  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 16:26:09,420  INFO [http-bio-8080-exec-43]  (com.webratio.struts.actions.AbstractWRAction:53) - [734FE3068532D93792354E2EF802C6AE][page4]Form page action execution [id=page4] done in 510 ms
+04 dic 2014 16:26:09,748  INFO [http-bio-8080-exec-43]  (com.webratio.struts.actions.AbstractWRAction:53) - [734FE3068532D93792354E2EF802C6AE][/operation_scu4]Operation action execution [first operation id=scu4] done in 324 ms
+04 dic 2014 16:26:09,760  INFO [http-bio-8080-exec-43]  (com.webratio.struts.actions.AbstractWRAction:53) - [734FE3068532D93792354E2EF802C6AE][page4]Page action pre-redirect execution [id=page4] done in 7 ms
+04 dic 2014 16:26:10,169  INFO [http-bio-8080-exec-42]  (com.webratio.struts.actions.AbstractWRAction:53) - [734FE3068532D93792354E2EF802C6AE][page4]Page action execution [id=page4] done in 403 ms
+04 dic 2014 16:26:43,471  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 16:26:54,918  INFO [http-bio-8080-exec-53]  (com.webratio.struts.actions.AbstractWRAction:53) - [67725B71DECE4641115EE1C3B7085BE0][page4]Page action execution [id=page4] done in 669 ms
+04 dic 2014 16:28:03,541  INFO [http-bio-8080-exec-54]  (com.webratio.struts.actions.AbstractWRAction:53) - [67725B71DECE4641115EE1C3B7085BE0][page4]Page action execution [id=page4] done in 17 ms
+04 dic 2014 16:28:05,872  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 16:28:38,334  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 16:28:43,684  INFO [http-bio-8080-exec-56]  (com.webratio.struts.actions.AbstractWRAction:53) - [D0EBCAC3D39033AF07CE1CFB8A646462][page4]Page action execution [id=page4] done in 672 ms
+04 dic 2014 16:28:53,272  INFO [http-bio-8080-exec-47]  (com.webratio.struts.actions.AbstractWRAction:53) - [D0EBCAC3D39033AF07CE1CFB8A646462][page4]Form page action execution [id=page4] done in 6 ms
+04 dic 2014 16:28:53,465  INFO [http-bio-8080-exec-47]  (com.webratio.struts.actions.AbstractWRAction:53) - [D0EBCAC3D39033AF07CE1CFB8A646462][/operation_scu4]Operation action execution [first operation id=scu4] done in 190 ms
+04 dic 2014 16:28:53,468  INFO [http-bio-8080-exec-47]  (com.webratio.struts.actions.AbstractWRAction:53) - [D0EBCAC3D39033AF07CE1CFB8A646462][page4]Page action pre-redirect execution [id=page4] done in 2 ms
+04 dic 2014 16:28:53,479  INFO [http-bio-8080-exec-40]  (com.webratio.struts.actions.AbstractWRAction:53) - [D0EBCAC3D39033AF07CE1CFB8A646462][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 16:32:31,011  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 16:32:36,801  INFO [http-bio-8080-exec-59]  (com.webratio.struts.actions.AbstractWRAction:53) - [47FD302C0F15528DD09A3568D90FC03D][page4]Page action execution [id=page4] done in 1060 ms
+04 dic 2014 16:34:50,166  INFO [http-bio-8080-exec-66]  (com.webratio.struts.actions.AbstractWRAction:53) - [47FD302C0F15528DD09A3568D90FC03D][page4]Page action execution [id=page4] done in 4 ms
+04 dic 2014 16:34:53,644  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 16:35:22,380  INFO [http-bio-8080-exec-58]  (com.webratio.struts.actions.AbstractWRAction:53) - [F87CD52E74C602D916D67ECD7C2BCCD3][page4]Form page action execution [id=page4] done in 418 ms
+04 dic 2014 16:35:22,705  INFO [http-bio-8080-exec-58]  (com.webratio.struts.actions.AbstractWRAction:53) - [F87CD52E74C602D916D67ECD7C2BCCD3][/operation_scu4]Operation action execution [first operation id=scu4] done in 321 ms
+04 dic 2014 16:35:22,717  INFO [http-bio-8080-exec-58]  (com.webratio.struts.actions.AbstractWRAction:53) - [F87CD52E74C602D916D67ECD7C2BCCD3][page4]Page action pre-redirect execution [id=page4] done in 7 ms
+04 dic 2014 16:35:23,273  INFO [http-bio-8080-exec-67]  (com.webratio.struts.actions.AbstractWRAction:53) - [F87CD52E74C602D916D67ECD7C2BCCD3][page4]Page action execution [id=page4] done in 551 ms
+04 dic 2014 16:36:06,063  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 16:37:00,415  INFO [http-bio-8080-exec-1]  (com.webratio.struts.actions.AbstractWRAction:53) - [C97DE6926256F88E795AF56A758C2C5E][page4]Page action execution [id=page4] done in 848 ms
+04 dic 2014 16:37:01,925  INFO [http-bio-8080-exec-2]  (com.webratio.struts.actions.AbstractWRAction:53) - [782C3FB9EB583B31B5B63E4035AF2855][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 16:37:11,933  INFO [http-bio-8080-exec-3]  (com.webratio.struts.actions.AbstractWRAction:53) - [782C3FB9EB583B31B5B63E4035AF2855][page4]Form page action execution [id=page4] done in 7 ms
+04 dic 2014 16:37:12,093  INFO [http-bio-8080-exec-3]  (com.webratio.struts.actions.AbstractWRAction:53) - [782C3FB9EB583B31B5B63E4035AF2855][/operation_scu4]Operation action execution [first operation id=scu4] done in 154 ms
+04 dic 2014 16:37:12,096  INFO [http-bio-8080-exec-3]  (com.webratio.struts.actions.AbstractWRAction:53) - [782C3FB9EB583B31B5B63E4035AF2855][page4]Page action pre-redirect execution [id=page4] done in 2 ms
+04 dic 2014 16:37:12,106  INFO [http-bio-8080-exec-3]  (com.webratio.struts.actions.AbstractWRAction:53) - [782C3FB9EB583B31B5B63E4035AF2855][page4]Page action execution [id=page4] done in 4 ms
+04 dic 2014 16:38:45,066  INFO [http-bio-8080-exec-6]  (com.webratio.struts.actions.AbstractWRAction:53) - [782C3FB9EB583B31B5B63E4035AF2855][page4]Page action execution [id=page4] done in 6 ms
+04 dic 2014 16:38:48,415  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 16:39:10,606  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 16:39:18,048  INFO [http-bio-8080-exec-11]  (com.webratio.struts.actions.AbstractWRAction:53) - [D508EB1BA983982B07E47632D8713E36][page4]Page action execution [id=page4] done in 667 ms
+04 dic 2014 16:40:23,486  INFO [http-bio-8080-exec-12]  (com.webratio.struts.actions.AbstractWRAction:53) - [D508EB1BA983982B07E47632D8713E36][page4]Form page action execution [id=page4] done in 6 ms
+04 dic 2014 16:40:23,634  INFO [http-bio-8080-exec-12]  (com.webratio.struts.actions.AbstractWRAction:53) - [D508EB1BA983982B07E47632D8713E36][/operation_scu4]Operation action execution [first operation id=scu4] done in 145 ms
+04 dic 2014 16:40:23,637  INFO [http-bio-8080-exec-12]  (com.webratio.struts.actions.AbstractWRAction:53) - [D508EB1BA983982B07E47632D8713E36][page4]Page action pre-redirect execution [id=page4] done in 2 ms
+04 dic 2014 16:40:23,646  INFO [http-bio-8080-exec-12]  (com.webratio.struts.actions.AbstractWRAction:53) - [D508EB1BA983982B07E47632D8713E36][page4]Page action execution [id=page4] done in 4 ms
+04 dic 2014 16:45:53,360  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 16:45:58,493  INFO [http-bio-8080-exec-20]  (com.webratio.struts.actions.AbstractWRAction:53) - [F8FA891DEB62B7B45C6AFEB3F9BFE8DF][page4]Page action execution [id=page4] done in 693 ms
+04 dic 2014 16:46:02,262  INFO [http-bio-8080-exec-2]  (com.webratio.struts.actions.AbstractWRAction:53) - [F8FA891DEB62B7B45C6AFEB3F9BFE8DF][page4]Form page action execution [id=page4] done in 5 ms
+04 dic 2014 16:46:02,411  INFO [http-bio-8080-exec-2]  (com.webratio.struts.actions.AbstractWRAction:53) - [F8FA891DEB62B7B45C6AFEB3F9BFE8DF][/operation_scu4]Operation action execution [first operation id=scu4] done in 145 ms
+04 dic 2014 16:46:02,414  INFO [http-bio-8080-exec-2]  (com.webratio.struts.actions.AbstractWRAction:53) - [F8FA891DEB62B7B45C6AFEB3F9BFE8DF][page4]Page action pre-redirect execution [id=page4] done in 2 ms
+04 dic 2014 16:46:02,424  INFO [http-bio-8080-exec-17]  (com.webratio.struts.actions.AbstractWRAction:53) - [F8FA891DEB62B7B45C6AFEB3F9BFE8DF][page4]Page action execution [id=page4] done in 4 ms
+04 dic 2014 16:46:09,239  INFO [http-bio-8080-exec-17]  (com.webratio.struts.actions.AbstractWRAction:53) - [F8FA891DEB62B7B45C6AFEB3F9BFE8DF][page4]Form page action execution [id=page4] done in 4 ms
+04 dic 2014 16:46:09,247  INFO [http-bio-8080-exec-17]  (com.webratio.struts.actions.AbstractWRAction:53) - [F8FA891DEB62B7B45C6AFEB3F9BFE8DF][/operation_scu4]Operation action execution [first operation id=scu4] done in 7 ms
+04 dic 2014 16:46:09,248  INFO [http-bio-8080-exec-17]  (com.webratio.struts.actions.AbstractWRAction:53) - [F8FA891DEB62B7B45C6AFEB3F9BFE8DF][page4]Page action pre-redirect execution [id=page4] done in 0 ms
+04 dic 2014 16:46:09,258  INFO [http-bio-8080-exec-14]  (com.webratio.struts.actions.AbstractWRAction:53) - [F8FA891DEB62B7B45C6AFEB3F9BFE8DF][page4]Page action execution [id=page4] done in 4 ms
+04 dic 2014 16:46:50,369  INFO [http-bio-8080-exec-21]  (com.webratio.struts.actions.AbstractWRAction:53) - [F8FA891DEB62B7B45C6AFEB3F9BFE8DF][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 16:46:53,250  INFO [http-bio-8080-exec-21]  (com.webratio.struts.actions.AbstractWRAction:53) - [F8FA891DEB62B7B45C6AFEB3F9BFE8DF][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 16:46:55,311  INFO [http-bio-8080-exec-21]  (com.webratio.struts.actions.AbstractWRAction:53) - [F8FA891DEB62B7B45C6AFEB3F9BFE8DF][page4]Form page action execution [id=page4] done in 2 ms
+04 dic 2014 16:46:55,318  INFO [http-bio-8080-exec-21]  (com.webratio.struts.actions.AbstractWRAction:53) - [F8FA891DEB62B7B45C6AFEB3F9BFE8DF][/operation_scu4]Operation action execution [first operation id=scu4] done in 6 ms
+04 dic 2014 16:46:55,321  INFO [http-bio-8080-exec-21]  (com.webratio.struts.actions.AbstractWRAction:53) - [F8FA891DEB62B7B45C6AFEB3F9BFE8DF][page4]Page action pre-redirect execution [id=page4] done in 1 ms
+04 dic 2014 16:46:55,329  INFO [http-bio-8080-exec-21]  (com.webratio.struts.actions.AbstractWRAction:53) - [F8FA891DEB62B7B45C6AFEB3F9BFE8DF][page4]Page action execution [id=page4] done in 3 ms
+04 dic 2014 16:46:55,852  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 16:48:47,802  INFO [http-bio-8080-exec-27]  (com.webratio.struts.actions.AbstractWRAction:53) - [351DA915406732EC1AB8EB992AB6CBD3][page4]Page action execution [id=page4] done in 674 ms
+04 dic 2014 16:48:48,709  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 16:48:53,870  INFO [http-bio-8080-exec-29]  (com.webratio.struts.actions.AbstractWRAction:53) - [9E84B3DFE85ECA4B3748BACC31970DF3][page4]Form page action execution [id=page4] done in 416 ms
+04 dic 2014 16:48:54,174  INFO [http-bio-8080-exec-29]  (com.webratio.struts.actions.AbstractWRAction:53) - [9E84B3DFE85ECA4B3748BACC31970DF3][/operation_scu4]Operation action execution [first operation id=scu4] done in 300 ms
+04 dic 2014 16:48:54,185  INFO [http-bio-8080-exec-29]  (com.webratio.struts.actions.AbstractWRAction:53) - [9E84B3DFE85ECA4B3748BACC31970DF3][page4]Page action pre-redirect execution [id=page4] done in 6 ms
+04 dic 2014 16:48:54,587  INFO [http-bio-8080-exec-15]  (com.webratio.struts.actions.AbstractWRAction:53) - [9E84B3DFE85ECA4B3748BACC31970DF3][page4]Page action execution [id=page4] done in 397 ms
+04 dic 2014 16:49:00,359  INFO [http-bio-8080-exec-15]  (com.webratio.struts.actions.AbstractWRAction:53) - [9E84B3DFE85ECA4B3748BACC31970DF3][page4]Page action execution [id=page4] done in 6 ms
+04 dic 2014 16:49:02,414  INFO [http-bio-8080-exec-30]  (com.webratio.struts.actions.AbstractWRAction:53) - [9E84B3DFE85ECA4B3748BACC31970DF3][page4]Form page action execution [id=page4] done in 3 ms
+04 dic 2014 16:49:02,421  INFO [http-bio-8080-exec-30]  (com.webratio.struts.actions.AbstractWRAction:53) - [9E84B3DFE85ECA4B3748BACC31970DF3][/operation_scu4]Operation action execution [first operation id=scu4] done in 6 ms
+04 dic 2014 16:49:02,424  INFO [http-bio-8080-exec-30]  (com.webratio.struts.actions.AbstractWRAction:53) - [9E84B3DFE85ECA4B3748BACC31970DF3][page4]Page action pre-redirect execution [id=page4] done in 2 ms
+04 dic 2014 16:49:02,435  INFO [http-bio-8080-exec-30]  (com.webratio.struts.actions.AbstractWRAction:53) - [9E84B3DFE85ECA4B3748BACC31970DF3][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 16:51:51,809  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 16:51:56,319  INFO [http-bio-8080-exec-36]  (com.webratio.struts.actions.AbstractWRAction:53) - [C33DE03B3973EE97077B1759DCCF9548][page4]Page action execution [id=page4] done in 691 ms
+04 dic 2014 16:52:00,586  INFO [http-bio-8080-exec-35]  (com.webratio.struts.actions.AbstractWRAction:53) - [C33DE03B3973EE97077B1759DCCF9548][page4]Form page action execution [id=page4] done in 6 ms
+04 dic 2014 16:52:00,723  INFO [http-bio-8080-exec-35]  (com.webratio.struts.actions.AbstractWRAction:53) - [C33DE03B3973EE97077B1759DCCF9548][/operation_scu4]Operation action execution [first operation id=scu4] done in 133 ms
+04 dic 2014 16:52:00,726  INFO [http-bio-8080-exec-35]  (com.webratio.struts.actions.AbstractWRAction:53) - [C33DE03B3973EE97077B1759DCCF9548][page4]Page action pre-redirect execution [id=page4] done in 2 ms
+04 dic 2014 16:52:00,736  INFO [http-bio-8080-exec-13]  (com.webratio.struts.actions.AbstractWRAction:53) - [C33DE03B3973EE97077B1759DCCF9548][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 16:53:54,251  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 16:53:59,948  INFO [http-bio-8080-exec-31]  (com.webratio.struts.actions.AbstractWRAction:53) - [DAD9FA6BD1F0AF7126761EABE8F585F5][page4]Page action execution [id=page4] done in 679 ms
+04 dic 2014 16:54:28,721  INFO [http-bio-8080-exec-38]  (com.webratio.struts.actions.AbstractWRAction:53) - [DAD9FA6BD1F0AF7126761EABE8F585F5][page4]Form page action execution [id=page4] done in 6 ms
+04 dic 2014 16:54:28,856  INFO [http-bio-8080-exec-38]  (com.webratio.struts.actions.AbstractWRAction:53) - [DAD9FA6BD1F0AF7126761EABE8F585F5][/operation_scu4]Operation action execution [first operation id=scu4] done in 131 ms
+04 dic 2014 16:54:28,859  INFO [http-bio-8080-exec-38]  (com.webratio.struts.actions.AbstractWRAction:53) - [DAD9FA6BD1F0AF7126761EABE8F585F5][page4]Page action pre-redirect execution [id=page4] done in 2 ms
+04 dic 2014 16:54:28,869  INFO [http-bio-8080-exec-40]  (com.webratio.struts.actions.AbstractWRAction:53) - [DAD9FA6BD1F0AF7126761EABE8F585F5][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 16:55:26,763  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 16:55:32,411  INFO [http-bio-8080-exec-46]  (com.webratio.struts.actions.AbstractWRAction:53) - [E941927FFCD11FA038DFBCD4B297A36B][page4]Page action execution [id=page4] done in 1020 ms
+04 dic 2014 16:56:09,284  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 16:56:13,714  INFO [http-bio-8080-exec-51]  (com.webratio.struts.actions.AbstractWRAction:53) - [1F6DF44DC6797997D6884625B6D7DEBE][page4]Page action execution [id=page4] done in 667 ms
+04 dic 2014 16:56:18,474  INFO [http-bio-8080-exec-50]  (com.webratio.struts.actions.AbstractWRAction:53) - [1F6DF44DC6797997D6884625B6D7DEBE][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 16:56:41,675  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 16:56:47,627  INFO [http-bio-8080-exec-53]  (com.webratio.struts.actions.AbstractWRAction:53) - [80446467ED4BEF6EFD06992661FC6B53][page4]Page action execution [id=page4] done in 1062 ms
+04 dic 2014 16:57:44,157  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 16:57:49,658  INFO [http-bio-8080-exec-54]  (com.webratio.struts.actions.AbstractWRAction:53) - [62658FB27C519488D308602579BB6372][page4]Page action execution [id=page4] done in 682 ms
+04 dic 2014 16:57:53,337  INFO [http-bio-8080-exec-58]  (com.webratio.struts.actions.AbstractWRAction:53) - [62658FB27C519488D308602579BB6372][page4]Form page action execution [id=page4] done in 5 ms
+04 dic 2014 16:57:53,516  INFO [http-bio-8080-exec-58]  (com.webratio.struts.actions.AbstractWRAction:53) - [62658FB27C519488D308602579BB6372][/operation_scu4]Operation action execution [first operation id=scu4] done in 175 ms
+04 dic 2014 16:57:53,519  INFO [http-bio-8080-exec-58]  (com.webratio.struts.actions.AbstractWRAction:53) - [62658FB27C519488D308602579BB6372][page4]Page action pre-redirect execution [id=page4] done in 2 ms
+04 dic 2014 16:57:53,529  INFO [http-bio-8080-exec-55]  (com.webratio.struts.actions.AbstractWRAction:53) - [62658FB27C519488D308602579BB6372][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 16:59:36,658  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 16:59:48,926  INFO [http-bio-8080-exec-59]  (com.webratio.struts.actions.AbstractWRAction:53) - [993B4BD6571FC8F4C30DF996ABD34A6C][page4]Page action execution [id=page4] done in 7348 ms
+04 dic 2014 17:00:16,332  INFO [http-bio-8080-exec-1]  (com.webratio.struts.actions.AbstractWRAction:53) - [C79BA6395E4E6882CCF516837F6F801F][page4]Page action execution [id=page4] done in 820 ms
+04 dic 2014 17:00:42,508  INFO [http-bio-8080-exec-2]  (com.webratio.struts.actions.AbstractWRAction:53) - [C79BA6395E4E6882CCF516837F6F801F][page4]Form page action execution [id=page4] done in 6 ms
+04 dic 2014 17:00:42,659  INFO [http-bio-8080-exec-2]  (com.webratio.struts.actions.AbstractWRAction:53) - [C79BA6395E4E6882CCF516837F6F801F][/operation_scu4]Operation action execution [first operation id=scu4] done in 147 ms
+04 dic 2014 17:00:42,662  INFO [http-bio-8080-exec-2]  (com.webratio.struts.actions.AbstractWRAction:53) - [C79BA6395E4E6882CCF516837F6F801F][page4]Page action pre-redirect execution [id=page4] done in 2 ms
+04 dic 2014 17:00:42,673  INFO [http-bio-8080-exec-3]  (com.webratio.struts.actions.AbstractWRAction:53) - [C79BA6395E4E6882CCF516837F6F801F][page4]Page action execution [id=page4] done in 6 ms
+04 dic 2014 17:01:11,476  INFO [http-bio-8080-exec-8]  (com.webratio.struts.actions.AbstractWRAction:53) - [C79BA6395E4E6882CCF516837F6F801F][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 17:01:14,483  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 17:01:18,567  INFO [http-bio-8080-exec-2]  (com.webratio.struts.actions.AbstractWRAction:53) - [2A039E3969BF47587CFB7F25C24CE63C][page4]Page action execution [id=page4] done in 668 ms
+04 dic 2014 17:01:23,478  INFO [http-bio-8080-exec-7]  (com.webratio.struts.actions.AbstractWRAction:53) - [2A039E3969BF47587CFB7F25C24CE63C][page4]Form page action execution [id=page4] done in 7 ms
+04 dic 2014 17:01:23,623  INFO [http-bio-8080-exec-7]  (com.webratio.struts.actions.AbstractWRAction:53) - [2A039E3969BF47587CFB7F25C24CE63C][/operation_scu4]Operation action execution [first operation id=scu4] done in 141 ms
+04 dic 2014 17:01:23,625  INFO [http-bio-8080-exec-7]  (com.webratio.struts.actions.AbstractWRAction:53) - [2A039E3969BF47587CFB7F25C24CE63C][page4]Page action pre-redirect execution [id=page4] done in 1 ms
+04 dic 2014 17:01:23,636  INFO [http-bio-8080-exec-9]  (com.webratio.struts.actions.AbstractWRAction:53) - [2A039E3969BF47587CFB7F25C24CE63C][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 17:02:16,749  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 17:02:21,650  INFO [http-bio-8080-exec-13]  (com.webratio.struts.actions.AbstractWRAction:53) - [BDEA4228185F14887D5272080FD317CA][page4]Page action execution [id=page4] done in 687 ms
+04 dic 2014 17:02:31,577  INFO [http-bio-8080-exec-1]  (com.webratio.struts.actions.AbstractWRAction:53) - [BDEA4228185F14887D5272080FD317CA][page4]Form page action execution [id=page4] done in 5 ms
+04 dic 2014 17:02:31,712  INFO [http-bio-8080-exec-1]  (com.webratio.struts.actions.AbstractWRAction:53) - [BDEA4228185F14887D5272080FD317CA][/operation_scu4]Operation action execution [first operation id=scu4] done in 131 ms
+04 dic 2014 17:02:31,715  INFO [http-bio-8080-exec-1]  (com.webratio.struts.actions.AbstractWRAction:53) - [BDEA4228185F14887D5272080FD317CA][page4]Page action pre-redirect execution [id=page4] done in 2 ms
+04 dic 2014 17:02:31,741  INFO [http-bio-8080-exec-11]  (com.webratio.struts.actions.AbstractWRAction:53) - [BDEA4228185F14887D5272080FD317CA][page4]Page action execution [id=page4] done in 6 ms
+04 dic 2014 17:03:22,671  INFO [http-bio-8080-exec-16]  (com.webratio.struts.actions.AbstractWRAction:53) - [BDEA4228185F14887D5272080FD317CA][page4]Page action execution [id=page4] done in 4 ms
+04 dic 2014 17:03:24,641  INFO [http-bio-8080-exec-16]  (com.webratio.struts.actions.AbstractWRAction:53) - [BDEA4228185F14887D5272080FD317CA][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 17:03:26,150  INFO [http-bio-8080-exec-16]  (com.webratio.struts.actions.AbstractWRAction:53) - [BDEA4228185F14887D5272080FD317CA][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 17:03:29,155  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 17:03:36,897  INFO [http-bio-8080-exec-16]  (com.webratio.struts.actions.AbstractWRAction:53) - [EE75C55564F69FFEE10A7500C0D43BCF][page4]Page action execution [id=page4] done in 674 ms
+04 dic 2014 17:03:39,204  INFO [http-bio-8080-exec-19]  (com.webratio.struts.actions.AbstractWRAction:53) - [EE75C55564F69FFEE10A7500C0D43BCF][page4]Form page action execution [id=page4] done in 5 ms
+04 dic 2014 17:03:39,348  INFO [http-bio-8080-exec-19]  (com.webratio.struts.actions.AbstractWRAction:53) - [EE75C55564F69FFEE10A7500C0D43BCF][/operation_scu4]Operation action execution [first operation id=scu4] done in 141 ms
+04 dic 2014 17:03:39,350  INFO [http-bio-8080-exec-19]  (com.webratio.struts.actions.AbstractWRAction:53) - [EE75C55564F69FFEE10A7500C0D43BCF][page4]Page action pre-redirect execution [id=page4] done in 1 ms
+04 dic 2014 17:03:39,361  INFO [http-bio-8080-exec-17]  (com.webratio.struts.actions.AbstractWRAction:53) - [EE75C55564F69FFEE10A7500C0D43BCF][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 17:05:17,866  INFO [http-bio-8080-exec-22]  (com.webratio.struts.actions.AbstractWRAction:53) - [EE75C55564F69FFEE10A7500C0D43BCF][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 17:05:23,015  INFO [http-bio-8080-exec-27]  (com.webratio.struts.actions.AbstractWRAction:53) - [EE75C55564F69FFEE10A7500C0D43BCF][page4]Form page action execution [id=page4] done in 19 ms
+04 dic 2014 17:05:23,022  INFO [http-bio-8080-exec-27]  (com.webratio.struts.actions.AbstractWRAction:53) - [EE75C55564F69FFEE10A7500C0D43BCF][/operation_scu4]Operation action execution [first operation id=scu4] done in 5 ms
+04 dic 2014 17:05:23,025  INFO [http-bio-8080-exec-27]  (com.webratio.struts.actions.AbstractWRAction:53) - [EE75C55564F69FFEE10A7500C0D43BCF][page4]Page action pre-redirect execution [id=page4] done in 1 ms
+04 dic 2014 17:05:23,032  INFO [http-bio-8080-exec-27]  (com.webratio.struts.actions.AbstractWRAction:53) - [EE75C55564F69FFEE10A7500C0D43BCF][page4]Page action execution [id=page4] done in 3 ms
+04 dic 2014 17:08:01,763  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 17:08:09,026  INFO [http-bio-8080-exec-27]  (com.webratio.struts.actions.AbstractWRAction:53) - [33A6FC97F824F42B00A7402DAA51C3D4][page4]Page action execution [id=page4] done in 667 ms
+04 dic 2014 17:08:12,623  INFO [http-bio-8080-exec-31]  (com.webratio.struts.actions.AbstractWRAction:53) - [33A6FC97F824F42B00A7402DAA51C3D4][page4]Form page action execution [id=page4] done in 5 ms
+04 dic 2014 17:08:12,758  INFO [http-bio-8080-exec-31]  (com.webratio.struts.actions.AbstractWRAction:53) - [33A6FC97F824F42B00A7402DAA51C3D4][/operation_scu4]Operation action execution [first operation id=scu4] done in 132 ms
+04 dic 2014 17:08:12,761  INFO [http-bio-8080-exec-31]  (com.webratio.struts.actions.AbstractWRAction:53) - [33A6FC97F824F42B00A7402DAA51C3D4][page4]Page action pre-redirect execution [id=page4] done in 2 ms
+04 dic 2014 17:08:12,771  INFO [http-bio-8080-exec-29]  (com.webratio.struts.actions.AbstractWRAction:53) - [33A6FC97F824F42B00A7402DAA51C3D4][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 17:09:57,322  INFO [http-bio-8080-exec-32]  (com.webratio.struts.actions.AbstractWRAction:53) - [33A6FC97F824F42B00A7402DAA51C3D4][page4]Page action execution [id=page4] done in 6 ms
+04 dic 2014 17:11:54,505  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 17:12:04,332  INFO [http-bio-8080-exec-32]  (com.webratio.struts.actions.AbstractWRAction:53) - [206D8D8838172AA18590B6ED3812C889][page4]Page action execution [id=page4] done in 917 ms
+04 dic 2014 17:12:07,193  INFO [http-bio-8080-exec-35]  (com.webratio.struts.actions.AbstractWRAction:53) - [206D8D8838172AA18590B6ED3812C889][page4]Form page action execution [id=page4] done in 7 ms
+04 dic 2014 17:12:07,332  INFO [http-bio-8080-exec-35]  (com.webratio.struts.actions.AbstractWRAction:53) - [206D8D8838172AA18590B6ED3812C889][/operation_scu4]Operation action execution [first operation id=scu4] done in 135 ms
+04 dic 2014 17:12:07,335  INFO [http-bio-8080-exec-35]  (com.webratio.struts.actions.AbstractWRAction:53) - [206D8D8838172AA18590B6ED3812C889][page4]Page action pre-redirect execution [id=page4] done in 1 ms
+04 dic 2014 17:12:07,345  INFO [http-bio-8080-exec-34]  (com.webratio.struts.actions.AbstractWRAction:53) - [206D8D8838172AA18590B6ED3812C889][page4]Page action execution [id=page4] done in 6 ms
+04 dic 2014 17:12:13,366  INFO [http-bio-8080-exec-34]  (com.webratio.struts.actions.AbstractWRAction:53) - [206D8D8838172AA18590B6ED3812C889][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 17:12:15,156  INFO [http-bio-8080-exec-37]  (com.webratio.struts.actions.AbstractWRAction:53) - [206D8D8838172AA18590B6ED3812C889][page4]Form page action execution [id=page4] done in 4 ms
+04 dic 2014 17:12:15,182  INFO [http-bio-8080-exec-37]  (com.webratio.struts.actions.AbstractWRAction:53) - [206D8D8838172AA18590B6ED3812C889][/operation_scu4]Operation action execution [first operation id=scu4] done in 25 ms
+04 dic 2014 17:12:15,184  INFO [http-bio-8080-exec-37]  (com.webratio.struts.actions.AbstractWRAction:53) - [206D8D8838172AA18590B6ED3812C889][page4]Page action pre-redirect execution [id=page4] done in 0 ms
+04 dic 2014 17:12:15,194  INFO [http-bio-8080-exec-41]  (com.webratio.struts.actions.AbstractWRAction:53) - [206D8D8838172AA18590B6ED3812C889][page4]Page action execution [id=page4] done in 4 ms
+04 dic 2014 17:12:59,427  INFO [http-bio-8080-exec-43]  (com.webratio.struts.actions.AbstractWRAction:53) - [206D8D8838172AA18590B6ED3812C889][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 17:13:20,681  INFO [http-bio-8080-exec-46]  (com.webratio.struts.actions.AbstractWRAction:53) - [206D8D8838172AA18590B6ED3812C889][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 17:13:23,718  INFO [http-bio-8080-exec-46]  (com.webratio.struts.actions.AbstractWRAction:53) - [206D8D8838172AA18590B6ED3812C889][page4]Page action execution [id=page4] done in 4 ms
+04 dic 2014 17:13:27,066  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 17:13:36,640  INFO [http-bio-8080-exec-46]  (com.webratio.struts.actions.AbstractWRAction:53) - [1F255DD2C989D1B405DC9D1AB60E46FB][page4]Page action execution [id=page4] done in 741 ms
+04 dic 2014 17:13:42,178  INFO [http-bio-8080-exec-36]  (com.webratio.struts.actions.AbstractWRAction:53) - [1F255DD2C989D1B405DC9D1AB60E46FB][page4]Form page action execution [id=page4] done in 5 ms
+04 dic 2014 17:13:42,314  INFO [http-bio-8080-exec-36]  (com.webratio.struts.actions.AbstractWRAction:53) - [1F255DD2C989D1B405DC9D1AB60E46FB][/operation_scu4]Operation action execution [first operation id=scu4] done in 132 ms
+04 dic 2014 17:13:42,317  INFO [http-bio-8080-exec-36]  (com.webratio.struts.actions.AbstractWRAction:53) - [1F255DD2C989D1B405DC9D1AB60E46FB][page4]Page action pre-redirect execution [id=page4] done in 2 ms
+04 dic 2014 17:13:42,327  INFO [http-bio-8080-exec-33]  (com.webratio.struts.actions.AbstractWRAction:53) - [1F255DD2C989D1B405DC9D1AB60E46FB][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 17:14:09,454  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 17:14:18,917  INFO [http-bio-8080-exec-49]  (com.webratio.struts.actions.AbstractWRAction:53) - [A649A4AC28ECE85C1358BBAB65871189][page4]Page action execution [id=page4] done in 695 ms
+04 dic 2014 17:14:21,979  INFO [http-bio-8080-exec-41]  (com.webratio.struts.actions.AbstractWRAction:53) - [A649A4AC28ECE85C1358BBAB65871189][page4]Form page action execution [id=page4] done in 5 ms
+04 dic 2014 17:14:22,115  INFO [http-bio-8080-exec-41]  (com.webratio.struts.actions.AbstractWRAction:53) - [A649A4AC28ECE85C1358BBAB65871189][/operation_scu4]Operation action execution [first operation id=scu4] done in 133 ms
+04 dic 2014 17:14:22,118  INFO [http-bio-8080-exec-41]  (com.webratio.struts.actions.AbstractWRAction:53) - [A649A4AC28ECE85C1358BBAB65871189][page4]Page action pre-redirect execution [id=page4] done in 2 ms
+04 dic 2014 17:14:22,128  INFO [http-bio-8080-exec-48]  (com.webratio.struts.actions.AbstractWRAction:53) - [A649A4AC28ECE85C1358BBAB65871189][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 17:15:11,945  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 17:15:29,805  INFO [http-bio-8080-exec-51]  (com.webratio.struts.actions.AbstractWRAction:53) - [C2EAC4886118EECD157018314274EE34][page4]Page action execution [id=page4] done in 682 ms
+04 dic 2014 17:15:32,532  INFO [http-bio-8080-exec-47]  (com.webratio.struts.actions.AbstractWRAction:53) - [C2EAC4886118EECD157018314274EE34][page4]Form page action execution [id=page4] done in 7 ms
+04 dic 2014 17:15:32,680  INFO [http-bio-8080-exec-47]  (com.webratio.struts.actions.AbstractWRAction:53) - [C2EAC4886118EECD157018314274EE34][/operation_scu4]Operation action execution [first operation id=scu4] done in 145 ms
+04 dic 2014 17:15:32,683  INFO [http-bio-8080-exec-47]  (com.webratio.struts.actions.AbstractWRAction:53) - [C2EAC4886118EECD157018314274EE34][page4]Page action pre-redirect execution [id=page4] done in 2 ms
+04 dic 2014 17:15:32,693  INFO [http-bio-8080-exec-52]  (com.webratio.struts.actions.AbstractWRAction:53) - [C2EAC4886118EECD157018314274EE34][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 17:15:54,502  INFO [http-bio-8080-exec-45]  (com.webratio.struts.actions.AbstractWRAction:53) - [C2EAC4886118EECD157018314274EE34][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 17:15:54,802  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 17:16:05,293  INFO [http-bio-8080-exec-56]  (com.webratio.struts.actions.AbstractWRAction:53) - [E045C763191F69D2EE2C2E7224B302A6][page4]Page action execution [id=page4] done in 662 ms
+04 dic 2014 17:16:07,554  INFO [http-bio-8080-exec-48]  (com.webratio.struts.actions.AbstractWRAction:53) - [E045C763191F69D2EE2C2E7224B302A6][page4]Form page action execution [id=page4] done in 5 ms
+04 dic 2014 17:16:07,689  INFO [http-bio-8080-exec-48]  (com.webratio.struts.actions.AbstractWRAction:53) - [E045C763191F69D2EE2C2E7224B302A6][/operation_scu4]Operation action execution [first operation id=scu4] done in 131 ms
+04 dic 2014 17:16:07,692  INFO [http-bio-8080-exec-48]  (com.webratio.struts.actions.AbstractWRAction:53) - [E045C763191F69D2EE2C2E7224B302A6][page4]Page action pre-redirect execution [id=page4] done in 2 ms
+04 dic 2014 17:16:07,701  INFO [http-bio-8080-exec-58]  (com.webratio.struts.actions.AbstractWRAction:53) - [E045C763191F69D2EE2C2E7224B302A6][page4]Page action execution [id=page4] done in 5 ms
+04 dic 2014 17:17:26,175  INFO [http-bio-8080-exec-60]  (com.webratio.struts.actions.AbstractWRAction:53) - [E045C763191F69D2EE2C2E7224B302A6][page4]Page action execution [id=page4] done in 4 ms
+04 dic 2014 17:17:27,332  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 17:17:49,720  WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]]  (com.webratio.struts.RTXInitPlugIn:61) - Stopping application module 'Test'
+04 dic 2014 17:17:55,503  INFO [http-bio-8080-exec-65]  (com.webratio.struts.actions.AbstractWRAction:53) - [36ADA0C17782A3B5225A7FE0D87605F5][page4]Page action execution [id=page4] done in 682 ms
+04 dic 2014 17:18:02,208  INFO [http-bio-8080-exec-59]  (com.webratio.struts.actions.AbstractWRAction:53) - [36ADA0C17782A3B5225A7FE0D87605F5][page4]Form page action execution [id=page4] done in 6 ms
+04 dic 2014 17:18:02,348  INFO [http-bio-8080-exec-59]  (com.webratio.struts.actions.AbstractWRAction:53) - [36ADA0C17782A3B5225A7FE0D87605F5][/operation_scu4]Operation action execution [first operation id=scu4] done in 136 ms
+04 dic 2014 17:18:02,351  INFO [http-bio-8080-exec-59]  (com.webratio.struts.actions.AbstractWRAction:53) - [36ADA0C17782A3B5225A7FE0D87605F5][page4]Page action pre-redirect execution [id=page4] done in 2 ms
+04 dic 2014 17:18:02,361  INFO [http-bio-8080-exec-54]  (com.webratio.struts.actions.AbstractWRAction:53) - [36ADA0C17782A3B5225A7FE0D87605F5][page4]Page action execution [id=page4] done in 5 ms

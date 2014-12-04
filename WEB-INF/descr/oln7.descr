@@ -16,4 +16,3 @@
     <ContextPropagation targetParam="kcond2.att1" sourceUnit="icu4" sourceParam="icp5"/>
   </ContextPropagations>
 </Descriptor>
- 

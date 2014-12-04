@@ -51,8 +51,8 @@ return ["nicknames" : list, "latitudes" : lat, "longitudes" : lon,
     <OperationParams>
       <OperationParam unit="scu3">scu3.latitude</OperationParam>
       <OperationParam unit="scu3">scu3.maximum</OperationParam>
-      <OperationParam unit="scu3">scu3.minimum</OperationParam>
       <OperationParam unit="scu3">scu3.longitude</OperationParam>
+      <OperationParam unit="scu3">scu3.minimum</OperationParam>
       <Params/>
     </OperationParams>
     <OutgoingLinks>
@@ -62,3 +62,4 @@ return ["nicknames" : list, "latitudes" : lat, "longitudes" : lon,
     <IsLinkHistoryRecorded>true</IsLinkHistoryRecorded>
   </WRParameterService>
 </Descriptor>
+ 

@@ -17,4 +17,3 @@
     <ContextPropagation targetParam="miu5.icp14" sourceUnit="pwu3" sourceParam="data[].userOID"/>
   </ContextPropagations>
 </Descriptor>
- 

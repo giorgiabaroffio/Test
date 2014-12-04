@@ -11,7 +11,7 @@
   <EndsTransaction>false</EndsTransaction>
   <StartPageIdRequiredByTarget>true</StartPageIdRequiredByTarget>
   <PreservedContextParams>
-    <Params>gmu1.markerInfo|gmu1.markerCoords|gmu1.coords|gmu1.markerTitle|acond5</Params>
+    <Params>gmu1.coords|gmu1.markerTitle|acond5|gmu1.markerInfo|gmu1.markerCoords</Params>
   </PreservedContextParams>
   <ContextPropagations>
     <ContextPropagation targetParam="miu13.icp15" sourceUnit="enu4" sourceParam="sfld3"/>
@@ -19,4 +19,3 @@
     <ContextPropagation targetParam="miu13.icp3" sourceUnit="enu4" sourceParam="fld1"/>
   </ContextPropagations>
 </Descriptor>
- 

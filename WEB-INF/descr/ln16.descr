@@ -18,4 +18,3 @@
     <ContextPropagation targetParam="gmu1.coords" sourceUnit="miu1" sourceParam="ocp12"/>
   </ContextPropagations>
 </Descriptor>
- 

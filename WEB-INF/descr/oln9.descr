@@ -18,4 +18,3 @@
     <ContextPropagation targetParam="cru2.role2.userOID" sourceUnit="icu5" sourceParam="icp6"/>
   </ContextPropagations>
 </Descriptor>
- 

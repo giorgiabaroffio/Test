@@ -22,4 +22,3 @@
     <ContextPropagation targetParam="miu10.icp11" sourceUnit="enu7" sourceParam="fld20"/>
   </ContextPropagations>
 </Descriptor>
- 

@@ -8,3 +8,4 @@
     <HQL>select a_user.oid, a_user.userName from User a_user</HQL>
   </Query>
 </Descriptor>
+ 

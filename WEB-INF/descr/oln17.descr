@@ -19,4 +19,3 @@
     <ContextPropagation targetParam="ocp12" sourceUnit="scu5" sourceParam="result(myself)"/>
   </ContextPropagations>
 </Descriptor>
- 

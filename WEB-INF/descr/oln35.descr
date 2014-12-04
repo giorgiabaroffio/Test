@@ -16,4 +16,3 @@
     <ContextPropagation targetParam="kcond5.userOID" sourceUnit="inn2" sourceParam="inputValue"/>
   </ContextPropagations>
 </Descriptor>
- 
